@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="tbmm-2017-01-14" xml:lang="tr" ana="#parl.session">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ParlaMint-TR_T26_tbmm-2017-01-14" xml:lang="tr" ana="#parla.session #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>

@@ -29,7 +29,7 @@ def new_sess(id_, data=None, template="sess-head.ana.xml"):
     tei = et.Element("TEI", nsmap=NS)
     tei.set(et.QName(NS['xml'], 'id'), id_)
     tei.set(et.QName(NS['xml'],'lang'), "tr")
-    tei.set('ana', "#parl.session")
+    tei.set('ana', "#parla.session #reference")
     # insert the main docuement header, taking defaults from 'head.xml'
     parser = et.XMLParser(remove_blank_text=True,
                           remove_comments=True)
@@ -153,10 +153,10 @@ if __name__ == "__main__":
         for sent in conllu_sentences(f):
             comm = parse_comment(sent.comment)
             if 'new_sess' in comm:
-                sessid = comm['sent_id'][:15]
+                term = int(comm.get('sess_term', 0))
+                sessid = "ParlaMint-TR_T{}_{}".format(term, comm['sent_id'][:15])
                 doc = new_sess(sessid, comm, template=template_sessh)
                 tb = doc.xpath('/TEI/text/body')[0]
-                term = int(comm.get('sess_term', 0))
             if 'new_sitt' in comm:
                 sitt = new_sitt(tb, **comm)
 #                print(et.tostring(sitt, encoding='unicode'))
@@ -164,7 +164,10 @@ if __name__ == "__main__":
             if 'new_par' in comm:
                 if spk != comm.get('speaker', 'unknown'):
                     spk = comm.get('speaker', 'Unknown')
-                    spktype = comm.get('speaker_type', 'unknown')
+                    spktype = comm.get('speaker_type', 'None')
+                    if spktype == 'reg': spktype = 'regular'
+                    elif spktype == 'unknown': spktype = 'guest'
+                    elif spktype == 'None': spktype = 'unknown'
                     spkid = spk.replace(" ", "")
                     seg_i = 0
                     u = et.SubElement(sitt, 'u',

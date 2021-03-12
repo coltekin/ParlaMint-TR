@@ -245,6 +245,10 @@
           <category xml:id="guest">
             <catDesc xml:lang="en"><term>Guest</term>: a guest speaker at a meeting</catDesc>
           </category>
+          <category xml:id="unknown">
+            <catDesc xml:lang="en">
+                      Speaker cannot be determined. Most likely a guest, but can also be due to failure to match the pattern in the transcripts.</catDesc>
+          </category>
         </taxonomy>
         <taxonomy xml:id="subcorpus">
           <desc xml:lang="en">
