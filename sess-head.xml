@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">The Turkish Parliamentary Corpus ParlaMint-TR, Session 000</title>
+        <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Session 000 [ParlaMint.ana SAMPLE]</title>
         <meeting n="00" ana="#parla.session">00</meeting>
         <respStmt>
           <persName>Çağrı Çöltekin</persName>

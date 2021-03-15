@@ -18,14 +18,33 @@ NSX = dict(NS)
 NSX['tei'] = NS[None]
 NSX.pop(None)
 
-def new_doc(id_, data=None):
+def remove_xmlnode(doc, xpath, ns=NSX):
+    tag = doc.xpath(xpath, namespaces=ns)[0]
+    print(tag)
+    tag.getparent().remove(tag)
+
+def new_doc(id_, doctype="ana", data=None):
     tc = et.Element("teiCorpus", nsmap=NS)
     tc.set(et.QName(NS['xml'], 'id'), id_)
     tc.set(et.QName(NS['xml'],'lang'), "tr")
 #    tc.append(et.Element('teiHeader'))
+    # insert the main docuement header, taking defaults from 'head.xml'
+    parser = et.XMLParser(remove_blank_text=True,
+                          remove_comments=True)
+    head = et.parse('head.xml', parser).getroot()
+    head = head.xpath('//tei:teiHeader', namespaces=NSX)[0]
+    et.cleanup_namespaces(head, top_nsmap=NS)
+    tc.append(head)
+    if doctype != 'ana':
+        remove_xmlnode(tc, '//tei:taxonomy[@xml:id="UD-SYN"]') 
+        remove_xmlnode(tc, '//tei:appInfo')
+        remove_xmlnode(tc, '//tei:listPrefixDef')
+        tag = tc.xpath('//tei:fileDesc/tei:titleStmt/tei:title',
+                namespaces=NSX)[0]
+        tag.text = tag.text.replace('.ana ', ' ')
     return tc
 
-def new_sess(id_, data=None, template="sess-head.ana.xml"):
+def new_sess(id_, data=None, doctype="ana"):
     tei = et.Element("TEI", nsmap=NS)
     tei.set(et.QName(NS['xml'], 'id'), id_)
     tei.set(et.QName(NS['xml'],'lang'), "tr")
@@ -33,13 +52,17 @@ def new_sess(id_, data=None, template="sess-head.ana.xml"):
     # insert the main docuement header, taking defaults from 'head.xml'
     parser = et.XMLParser(remove_blank_text=True,
                           remove_comments=True)
-    shead = et.parse(template, parser).getroot()
+    shead = et.parse('sess-head.xml', parser).getroot()
     shead = shead.xpath('//tei:teiHeader', namespaces=NSX)[0]
     et.cleanup_namespaces(shead, top_nsmap=NS)
     tei.append(shead)
     text = et.SubElement(tei, 'text', ana='#reference')
     text.set(et.QName(NS['xml'],'lang'), "tr")
     tb = et.SubElement(text, 'body')
+    if doctype != 'ana':
+        tag = tei.xpath('//tei:fileDesc/tei:titleStmt/tei:title',
+                namespaces=NSX)[0]
+        tag.text = tag.text.replace('.ana ', ' ')
     return tei
 
 def new_sitt(id_, **kwargs):
@@ -113,8 +136,8 @@ def new_sent(sent, comm):
         else:
             head = "{}.t{}".format(comm['sent_id'], node.head)
         l = et.SubElement(lg, 'link',
-                ana="ud-syn:{}".format(node.deprel),
-                target="{} {}".format(head, wid))
+                ana="ud-syn:{}".format(node.deprel.replace(":", "_")),
+                target="#{} #{}".format(head, wid))
         s.append(lg)
     return s
 
@@ -133,17 +156,18 @@ if __name__ == "__main__":
     args = ap.parse_args()
 
     ext = '.ana.xml'
-    template_mainh = 'head.ana.xml'
+    template_mainh = 'head.xml'
     template_sessh = 'sess-head.xml'
     if args.output_type != 'ana':
         args.output_type = 'plain'
         ext = '.xml'
-        template_mainh = 'head.plain.xml'
     print(args.output_type)
 
 
     # Create the main document
-    maindoc = new_doc("trParl.Sample")
+    maindoc = new_doc("ParlaMint-TR" +
+            ('.ana' if args.output_type == 'ana' else ''),
+            doctype=args.output_type)
 
     speakers = dict()
     files = dict()
@@ -154,8 +178,10 @@ if __name__ == "__main__":
             comm = parse_comment(sent.comment)
             if 'new_sess' in comm:
                 term = int(comm.get('sess_term', 0))
-                sessid = "ParlaMint-TR_T{}_{}".format(term, comm['sent_id'][:15])
-                doc = new_sess(sessid, comm, template=template_sessh)
+                sessid = "ParlaMint-TR_T{}-{}".format(
+                        term, comm['sent_id'][:15])
+                if args.output_type == 'ana': sessid += ".ana"
+                doc = new_sess(sessid, comm, doctype=args.output_type)
                 tb = doc.xpath('/TEI/text/body')[0]
             if 'new_sitt' in comm:
                 sitt = new_sitt(tb, **comm)
@@ -199,7 +225,7 @@ if __name__ == "__main__":
         path = args.output_dir
         if path: os.makedirs(path, exist_ok=True)
         outfile = os.path.basename(f).replace('.conllu', ext)
-        outfile = "{}_T{}_{}".format(args.prefix, term, outfile)
+        outfile = "{}_T{}-tbmm-{}".format(args.prefix, term, outfile)
         outpath = os.path.join(path, outfile)
         with open(outpath, 'wt') as fp:
             fp.write(et.tostring(doc, xml_declaration=True,
@@ -210,16 +236,7 @@ if __name__ == "__main__":
                 et.Element(et.QName(NS['xi'], 'include'),
                     href=outfile))
 
-    # insert the main docuement header, taking defaults from 'head.xml'
-    parser = et.XMLParser(remove_blank_text=True,
-                          remove_comments=True)
-    head = et.parse(template_mainh, parser).getroot()
-    head = head.xpath('//tei:teiHeader', namespaces=NSX)[0]
-    et.cleanup_namespaces(head, top_nsmap=NS)
-    firstincl = maindoc.xpath('//xi:include', namespaces=NSX)[0]
-    firstincl.addprevious(head)
-
-    person_list = head.xpath('//tei:listPerson', namespaces=NSX)[0]
+    person_list = maindoc.xpath('//tei:listPerson', namespaces=NSX)[0]
     for sid, name in speakers.items():
         # TODO: more precise/detailed info
         p = et.SubElement(person_list, 'person')

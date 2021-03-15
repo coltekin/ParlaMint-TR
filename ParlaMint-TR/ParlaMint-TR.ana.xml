@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="trParl.Sample" xml:lang="tr">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ParlaMint-TR.ana" xml:lang="tr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Verbatim record of sessions of National Assembly of the Republic of Turkey [sample]</title>
+        <title type="main" xml:lang="en">Turkish parliamentary corpus ParlaMint-TR [ParlaMint.ana SAMPLE]</title>
+        <meeting n="27" corresp="#TBMM" ana="#parla.term #TBMM.27">Term 27</meeting>
         <respStmt>
           <persName>Çağrı Çöltekin</persName>
           <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
@@ -165,7 +166,7 @@
               </category>
               <category xml:id="parla.committee.inquiry">
                 <catDesc xml:lang="en">
-                  <term>Committee of inquiry </term>
+                  <term>Committee of inquiry</term>
                 </catDesc>
               </category>
             </category>
@@ -252,7 +253,7 @@
             <catDesc xml:lang="en"><term>Guest</term>: a guest speaker at a meeting</catDesc>
           </category>
           <category xml:id="unknown">
-            <catDesc xml:lang="en">Speaker cannot be determined. Most likely a guest, but can also be due to failure to match the pattern in the transcripts.</catDesc>
+            <catDesc xml:lang="en"><term>unknown</term>Speaker cannot be determined. Most likely a guest, but can also be due to failure to match the pattern in the transcripts.</catDesc>
           </category>
         </taxonomy>
         <taxonomy xml:id="subcorpus">
@@ -266,12 +267,37 @@
             <catDesc xml:lang="en"><term>COVID</term>: COVID subcorpus, from 2019-10-01 onwards</catDesc>
           </category>
         </taxonomy>
+        <taxonomy xml:id="NER">
+          <desc xml:lang="en">
+            <term>Named entities</term>
+          </desc>
+          <category xml:id="PER">
+            <catDesc xml:lang="en">
+              <term>person</term>
+            </catDesc>
+          </category>
+          <category xml:id="LOC">
+            <catDesc xml:lang="en">
+              <term>location</term>
+            </catDesc>
+          </category>
+          <category xml:id="ORG">
+            <catDesc xml:lang="en">
+              <term>organization</term>
+            </catDesc>
+          </category>
+          <category xml:id="MISC">
+            <catDesc xml:lang="en">
+              <term>miscellaneous</term>
+            </catDesc>
+          </category>
+        </taxonomy>
         <taxonomy xml:id="UD-SYN">
           <desc xml:lang="en">
             <term>UD syntactic relations</term>
           </desc>
-          <category xml:id="acl_relcl">
-            <catDesc xml:lang="en"><term>acl:relcl</term>: A relative clause modifier of an noun</catDesc>
+          <category xml:id="acl">
+            <catDesc xml:lang="en"><term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
           </category>
           <category xml:id="advcl">
             <catDesc xml:lang="en"><term>advcl</term>: Adverbial clause modifier</catDesc>
@@ -297,14 +323,17 @@
           <category xml:id="ccomp">
             <catDesc xml:lang="en"><term>ccomp</term>: Clausal complement</catDesc>
           </category>
-          <category xml:id="compound_prt">
-            <catDesc xml:lang="en"><term>compound:prt</term>: Phrasal verb particle relation</catDesc>
+          <category xml:id="cc_preconj">
+            <catDesc xml:lang="en"><term>cc:preconj</term>: Preconjunct</catDesc>
           </category>
           <category xml:id="conj">
             <catDesc xml:lang="en"><term>conj</term>: Conjunct</catDesc>
           </category>
           <category xml:id="cop">
             <catDesc xml:lang="en"><term>cop</term>: Copula</catDesc>
+          </category>
+          <category xml:id="csubj">
+            <catDesc xml:lang="en"><term>csubj</term>: Clausal subject</catDesc>
           </category>
           <category xml:id="dep">
             <catDesc xml:lang="en"><term>dep</term>: Unspecified dependency</catDesc>
@@ -324,23 +353,20 @@
           <category xml:id="flat">
             <catDesc xml:lang="en"><term>flat</term>: Flat multiword expression</catDesc>
           </category>
-          <category xml:id="goeswith">
-            <catDesc xml:lang="en"><term>goeswith</term>: Two or more separated parts of a word that should be written together</catDesc>
+          <category xml:id="flat_foreign">
+            <catDesc xml:lang="en"><term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
+          </category>
+          <category xml:id="flat_name">
+            <catDesc xml:lang="en"><term>flat:name</term>: Flat name</catDesc>
           </category>
           <category xml:id="iobj">
             <catDesc xml:lang="en"><term>iobj</term>: Indirect object</catDesc>
-          </category>
-          <category xml:id="list">
-            <catDesc xml:lang="en"><term>list</term>: Chains of comparable items</catDesc>
           </category>
           <category xml:id="mark">
             <catDesc xml:lang="en"><term>mark</term>: Marker</catDesc>
           </category>
           <category xml:id="nmod">
             <catDesc xml:lang="en"><term>nmod</term>: Nominal modifier</catDesc>
-          </category>
-          <category xml:id="nmod_poss">
-            <catDesc xml:lang="en"><term>nmod:poss</term>: Nominal modifier which occurs before its head in the specifier position used for ‘s possessives</catDesc>
           </category>
           <category xml:id="nsubj">
             <catDesc xml:lang="en"><term>nsubj</term>: Nominal subject</catDesc>
@@ -354,12 +380,6 @@
           <category xml:id="obl">
             <catDesc xml:lang="en"><term>obl</term>: Oblique nominal</catDesc>
           </category>
-          <category xml:id="obl_loc">
-            <catDesc xml:lang="en"><term>obl:loc</term>: Locative oblique nominal</catDesc>
-          </category>
-          <category xml:id="obl_tmod">
-            <catDesc xml:lang="en"><term>obl:tmod</term>: A temporal modifier </catDesc>
-          </category>
           <category xml:id="parataxis">
             <catDesc xml:lang="en"><term>parataxis</term>: Parataxis</catDesc>
           </category>
@@ -372,11 +392,26 @@
           <category xml:id="root">
             <catDesc xml:lang="en"><term>root</term>: Root</catDesc>
           </category>
-          <category xml:id="vocative">
-            <catDesc xml:lang="en"><term>vocative</term>: The vocative relation is used to mark a dialogue participant addressed in a text</catDesc>
-          </category>
           <category xml:id="xcomp">
             <catDesc xml:lang="en"><term>xcomp</term>: Open clausal complement</catDesc>
+          </category>
+          <category xml:id="compound">
+            <catDesc xml:lang="en"><term>compound</term>: compound</catDesc>
+          </category>
+          <category xml:id="advmod_emph">
+            <catDesc xml:lang="en"><term>advmod:emph</term>: Emphasising Adverbial modifier</catDesc>
+          </category>
+          <category xml:id="nmod_poss">
+            <catDesc xml:lang="en"><term>nmod:poss</term>: Possessive nominal modifier</catDesc>
+          </category>
+          <category xml:id="compound_lvc">
+            <catDesc xml:lang="en"><term>compound:lvc</term>: Light verb construction</catDesc>
+          </category>
+          <category xml:id="compound_redup">
+            <catDesc xml:lang="en"><term>compound:redup</term>: Reduplicated compounds</catDesc>
+          </category>
+          <category xml:id="aux_q">
+            <catDesc xml:lang="en"><term>aux:q</term>: Question particle</catDesc>
           </category>
         </taxonomy>
       </classDecl>
@@ -404,16 +439,16 @@
       </settingDesc>
       <particDesc>
         <listOrg>
-          <org xml:id="TR" role="parliament" ana="#parl.national">
+          <org xml:id="TBMM" role="parliament" ana="#parla.national">
             <orgName full="yes" xml:lang="en">National Assembly of the Republic of Turkey</orgName>
             <orgName full="yes" xml:lang="en">Türkiye Büyük Millet Meclisi</orgName>
-            <event from="1963-06-24" to="1992-12-23">
+            <event from="1920-04-23">
               <label xml:lang="en">existence</label>
             </event>
             <idno type="wikimedia">https://tr.wikipedia.org/wiki/Türkiye_Büyük_Millet_Meclisi</idno>
             <listEvent>
               <head>Legislative period</head>
-              <event xml:id="TR.27" from="2018-07-07">
+              <event xml:id="TBMM.27" from="2018-07-07">
                 <label xml:lang="en">Term 27</label>
               </event>
             </listEvent>
@@ -2162,8 +2197,8 @@
       <change when="2021-02-25"><name>Çağrı Çöltekin</name>: Make sample file.</change>
     </revisionDesc>
   </teiHeader>
-  <xi:include href="ParlaMint-TR_T26_2017-01-14.ana.xml"/>
-  <xi:include href="ParlaMint-TR_T26_2018-04-18.ana.xml"/>
-  <xi:include href="ParlaMint-TR_T27_2019-07-02.ana.xml"/>
-  <xi:include href="ParlaMint-TR_T27_2021-02-09.ana.xml"/>
+  <xi:include href="ParlaMint-TR_T26-tbmm-2017-01-14.ana.xml"/>
+  <xi:include href="ParlaMint-TR_T26-tbmm-2018-04-18.ana.xml"/>
+  <xi:include href="ParlaMint-TR_T27-tbmm-2019-07-02.ana.xml"/>
+  <xi:include href="ParlaMint-TR_T27-tbmm-2021-02-09.ana.xml"/>
 </teiCorpus>

@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="trParl.Sample" xml:lang="tr">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ParlaMint-TR" xml:lang="tr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Verbatim record of sessions of National Assembly of the Republic of Turkey [sample]</title>
+        <title type="main" xml:lang="en">Turkish parliamentary corpus ParlaMint-TR [ParlaMint SAMPLE]</title>
+        <meeting n="27" corresp="#TBMM" ana="#parla.term #TBMM.27">Term 27</meeting>
         <respStmt>
           <persName>Çağrı Çöltekin</persName>
-          <resp xml:lang="en">Data retrieval, linguistic annotation, and conversion to TEI</resp>
+          <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
         </respStmt>
         <funder>
           <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
@@ -21,8 +22,8 @@
       </extent>
       <publicationStmt>
         <publisher>
-          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
-          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+          <orgName xml:lang="en"/>
+          <ref target=""/>
         </publisher>
         <idno type="handle">http://hdl.handle.net/11356/1388</idno>
         <pubPlace>
@@ -30,9 +31,9 @@
         </pubPlace>
         <availability status="free">
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
         </availability>
-        <date when="2021-02-09">2021-02-09</date>
+        <date when="2021-04-11">11.04.2021</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -48,19 +49,19 @@
       </projectDesc>
       <editorialDecl>
         <correction>
-          <p xml:lang="en">No correction of source texts was performed.</p>
+          <p>No correction of source texts was performed. </p>
         </correction>
         <normalization>
           <p xml:lang="en">Text has not been normalised.</p>
         </normalization>
         <hyphenation>
-          <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+          <p>No end-of-line hyphens were present in the source.</p>
         </hyphenation>
         <quotation>
-          <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+          <p>Quotation marks have been left in the text and are not explicitly marked up.</p>
         </quotation>
         <segmentation>
-          <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to one utterance).</p>
+          <p>The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
         </segmentation>
       </editorialDecl>
       <tagsDecl>
@@ -72,6 +73,12 @@
           <tagUsage gi="note" occurs="000"/>
           <tagUsage gi="u" occurs="000"/>
           <tagUsage gi="seg" occurs="000"/>
+          <tagUsage gi="s" occurs="000"/>
+          <tagUsage gi="name" occurs="000"/>
+          <tagUsage gi="w" occurs="000"/>
+          <tagUsage gi="pc" occurs="000"/>
+          <tagUsage gi="linkGrp" occurs="000"/>
+          <tagUsage gi="link" occurs="000"/>
         </namespace>
       </tagsDecl>
       <classDecl>
@@ -159,7 +166,7 @@
               </category>
               <category xml:id="parla.committee.inquiry">
                 <catDesc xml:lang="en">
-                  <term>Committee of inquiry </term>
+                  <term>Committee of inquiry</term>
                 </catDesc>
               </category>
             </category>
@@ -246,8 +253,7 @@
             <catDesc xml:lang="en"><term>Guest</term>: a guest speaker at a meeting</catDesc>
           </category>
           <category xml:id="unknown">
-            <catDesc xml:lang="en">
-                      Speaker cannot be determined. Most likely a guest, but can also be due to failure to match the pattern in the transcripts.</catDesc>
+            <catDesc xml:lang="en"><term>unknown</term>Speaker cannot be determined. Most likely a guest, but can also be due to failure to match the pattern in the transcripts.</catDesc>
           </category>
         </taxonomy>
         <taxonomy xml:id="subcorpus">
@@ -259,6 +265,31 @@
           </category>
           <category xml:id="covid">
             <catDesc xml:lang="en"><term>COVID</term>: COVID subcorpus, from 2019-10-01 onwards</catDesc>
+          </category>
+        </taxonomy>
+        <taxonomy xml:id="NER">
+          <desc xml:lang="en">
+            <term>Named entities</term>
+          </desc>
+          <category xml:id="PER">
+            <catDesc xml:lang="en">
+              <term>person</term>
+            </catDesc>
+          </category>
+          <category xml:id="LOC">
+            <catDesc xml:lang="en">
+              <term>location</term>
+            </catDesc>
+          </category>
+          <category xml:id="ORG">
+            <catDesc xml:lang="en">
+              <term>organization</term>
+            </catDesc>
+          </category>
+          <category xml:id="MISC">
+            <catDesc xml:lang="en">
+              <term>miscellaneous</term>
+            </catDesc>
           </category>
         </taxonomy>
       </classDecl>
@@ -273,16 +304,16 @@
       </settingDesc>
       <particDesc>
         <listOrg>
-          <org xml:id="TR" role="parliament" ana="#parl.national">
+          <org xml:id="TBMM" role="parliament" ana="#parla.national">
             <orgName full="yes" xml:lang="en">National Assembly of the Republic of Turkey</orgName>
             <orgName full="yes" xml:lang="en">Türkiye Büyük Millet Meclisi</orgName>
-            <event from="1963-06-24" to="1992-12-23">
+            <event from="1920-04-23">
               <label xml:lang="en">existence</label>
             </event>
             <idno type="wikimedia">https://tr.wikipedia.org/wiki/Türkiye_Büyük_Millet_Meclisi</idno>
             <listEvent>
               <head>Legislative period</head>
-              <event xml:id="TR.27" from="2018-07-07">
+              <event xml:id="TBMM.27" from="2018-07-07">
                 <label xml:lang="en">Term 27</label>
               </event>
             </listEvent>
@@ -2031,8 +2062,8 @@
       <change when="2021-02-25"><name>Çağrı Çöltekin</name>: Make sample file.</change>
     </revisionDesc>
   </teiHeader>
-  <xi:include href="ParlaMint-TR_T26_2017-01-14.xml"/>
-  <xi:include href="ParlaMint-TR_T26_2018-04-18.xml"/>
-  <xi:include href="ParlaMint-TR_T27_2019-07-02.xml"/>
-  <xi:include href="ParlaMint-TR_T27_2021-02-09.xml"/>
+  <xi:include href="ParlaMint-TR_T26-tbmm-2017-01-14.xml"/>
+  <xi:include href="ParlaMint-TR_T26-tbmm-2018-04-18.xml"/>
+  <xi:include href="ParlaMint-TR_T27-tbmm-2019-07-02.xml"/>
+  <xi:include href="ParlaMint-TR_T27-tbmm-2021-02-09.xml"/>
 </teiCorpus>
