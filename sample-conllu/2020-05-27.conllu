@@ -1,0 +1,100 @@
+# new session = num:91, startdate:2020-05-27, enddate:None, starttime:14.01, endtime:14.02, term:27, nsittings:1
+# new sitting = startdate:None, enddate:None, starttime:14.01, endtime:14.02, chair:Levent Gök, scribes:None
+# newpar =  tbmm-2020-05-27s01p001
+# pm_party = CHP
+# pm_id = Levent.Gök
+# pm_gender = M
+# speaker =  Levent Gök
+# speaker_type =  chair
+# speaker_region =  Ankara
+# text =  Türkiye Büyük Millet Meclisinin 91’inci Birleşimini açıyorum.
+# sent_id = tbmm-2020-05-27s01p001-000010
+1	Türkiye	Türkiye	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	NER=B-ORG
+2	Büyük	büyük	ADJ	_	_	3	amod	_	NER=I-ORG
+3	Millet	millet	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	NER=I-ORG
+4	Meclisinin	meclis	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	7	obl	_	NER=I-ORG
+5	91’inci	91’inci	X	_	_	6	det	_	NER=O
+6	Birleşimini	birleşim	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2	7	obl	_	NER=O
+7	açıyorum	aç	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# pm_party = CHP
+# pm_id = Levent.Gök
+# pm_gender = M
+# speaker =  Levent Gök
+# speaker_type =  chair
+# speaker_region =  Ankara
+# text =  (x)
+# sent_id = tbmm-2020-05-27s01p001-000020
+# transcriber_comment = true
+1	(	(	PUNCT	_	_	2	punct	_	NER=O|SpaceAfter=No
+2	x	x	SYM	_	_	0	root	_	NER=O|SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	NER=O
+
+# newpar =  tbmm-2020-05-27s01p002
+# pm_party = CHP
+# pm_id = Levent.Gök
+# pm_gender = M
+# speaker =  Levent Gök
+# speaker_type =  chair
+# speaker_region =  Ankara
+# text =  Başkanlık Divanı teşekkül etmediğinden çalışmalarımıza başlayamıyoruz.
+# sent_id = tbmm-2020-05-27s01p002-000010
+1-2	Başkanlık	_	_	_	_	_	_	_	_
+1	Başkan	başkan	NOUN	_	_	5	nmod:poss	_	NER=O
+2	lık	lik	ADJ	_	_	3	amod	_	NER=O
+3	Divanı	divan	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod	_	NER=B-ORG
+4	teşekkül	teşekkül	NOUN	_	Case=Nom|Number=Sing	5	obj	_	NER=O
+5	etmediğinden	et	VERB	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=2|Polarity=Neg|Tense=Past|VerbForm=Part	7	nmod	_	NER=O
+6	çalışmalarımıza	çalışma	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Plur|Person[psor]=1	7	obj	_	NER=O
+7	başlayamıyoruz	başla	VERB	_	Aspect=Prog|Evident=Fh|Mood=Pot|Number=Plur|Person=1|Polarity=Neg|Tense=Pres	0	root	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# newpar =  tbmm-2020-05-27s01p003
+# pm_party = CHP
+# pm_id = Levent.Gök
+# pm_gender = M
+# speaker =  Levent Gök
+# speaker_type =  chair
+# speaker_region =  Ankara
+# text =  Bu nedenle, denetim konuları ve kanun teklifleri ile komisyonlardan gelen diğer işleri sırasıyla görüşmek için 28 Mayıs 2020 Perşembe günü saat 14.
+# sent_id = tbmm-2020-05-27s01p003-000010
+1	Bu	bu	DET	_	Definite=Def	2	det	_	NER=O
+2	nedenle	neden	NOUN	_	Case=Ins|Number=Sing	10	obl	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	10	punct	_	NER=O
+4	denetim	denetim	NOUN	_	Case=Nom|Number=Sing	10	obl	_	NER=O
+5	konuları	konu	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	10	obl	_	NER=O
+6	ve	ve	CCONJ	_	_	7	cc	_	NER=O
+7	kanun	kanun	NOUN	_	Case=Nom|Number=Sing	5	conj	_	NER=O
+8	teklifleri	teklif	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	10	obl	_	NER=O
+9	ile	ile	CCONJ	_	_	10	nmod	_	NER=O
+10	komisyonlardan	komisyonla	VERB	_	Aspect=Hab|Case=Abl|Evident=Fh|Mood=Gen|Number=Sing|Tense=Pres	0	root	_	NER=O
+11	gelen	gel	VERB	_	Tense=Pres|VerbForm=Part	21	acl	_	NER=O
+12	diğer	diğer	DET	_	Definite=Def	15	det	_	NER=O
+13	işleri	iş	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	15	obl	_	NER=O
+14	sırasıyla	sıra	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	obl	_	NER=O
+15	görüşmek	görüş	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	21	nmod	_	NER=O
+16	için	için	ADP	_	_	15	case	_	NER=O
+17	28	28	NUM	_	Case=Nom|Number=Sing	21	nummod	_	NER=B-ORG
+18	Mayıs	mayıs	NOUN	_	Case=Nom|Number=Sing	21	nmod	_	NER=I-ORG
+19	2020	2020	NUM	_	Case=Nom|Number=Sing	20	nummod	_	NER=I-ORG
+20	Perşembe	perşembe	NOUN	_	Case=Nom|Number=Sing	21	nmod	_	NER=I-ORG
+21	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	22	nmod	_	NER=I-ORG
+22	saat	saat	NOUN	_	Case=Nom|Number=Sing	10	obl	_	NER=I-ORG
+23	14.	14	NUM	_	NumType=Dist	10	conj	_	NER=I-ORG
+
+# pm_party = CHP
+# pm_id = Levent.Gök
+# pm_gender = M
+# speaker =  Levent Gök
+# speaker_type =  chair
+# speaker_region =  Ankara
+# text =  00’te toplanmak üzere birleşimi kapatıyorum.
+# sent_id = tbmm-2020-05-27s01p003-000020
+1	00’te	00’te	X	_	_	2	obj	_	NER=B-LOC
+2	toplanmak	topla	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun|Voice=Pass	5	nmod	_	NER=O
+3	üzere	üzere	ADP	_	_	2	case	_	NER=O
+4	birleşimi	birleşim	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	NER=O
+5	kapatıyorum	kapa	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Cau	0	root	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	NER=O
+

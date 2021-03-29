@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ParlaMint-TR_T27-tbmm-2020-05-27" xml:lang="tr" ana="#parla.session #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Session 000 [ParlaMint SAMPLE]</title>
+        <meeting n="00" ana="#parla.session">00</meeting>
+        <respStmt>
+          <persName>Çağrı Çöltekin</persName>
+          <resp xml:lang="en">Data retrieval, linguistic annotation, and conversion to TEI</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>1.0</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" quantity="000" xml:lang="en">000 speeches</measure>
+        <measure unit="words" quantity="000" xml:lang="en">000 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+        <pubPlace>
+          <ref target="http://hdl.handle.net/11356/1405">http://hdl.handle.net/11356/1405</ref>
+        </pubPlace>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
+        </availability>
+        <date when="2021-02-09">2021-02-09</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="en">Hansards of the Turkish Parliament</title>
+          <publisher xml:lang="en">The Turkish Parliament</publisher>
+          <idno type="URI">https://www.tbmm.gov.tr/</idno>
+          <date when="2018-03-20">0000-00-00</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="body" occurs="000"/>
+          <tagUsage gi="div" occurs="000"/>
+          <tagUsage gi="head" occurs="000"/>
+          <tagUsage gi="link" occurs="000"/>
+          <tagUsage gi="linkGrp" occurs="000"/>
+          <tagUsage gi="note" occurs="000"/>
+          <tagUsage gi="pc" occurs="000"/>
+          <tagUsage gi="s" occurs="000"/>
+          <tagUsage gi="seg" occurs="000"/>
+          <tagUsage gi="u" occurs="000"/>
+          <tagUsage gi="w" occurs="000"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city">Ankara</name>
+          <name type="country" key="TR">Turkey</name>
+          <date from="1996-11-28" to="2000-10-27"/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc xml:lang="en">
+      <change when="2021-01-29"><name>Çağrı Çöltekin</name>: Sample ParlaMint file.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text ana="#reference" xml:lang="tr">
+    <body>
+      <div type="debateSection">
+        <note type="time">14.01</note>
+        <note type="chair">Levent Gök</note>
+        <note>(x)</note>
+        <u ana="#regular" who="#Levent.Gök" xml:id="tbmm-2020-05-27s01p002">
+          <seg xml:id="tbmm-2020-05-27s01p002.seg0">Başkanlık Divanı teşekkül etmediğinden çalışmalarımıza başlayamıyoruz.</seg>
+        </u>
+        <u ana="#regular" who="#Levent.Gök" xml:id="tbmm-2020-05-27s01p003">
+          <seg xml:id="tbmm-2020-05-27s01p003.seg0">Bu nedenle, denetim konuları ve kanun teklifleri ile komisyonlardan gelen diğer işleri sırasıyla görüşmek için 28 Mayıs 2020 Perşembe günü saat 14. 00’te toplanmak üzere birleşimi kapatıyorum.</seg>
+        </u>
+      </div>
+    </body>
+  </text>
+</TEI>

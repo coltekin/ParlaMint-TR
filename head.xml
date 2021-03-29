@@ -27,9 +27,9 @@
            <orgName xml:lang="en"></orgName>
            <ref target=""></ref>
         </publisher>
-		<idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
 		<pubPlace>
-		   <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+            <ref target="http://hdl.handle.net/11356/1405">http://hdl.handle.net/11356/1405</ref>
 		</pubPlace>
         <availability status="free">
            <licence>http://creativecommons.org/licenses/by/4.0/</licence>
@@ -402,12 +402,23 @@
                <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
             </prefixDef>
          </listPrefixDef>
+            <!-- prefixDef ident="ne" matchPattern="(.+)" replacementPattern="#NER.$1">
+               <p>Taxonomy for named entities (cnec2.0)</p>
+            </prefixDef -->
      <appInfo>
         <application version="2.0" ident="TRmorph">
            <label>TRmoroph morphological analyzer</label>
            <desc xml:lang="en">Tokenisation, sentence segmentation, lemmatization, POS tagging,
                morphological features with TRmorph.
                Available from <ref target="https://github.com/coltekin/trmorph">https://github.com/coltekin/trmorph</ref>.</desc>
+        </application>
+        <application ident="UDPipe" version="2">
+           <label>UDPipe 2 (turkish-imst-ud-2.6-200830 model)</label>
+           <desc>Dependency parsing done with UDPipe 2 <ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>with czech-pdt-ud-2.6-200830 model</desc>
+        </application>
+        <application ident="TurkishNER" version="2">
+           <label></label>
+           <desc>An LSTM tagger published on GitHub <ref target="https://github.com/snnclsr/ner">https://github.com/snnclsr/ner</ref>.</desc>
         </application>
      </appInfo>
   </encodingDesc>
@@ -433,19 +444,248 @@
                  <event xml:id="TBMM.27" from="2018-07-07">
                     <label xml:lang="en">Term 27</label>
                  </event>
+                 <event xml:id="TBMM.26" from="2015-11-17" to="2018-05-16">
+                    <label xml:lang="en">Term 26</label>
+                 </event>
+                 <event xml:id="TBMM.25" from="2015-06-23" to="2015-10-01">
+                    <label xml:lang="en">Term 25</label>
+                 </event>
+                 <event xml:id="TBMM.24" from="2011-06-28" to="2015-04-23">
+                    <label xml:lang="en">Term 24</label>
+                 </event>
+                 <event xml:id="TBMM.23" from="2007-07-23" to="2011-04-23">
+                    <label xml:lang="en">Term 23</label>
+                 </event>
+                 <event xml:id="TBMM.22" from="2002-11-14" to="2007-06-03">
+                    <label xml:lang="en">Term 22</label>
+                 </event>
+                 <event xml:id="TBMM.21" from="1999-05-02" to="2002-10-01">
+                    <label xml:lang="en">Term 21</label>
+                 </event>
+                 <event xml:id="TBMM.20" from="1996-01-08" to="1999-04-25">
+                    <label xml:lang="en">Term 20</label>
+                 </event>
+                 <event xml:id="TBMM.19" from="1991-11-14" to="1995-12-04">
+                    <label xml:lang="en">Term 19</label>
+                 </event>
+                 <event xml:id="TBMM.18" from="1987-12-14" to="1991-09-01">
+                    <label xml:lang="en">Term 18</label>
+                 </event>
+                 <event xml:id="TBMM.17" from="1983-11-24" to="1987-10-16">
+                    <label xml:lang="en">Term 17</label>
+                 </event>
               </listEvent>
            </org>
-           <org xml:id="party.AKP" role="politicalParty">
-              <orgName full="yes" xml:lang="tr">Adalet ve Kalkınma Partisi</orgName>
-              <orgName full="yes" xml:lang="en">Justice and Development Party</orgName>
-              <orgName full="init">AKP</orgName>
-              <orgName full="init">AK Party</orgName>
-              <event from="2001-08-14">
-                 <label xml:lang="en">existence</label>
-              </event>
-              <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Adalet_ve_Kalkınma_Partisi</idno>
-              <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Turkey)</idno>
-           </org>
+          <org xml:id="party.AKP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Adalet ve Kalkınma Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Justice and Development Party</orgName>
+            <orgName full="init">AKP</orgName>
+            <orgName full="init">AK Party</orgName>
+            <event from="2001-08-14">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Adalet_ve_Kalkınma_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Turkey)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q19077</idno>
+          </org>
+          <org xml:id="party.ANAP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Anavatan Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Motherland Party</orgName>
+            <orgName full="init">ANAP</orgName>
+            <event from="1983-05-20" to="2009-11-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Anavatan_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Motherland_Party_(Turkey)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q488511</idno>
+          </org>
+          <org xml:id="party.CHP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Cumhuriyet Halk Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Republican People's Party</orgName>
+            <orgName full="init">CHP</orgName>
+            <event from="1923-09-09">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Cumhuriyet_Halk_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Republican_People's_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q19079</idno>
+          </org>
+          <org xml:id="party.DSP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Demokratik Sol Parti</orgName>
+            <orgName full="yes" xml:lang="en">Democratic Left Party</orgName>
+            <orgName full="init">DSP</orgName>
+            <event from="1985-11-14">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Demokratik_Sol_Parti</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Democratic_Left_Party_(Turkey)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q942515</idno>
+          </org>
+          <org xml:id="party.DYP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Doğru Yol Partisi</orgName>
+            <orgName full="yes" xml:lang="en">True Path Party</orgName>
+            <orgName full="init">DYP</orgName>
+            <event from="1983-01-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Doğru_Yol_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/True_Path_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q6061183</idno>
+          </org>
+          <org xml:id="party.FAZILET" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Fazilet Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Virtue Party</orgName>
+            <orgName full="init">FAZILET</orgName>
+            <event from="1997-01-01" to="2001-01-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Fazilet_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Virtue_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q1399162</idno>
+          </org>
+          <org xml:id="party.HDP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Halkların Demokratik Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Peoples' Democratic Party</orgName>
+            <orgName full="init">HDP</orgName>
+            <event from="2012-10-15">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Halkların_Demokratik_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Peoples'_Democratic_Party_(Turkey)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q15123187</idno>
+          </org>
+          <org xml:id="party.IYI" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">İYİ Parti</orgName>
+            <orgName full="yes" xml:lang="en">İYİ Party</orgName>
+            <orgName full="init">IYI</orgName>
+            <event from="2017-10-25">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/İYİ_Parti</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Good_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q42313794</idno>
+          </org>
+          <org xml:id="party.MHP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Milliyetçi Hareket Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Nationalist Movement Party</orgName>
+            <orgName full="init">MHP</orgName>
+            <event from="1969-02-09">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Milliyetçi_Hareket_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Nationalist_Movement_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q251077</idno>
+          </org>
+          <org xml:id="party.ANA" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Anadolu Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Anatolia Party</orgName>
+            <orgName full="init">ANA</orgName>
+            <event from="2014-01-01" to="2015-12-19">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Anadolu_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Anatolia_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q18537604</idno>
+          </org>
+          <org xml:id="party.BDP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Barış ve Demokrasi Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Peace and Democracy Party</orgName>
+            <orgName full="init">BDP</orgName>
+            <event from="2008-05-03" to="2014-07-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Barış_ve_Demokrasi_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Peace_and_Democracy_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q809719</idno>
+          </org>
+          <org xml:id="party.BBP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Büyük Birlik Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Great Unity Party</orgName>
+            <orgName full="init">BBP</orgName>
+            <event from="1993-01-29">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Büyük_Birlik_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Great_Unity_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q1021872</idno>
+          </org>
+          <org xml:id="party.DP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Demokrat Parti</orgName>
+            <orgName full="yes" xml:lang="en">Democratic Party</orgName>
+            <orgName full="init">DP</orgName>
+            <event from="1983-01-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Demokrat_Parti_(2007)</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Democrat_Party_(Turkey,_current)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q2067217</idno>
+          </org>
+          <org xml:id="party.DEVA" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Demokrasi ve Atılım Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Democracy and Progress Party</orgName>
+            <orgName full="init">DEVA</orgName>
+            <event from="2020-03-09">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Demokrasi_ve_Atılım_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Democracy_and_Progress_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q87410205</idno>
+          </org>
+          <org xml:id="party.eParti" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Elektronik Demokrasi Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Electronic Democracy Party</orgName>
+            <orgName full="init">eParti</orgName>
+            <event from="2014-01-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Elektronik_Demokrasi_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Electronic_Democracy_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q18615393</idno>
+          </org>
+          <org xml:id="party.MEP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Merkez Parti</orgName>
+            <orgName full="yes" xml:lang="en">Centre Party</orgName>
+            <orgName full="init">MEP</orgName>
+            <event from="2014-01-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Merkez_Parti</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Centre_Party_(Turkey)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q18609243</idno>
+          </org>
+          <org xml:id="party.TiP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Türkiye İşçi Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Workers' Party of Turkey</orgName>
+            <orgName full="init">TiP</orgName>
+            <event from="2017-11-07">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Türkiye_İşçi_Partisi_(2017)</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Workers'_Party_of_Turkey_(2017)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q59519227</idno>
+          </org>
+          <org xml:id="party.SAADET" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Saadet Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Felicity Party</orgName>
+            <orgName full="init">SAADET</orgName>
+            <event from="2001-07-20">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Saadet_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Felicity_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q1637009</idno>
+          </org>
+          <org xml:id="party.YP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Yenilik Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Innovation Party (Turkey)</orgName>
+            <orgName full="init">YP</orgName>
+            <event from="2020-01-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Yenilik_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Innovation_Party_(Turkey)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q97599122</idno>
+          </org>
            <!-- listRelation>
               <relation name="separation" active="#party.SDZ-NDS #party.D" passive="#party.SDZ"
                         when="1991-10-13"/>

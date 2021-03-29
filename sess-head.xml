@@ -26,9 +26,9 @@
           <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
           <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
         </publisher>
-        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
         <pubPlace>
-          <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
+            <ref target="http://hdl.handle.net/11356/1405">http://hdl.handle.net/11356/1405</ref>
         </pubPlace>
         <availability status="free">
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>

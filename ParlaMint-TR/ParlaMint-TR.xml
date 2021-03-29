@@ -25,7 +25,7 @@
           <orgName xml:lang="en"/>
           <ref target=""/>
         </publisher>
-        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
         <pubPlace>
           <ref target="http://hdl.handle.net/11356/1388">http://hdl.handle.net/11356/1388</ref>
         </pubPlace>
@@ -316,6 +316,36 @@
               <event xml:id="TBMM.27" from="2018-07-07">
                 <label xml:lang="en">Term 27</label>
               </event>
+              <event xml:id="TBMM.26" from="2015-11-17" to="2018-05-16">
+                <label xml:lang="en">Term 26</label>
+              </event>
+              <event xml:id="TBMM.25" from="2015-06-23" to="2015-10-01">
+                <label xml:lang="en">Term 25</label>
+              </event>
+              <event xml:id="TBMM.24" from="2011-06-28" to="2015-04-23">
+                <label xml:lang="en">Term 24</label>
+              </event>
+              <event xml:id="TBMM.23" from="2007-07-23" to="2011-04-23">
+                <label xml:lang="en">Term 23</label>
+              </event>
+              <event xml:id="TBMM.22" from="2002-11-14" to="2007-06-03">
+                <label xml:lang="en">Term 22</label>
+              </event>
+              <event xml:id="TBMM.21" from="1999-05-02" to="2002-10-01">
+                <label xml:lang="en">Term 21</label>
+              </event>
+              <event xml:id="TBMM.20" from="1996-01-08" to="1999-04-25">
+                <label xml:lang="en">Term 20</label>
+              </event>
+              <event xml:id="TBMM.19" from="1991-11-14" to="1995-12-04">
+                <label xml:lang="en">Term 19</label>
+              </event>
+              <event xml:id="TBMM.18" from="1987-12-14" to="1991-09-01">
+                <label xml:lang="en">Term 18</label>
+              </event>
+              <event xml:id="TBMM.17" from="1983-11-24" to="1987-10-16">
+                <label xml:lang="en">Term 17</label>
+              </event>
             </listEvent>
           </org>
           <org xml:id="party.AKP" role="politicalParty">
@@ -328,6 +358,205 @@
             </event>
             <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Adalet_ve_Kalkınma_Partisi</idno>
             <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Turkey)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q19077</idno>
+          </org>
+          <org xml:id="party.ANAP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Anavatan Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Motherland Party</orgName>
+            <orgName full="init">ANAP</orgName>
+            <event from="1983-05-20" to="2009-11-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Anavatan_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Motherland_Party_(Turkey)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q488511</idno>
+          </org>
+          <org xml:id="party.CHP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Cumhuriyet Halk Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Republican People's Party</orgName>
+            <orgName full="init">CHP</orgName>
+            <event from="1923-09-09">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Cumhuriyet_Halk_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Republican_People's_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q19079</idno>
+          </org>
+          <org xml:id="party.DSP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Demokratik Sol Parti</orgName>
+            <orgName full="yes" xml:lang="en">Democratic Left Party</orgName>
+            <orgName full="init">DSP</orgName>
+            <event from="1985-11-14">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Demokratik_Sol_Parti</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Democratic_Left_Party_(Turkey)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q942515</idno>
+          </org>
+          <org xml:id="party.DYP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Doğru Yol Partisi</orgName>
+            <orgName full="yes" xml:lang="en">True Path Party</orgName>
+            <orgName full="init">DYP</orgName>
+            <event from="1983-01-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Doğru_Yol_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/True_Path_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q6061183</idno>
+          </org>
+          <org xml:id="party.FAZILET" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Fazilet Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Virtue Party</orgName>
+            <orgName full="init">FAZILET</orgName>
+            <event from="1997-01-01" to="2001-01-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Fazilet_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Virtue_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q1399162</idno>
+          </org>
+          <org xml:id="party.HDP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Halkların Demokratik Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Peoples' Democratic Party</orgName>
+            <orgName full="init">HDP</orgName>
+            <event from="2012-10-15">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Halkların_Demokratik_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Peoples'_Democratic_Party_(Turkey)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q15123187</idno>
+          </org>
+          <org xml:id="party.IYI" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">İYİ Parti</orgName>
+            <orgName full="yes" xml:lang="en">İYİ Party</orgName>
+            <orgName full="init">IYI</orgName>
+            <event from="2017-10-25">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/İYİ_Parti</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Good_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q42313794</idno>
+          </org>
+          <org xml:id="party.MHP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Milliyetçi Hareket Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Nationalist Movement Party</orgName>
+            <orgName full="init">MHP</orgName>
+            <event from="1969-02-09">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Milliyetçi_Hareket_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Nationalist_Movement_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q251077</idno>
+          </org>
+          <org xml:id="party.ANA" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Anadolu Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Anatolia Party</orgName>
+            <orgName full="init">ANA</orgName>
+            <event from="2014-01-01" to="2015-12-19">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Anadolu_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Anatolia_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q18537604</idno>
+          </org>
+          <org xml:id="party.BDP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Barış ve Demokrasi Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Peace and Democracy Party</orgName>
+            <orgName full="init">BDP</orgName>
+            <event from="2008-05-03" to="2014-07-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Barış_ve_Demokrasi_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Peace_and_Democracy_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q809719</idno>
+          </org>
+          <org xml:id="party.BBP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Büyük Birlik Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Great Unity Party</orgName>
+            <orgName full="init">BBP</orgName>
+            <event from="1993-01-29">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Büyük_Birlik_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Great_Unity_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q1021872</idno>
+          </org>
+          <org xml:id="party.DP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Demokrat Parti</orgName>
+            <orgName full="yes" xml:lang="en">Democratic Party</orgName>
+            <orgName full="init">DP</orgName>
+            <event from="1983-01-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Demokrat_Parti_(2007)</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Democrat_Party_(Turkey,_current)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q2067217</idno>
+          </org>
+          <org xml:id="party.DEVA" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Demokrasi ve Atılım Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Democracy and Progress Party</orgName>
+            <orgName full="init">DEVA</orgName>
+            <event from="2020-03-09">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Demokrasi_ve_Atılım_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Democracy_and_Progress_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q87410205</idno>
+          </org>
+          <org xml:id="party.eParti" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Elektronik Demokrasi Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Electronic Democracy Party</orgName>
+            <orgName full="init">eParti</orgName>
+            <event from="2014-01-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Elektronik_Demokrasi_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Electronic_Democracy_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q18615393</idno>
+          </org>
+          <org xml:id="party.MEP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Merkez Parti</orgName>
+            <orgName full="yes" xml:lang="en">Centre Party</orgName>
+            <orgName full="init">MEP</orgName>
+            <event from="2014-01-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Merkez_Parti</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Centre_Party_(Turkey)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q18609243</idno>
+          </org>
+          <org xml:id="party.TiP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Türkiye İşçi Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Workers' Party of Turkey</orgName>
+            <orgName full="init">TiP</orgName>
+            <event from="2017-11-07">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Türkiye_İşçi_Partisi_(2017)</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Workers'_Party_of_Turkey_(2017)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q59519227</idno>
+          </org>
+          <org xml:id="party.SAADET" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Saadet Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Felicity Party</orgName>
+            <orgName full="init">SAADET</orgName>
+            <event from="2001-07-20">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Saadet_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Felicity_Party</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q1637009</idno>
+          </org>
+          <org xml:id="party.YP" role="politicalParty">
+            <orgName full="yes" xml:lang="tr">Yenilik Partisi</orgName>
+            <orgName full="yes" xml:lang="en">Innovation Party (Turkey)</orgName>
+            <orgName full="init">YP</orgName>
+            <event from="2020-01-01">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Yenilik_Partisi</idno>
+            <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Innovation_Party_(Turkey)</idno>
+            <idno type="wikidata" xml:lang="en">http://www.wikidata.org/entity/Q97599122</idno>
           </org>
         </listOrg>
         <listPerson>
@@ -339,1715 +568,1838 @@
             </persName>
             <sex value="F"/>
           </person>
-          <person xml:id="AhmetAydın">
+          <person xml:id="Abdullah.Doğru">
             <persName>
-              <surname>Aydın</surname>
-              <forename>Ahmet</forename>
+              <surname>Doğru</surname>
+              <forename>Abdullah</forename>
             </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
           </person>
-          <person xml:id="EnginAltay">
-            <persName>
-              <surname>Altay</surname>
-              <forename>Engin</forename>
-            </persName>
-          </person>
-          <person xml:id="SerkanTopal">
-            <persName>
-              <surname>Topal</surname>
-              <forename>Serkan</forename>
-            </persName>
-          </person>
-          <person xml:id="SibelÖzdemir">
-            <persName>
-              <surname>Özdemir</surname>
-              <forename>Sibel</forename>
-            </persName>
-          </person>
-          <person xml:id="ErkanAydın">
-            <persName>
-              <surname>Aydın</surname>
-              <forename>Erkan</forename>
-            </persName>
-          </person>
-          <person xml:id="DidemEngin">
-            <persName>
-              <surname>Engin</surname>
-              <forename>Didem</forename>
-            </persName>
-          </person>
-          <person xml:id="AliAkyıldız">
-            <persName>
-              <surname>Akyıldız</surname>
-              <forename>Ali</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetTüm">
-            <persName>
-              <surname>Tüm</surname>
-              <forename>Mehmet</forename>
-            </persName>
-          </person>
-          <person xml:id="AliCumhurTaşkın">
-            <persName>
-              <surname>Taşkın</surname>
-              <forename>Ali Cumhur</forename>
-            </persName>
-          </person>
-          <person xml:id="HilmiYarayıcı">
-            <persName>
-              <surname>Yarayıcı</surname>
-              <forename>Hilmi</forename>
-            </persName>
-          </person>
-          <person xml:id="AytuğAtıcı">
-            <persName>
-              <surname>Atıcı</surname>
-              <forename>Aytuğ</forename>
-            </persName>
-          </person>
-          <person xml:id="LeylaŞahinUsta">
-            <persName>
-              <surname>Usta</surname>
-              <forename>Leyla Şahin</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetGökdağ">
-            <persName>
-              <surname>Gökdağ</surname>
-              <forename>Mehmet</forename>
-            </persName>
-          </person>
-          <person xml:id="İmranKılıç">
-            <persName>
-              <surname>Kılıç</surname>
-              <forename>İmran</forename>
-            </persName>
-          </person>
-          <person xml:id="BarışKaradeniz">
-            <persName>
-              <surname>Karadeniz</surname>
-              <forename>Barış</forename>
-            </persName>
-          </person>
-          <person xml:id="HasanSert">
-            <persName>
-              <surname>Sert</surname>
-              <forename>Hasan</forename>
-            </persName>
-          </person>
-          <person xml:id="SerdalKuyucuoğlu">
-            <persName>
-              <surname>Kuyucuoğlu</surname>
-              <forename>Serdal</forename>
-            </persName>
-          </person>
-          <person xml:id="KadimDurmaz">
-            <persName>
-              <surname>Durmaz</surname>
-              <forename>Kadim</forename>
-            </persName>
-          </person>
-          <person xml:id="KazımArslan">
-            <persName>
-              <surname>Arslan</surname>
-              <forename>Kazım</forename>
-            </persName>
-          </person>
-          <person xml:id="BennurKaraburun">
-            <persName>
-              <surname>Karaburun</surname>
-              <forename>Bennur</forename>
-            </persName>
-          </person>
-          <person xml:id="ErhanUsta">
-            <persName>
-              <surname>Usta</surname>
-              <forename>Erhan</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetMuş">
-            <persName>
-              <surname>Muş</surname>
-              <forename>Mehmet</forename>
-            </persName>
-          </person>
-          <person xml:id="OnursalAdıgüzel">
-            <persName>
-              <surname>Adıgüzel</surname>
-              <forename>Onursal</forename>
-            </persName>
-          </person>
-          <person xml:id="AliŞeker">
-            <persName>
-              <surname>Şeker</surname>
-              <forename>Ali</forename>
-            </persName>
-          </person>
-          <person xml:id="HüseyinÇamak">
-            <persName>
-              <surname>Çamak</surname>
-              <forename>Hüseyin</forename>
-            </persName>
-          </person>
-          <person xml:id="AliÖzkaya">
-            <persName>
-              <surname>Özkaya</surname>
-              <forename>Ali</forename>
-            </persName>
-          </person>
-          <person xml:id="BurhanKuzu">
-            <persName>
-              <surname>Kuzu</surname>
-              <forename>Burhan</forename>
-            </persName>
-          </person>
-          <person xml:id="AhmetHamdiÇamlı">
-            <persName>
-              <surname>Çamlı</surname>
-              <forename>Ahmet Hamdi</forename>
-            </persName>
-          </person>
-          <person xml:id="MustafaElitaş">
-            <persName>
-              <surname>Elitaş</surname>
-              <forename>Mustafa</forename>
-            </persName>
-          </person>
-          <person xml:id="MetinGündoğdu">
-            <persName>
-              <surname>Gündoğdu</surname>
-              <forename>Metin</forename>
-            </persName>
-          </person>
-          <person xml:id="AyşeKeşir">
-            <persName>
-              <surname>Keşir</surname>
-              <forename>Ayşe</forename>
-            </persName>
-          </person>
-          <person xml:id="FuatKöktaş">
-            <persName>
-              <surname>Köktaş</surname>
-              <forename>Fuat</forename>
-            </persName>
-          </person>
-          <person xml:id="AhmetSelimYurdakul">
-            <persName>
-              <surname>Yurdakul</surname>
-              <forename>Ahmet Selim</forename>
-            </persName>
-          </person>
-          <person xml:id="SırrıSüreyyaÖnder">
-            <persName>
-              <surname>Önder</surname>
-              <forename>Sırrı Süreyya</forename>
-            </persName>
-          </person>
-          <person xml:id="HasanBasriKurt">
-            <persName>
-              <surname>Kurt</surname>
-              <forename>Hasan Basri</forename>
-            </persName>
-          </person>
-          <person xml:id="FilizKerestecioğluDemir">
-            <persName>
-              <surname>Demir</surname>
-              <forename>Filiz Kerestecioğlu</forename>
-            </persName>
-          </person>
-          <person xml:id="ÖztürkYılmaz">
-            <persName>
-              <surname>Yılmaz</surname>
-              <forename>Öztürk</forename>
-            </persName>
-          </person>
-          <person xml:id="HamzaDağ">
-            <persName>
-              <surname>Dağ</surname>
-              <forename>Hamza</forename>
-            </persName>
-          </person>
-          <person xml:id="OsmanAşkınBak">
-            <persName>
-              <surname>Bak</surname>
-              <forename>Osman Aşkın</forename>
-            </persName>
-          </person>
-          <person xml:id="YıldızSeferinoğlu">
-            <persName>
-              <surname>Seferinoğlu</surname>
-              <forename>Yıldız</forename>
-            </persName>
-          </person>
-          <person xml:id="ÖmerFethiGürer">
-            <persName>
-              <surname>Gürer</surname>
-              <forename>Ömer Fethi</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetNaciBostancı">
-            <persName>
-              <surname>Bostancı</surname>
-              <forename>Mehmet Naci</forename>
-            </persName>
-          </person>
-          <person xml:id="YılmazTunç">
-            <persName>
-              <surname>Tunç</surname>
-              <forename>Yılmaz</forename>
-            </persName>
-          </person>
-          <person xml:id="RavzaKavakcıKan">
-            <persName>
-              <surname>Kan</surname>
-              <forename>Ravza Kavakcı</forename>
-            </persName>
-          </person>
-          <person xml:id="NihatÖztürk">
-            <persName>
-              <surname>Öztürk</surname>
-              <forename>Nihat</forename>
-            </persName>
-          </person>
-          <person xml:id="BakiŞimşek">
-            <persName>
-              <surname>Şimşek</surname>
-              <forename>Baki</forename>
-            </persName>
-          </person>
-          <person xml:id="RecepUncuoğlu">
-            <persName>
-              <surname>Uncuoğlu</surname>
-              <forename>Recep</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetGünal">
-            <persName>
-              <surname>Günal</surname>
-              <forename>Mehmet</forename>
-            </persName>
-          </person>
-          <person xml:id="NurettinDemir">
-            <persName>
-              <surname>Demir</surname>
-              <forename>Nurettin</forename>
-            </persName>
-          </person>
-          <person xml:id="EjderAçıkkapı">
-            <persName>
-              <surname>Açıkkapı</surname>
-              <forename>Ejder</forename>
-            </persName>
-          </person>
-          <person xml:id="FatmaBenli">
-            <persName>
-              <surname>Benli</surname>
-              <forename>Fatma</forename>
-            </persName>
-          </person>
-          <person xml:id="LeventGök">
-            <persName>
-              <surname>Gök</surname>
-              <forename>Levent</forename>
-            </persName>
-          </person>
-          <person xml:id="ŞefkatÇetin">
-            <persName>
-              <surname>Çetin</surname>
-              <forename>Şefkat</forename>
-            </persName>
-          </person>
-          <person xml:id="CemalOkanYüksel">
-            <persName>
-              <surname>Yüksel</surname>
-              <forename>Cemal Okan</forename>
-            </persName>
-          </person>
-          <person xml:id="FatmaSenihaNükhetHotar">
-            <persName>
-              <surname>Hotar</surname>
-              <forename>Fatma Seniha Nükhet</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetMetiner">
-            <persName>
-              <surname>Metiner</surname>
-              <forename>Mehmet</forename>
-            </persName>
-          </person>
-          <person xml:id="İsmailAydın">
-            <persName>
-              <surname>Aydın</surname>
-              <forename>İsmail</forename>
-            </persName>
-          </person>
-          <person xml:id="ÖzkanYalım">
-            <persName>
-              <surname>Yalım</surname>
-              <forename>Özkan</forename>
-            </persName>
-          </person>
-          <person xml:id="MevlütKarakaya">
-            <persName>
-              <surname>Karakaya</surname>
-              <forename>Mevlüt</forename>
-            </persName>
-          </person>
-          <person xml:id="KamilAydın">
-            <persName>
-              <surname>Aydın</surname>
-              <forename>Kamil</forename>
-            </persName>
-          </person>
-          <person xml:id="DenizDepboylu">
-            <persName>
-              <surname>Depboylu</surname>
-              <forename>Deniz</forename>
-            </persName>
-          </person>
-          <person xml:id="AbdulhamitGül">
-            <persName>
-              <surname>Gül</surname>
-              <forename>Abdulhamit</forename>
-            </persName>
-          </person>
-          <person xml:id="VeliAğbaba">
-            <persName>
-              <surname>Ağbaba</surname>
-              <forename>Veli</forename>
-            </persName>
-          </person>
-          <person xml:id="TürabiKayan">
-            <persName>
-              <surname>Kayan</surname>
-              <forename>Türabi</forename>
-            </persName>
-          </person>
-          <person xml:id="Ceyhunİrgil">
-            <persName>
-              <surname>İrgil</surname>
-              <forename>Ceyhun</forename>
-            </persName>
-          </person>
-          <person xml:id="ÜnalDemirtaş">
-            <persName>
-              <surname>Demirtaş</surname>
-              <forename>Ünal</forename>
-            </persName>
-          </person>
-          <person xml:id="GülayYedekci">
-            <persName>
-              <surname>Yedekci</surname>
-              <forename>Gülay</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetErdoğan">
-            <persName>
-              <surname>Erdoğan</surname>
-              <forename>Mehmet</forename>
-            </persName>
-          </person>
-          <person xml:id="BarışYarkadaş">
-            <persName>
-              <surname>Yarkadaş</surname>
-              <forename>Barış</forename>
-            </persName>
-          </person>
-          <person xml:id="ÖzgürÖzel">
-            <persName>
-              <surname>Özel</surname>
-              <forename>Özgür</forename>
-            </persName>
-          </person>
-          <person xml:id="ErkanAkçay">
-            <persName>
-              <surname>Akçay</surname>
-              <forename>Erkan</forename>
-            </persName>
-          </person>
-          <person xml:id="OkanGaytancıoğlu">
-            <persName>
-              <surname>Gaytancıoğlu</surname>
-              <forename>Okan</forename>
-            </persName>
-          </person>
-          <person xml:id="SeyitTorun">
-            <persName>
-              <surname>Torun</surname>
-              <forename>Seyit</forename>
-            </persName>
-          </person>
-          <person xml:id="BekirBozdağ">
-            <persName>
-              <surname>Bozdağ</surname>
-              <forename>Bekir</forename>
-            </persName>
-          </person>
-          <person xml:id="İbrahimÖzdiş">
-            <persName>
-              <surname>Özdiş</surname>
-              <forename>İbrahim</forename>
-            </persName>
-          </person>
-          <person xml:id="ZekeriyaBirkan">
-            <persName>
-              <surname>Birkan</surname>
-              <forename>Zekeriya</forename>
-            </persName>
-          </person>
-          <person xml:id="HalisDalkılıç">
-            <persName>
-              <surname>Dalkılıç</surname>
-              <forename>Halis</forename>
-            </persName>
-          </person>
-          <person xml:id="ErtuğrulSoysal">
-            <persName>
-              <surname>Soysal</surname>
-              <forename>Ertuğrul</forename>
-            </persName>
-          </person>
-          <person xml:id="AhmetUzer">
-            <persName>
-              <surname>Uzer</surname>
-              <forename>Ahmet</forename>
-            </persName>
-          </person>
-          <person xml:id="İlknurİnceöz">
-            <persName>
-              <surname>İnceöz</surname>
-              <forename>İlknur</forename>
-            </persName>
-          </person>
-          <person xml:id="FatmaKaplanHürriyet">
-            <persName>
-              <surname>Hürriyet</surname>
-              <forename>Fatma Kaplan</forename>
-            </persName>
-          </person>
-          <person xml:id="AhmetAkın">
-            <persName>
-              <surname>Akın</surname>
-              <forename>Ahmet</forename>
-            </persName>
-          </person>
-          <person xml:id="MuhammetRızaYalçınkaya">
-            <persName>
-              <surname>Yalçınkaya</surname>
-              <forename>Muhammet Rıza</forename>
-            </persName>
-          </person>
-          <person xml:id="MuharremErkek">
-            <persName>
-              <surname>Erkek</surname>
-              <forename>Muharrem</forename>
-            </persName>
-          </person>
-          <person xml:id="BülentTezcan">
-            <persName>
-              <surname>Tezcan</surname>
-              <forename>Bülent</forename>
-            </persName>
-          </person>
-          <person xml:id="MustafaŞentop">
-            <persName>
-              <surname>Şentop</surname>
-              <forename>Mustafa</forename>
-            </persName>
-          </person>
-          <person xml:id="GökcenÖzdoğanEnç">
-            <persName>
-              <surname>Enç</surname>
-              <forename>Gökcen Özdoğan</forename>
-            </persName>
-          </person>
-          <person xml:id="İsmailTamer">
-            <persName>
-              <surname>Tamer</surname>
-              <forename>İsmail</forename>
-            </persName>
-          </person>
-          <person xml:id="KemalettinYılmaztekin">
-            <persName>
-              <surname>Yılmaztekin</surname>
-              <forename>Kemalettin</forename>
-            </persName>
-          </person>
-          <person xml:id="DenizBaykal">
-            <persName>
-              <surname>Baykal</surname>
-              <forename>Deniz</forename>
-            </persName>
-          </person>
-          <person xml:id="TahsinTarhan">
-            <persName>
-              <surname>Tarhan</surname>
-              <forename>Tahsin</forename>
-            </persName>
-          </person>
-          <person xml:id="Muharremİnce">
-            <persName>
-              <surname>İnce</surname>
-              <forename>Muharrem</forename>
-            </persName>
-          </person>
-          <person xml:id="SaitYüce">
-            <persName>
-              <surname>Yüce</surname>
-              <forename>Sait</forename>
-            </persName>
-          </person>
-          <person xml:id="CengizAydoğdu">
-            <persName>
-              <surname>Aydoğdu</surname>
-              <forename>Cengiz</forename>
-            </persName>
-          </person>
-          <person xml:id="ErkanHaberal">
-            <persName>
-              <surname>Haberal</surname>
-              <forename>Erkan</forename>
-            </persName>
-          </person>
-          <person xml:id="FahrettinOğuzTor">
-            <persName>
-              <surname>Tor</surname>
-              <forename>Fahrettin Oğuz</forename>
-            </persName>
-          </person>
-          <person xml:id="MahmutTanal">
-            <persName>
-              <surname>Tanal</surname>
-              <forename>Mahmut</forename>
-            </persName>
-          </person>
-          <person xml:id="ÇetinOsmanBudak">
-            <persName>
-              <surname>Budak</surname>
-              <forename>Çetin Osman</forename>
-            </persName>
-          </person>
-          <person xml:id="MustafaSezginTanrıkulu">
-            <persName>
-              <surname>Tanrıkulu</surname>
-              <forename>Mustafa Sezgin</forename>
-            </persName>
-          </person>
-          <person xml:id="MuratAlparslan">
-            <persName>
-              <surname>Alparslan</surname>
-              <forename>Murat</forename>
-            </persName>
-          </person>
-          <person xml:id="AytunÇıray">
-            <persName>
-              <surname>Çıray</surname>
-              <forename>Aytun</forename>
-            </persName>
-          </person>
-          <person xml:id="EdipSemihYalçın">
-            <persName>
-              <surname>Yalçın</surname>
-              <forename>Edip Semih</forename>
-            </persName>
-          </person>
-          <person xml:id="HacıOsmanAkgül">
-            <persName>
-              <surname>Akgül</surname>
-              <forename>Hacı Osman</forename>
-            </persName>
-          </person>
-          <person xml:id="EbubekirGizligider">
-            <persName>
-              <surname>Gizligider</surname>
-              <forename>Ebubekir</forename>
-            </persName>
-          </person>
-          <person xml:id="NurhayatAltacaKayışoğlu">
-            <persName>
-              <surname>Kayışoğlu</surname>
-              <forename>Nurhayat Altaca</forename>
-            </persName>
-          </person>
-          <person xml:id="SebahattinKarakelle">
-            <persName>
-              <surname>Karakelle</surname>
-              <forename>Sebahattin</forename>
-            </persName>
-          </person>
-          <person xml:id="AdnanBoynukara">
-            <persName>
-              <surname>Boynukara</surname>
-              <forename>Adnan</forename>
-            </persName>
-          </person>
-          <person xml:id="EmineYavuzGözgeç">
-            <persName>
-              <surname>Gözgeç</surname>
-              <forename>Emine Yavuz</forename>
-            </persName>
-          </person>
-          <person xml:id="NaciAğbal">
-            <persName>
-              <surname>Ağbal</surname>
-              <forename>Naci</forename>
-            </persName>
-          </person>
-          <person xml:id="MarkarEseyan">
-            <persName>
-              <surname>Eseyan</surname>
-              <forename>Markar</forename>
-            </persName>
-          </person>
-          <person xml:id="AliHaydarHakverdi">
-            <persName>
-              <surname>Hakverdi</surname>
-              <forename>Ali Haydar</forename>
-            </persName>
-          </person>
-          <person xml:id="OrhanDeligöz">
-            <persName>
-              <surname>Deligöz</surname>
-              <forename>Orhan</forename>
-            </persName>
-          </person>
-          <person xml:id="OktayÖztürk">
-            <persName>
-              <surname>Öztürk</surname>
-              <forename>Oktay</forename>
-            </persName>
-          </person>
-          <person xml:id="KemalZeybek">
-            <persName>
-              <surname>Zeybek</surname>
-              <forename>Kemal</forename>
-            </persName>
-          </person>
-          <person xml:id="AkifEkici">
-            <persName>
-              <surname>Ekici</surname>
-              <forename>Akif</forename>
-            </persName>
-          </person>
-          <person xml:id="OktayÇanak">
-            <persName>
-              <surname>Çanak</surname>
-              <forename>Oktay</forename>
-            </persName>
-          </person>
-          <person xml:id="BihlunTamaylıgil">
-            <persName>
-              <surname>Tamaylıgil</surname>
-              <forename>Bihlun</forename>
-            </persName>
-          </person>
-          <person xml:id="ZeynelEmre">
-            <persName>
-              <surname>Emre</surname>
-              <forename>Zeynel</forename>
-            </persName>
-          </person>
-          <person xml:id="YaşarTüzün">
-            <persName>
-              <surname>Tüzün</surname>
-              <forename>Yaşar</forename>
-            </persName>
-          </person>
-          <person xml:id="AbdulkadirAkgül">
-            <persName>
-              <surname>Akgül</surname>
-              <forename>Abdulkadir</forename>
-            </persName>
-          </person>
-          <person xml:id="Cehhunİrgil">
-            <persName>
-              <surname>İrgil</surname>
-              <forename>Cehhun</forename>
-            </persName>
-          </person>
-          <person xml:id="SüreyyaSadiBilgiç">
-            <persName>
-              <surname>Bilgiç</surname>
-              <forename>Süreyya Sadi</forename>
-            </persName>
-          </person>
-          <person xml:id="OğuzKaanSalıcı">
-            <persName>
-              <surname>Salıcı</surname>
-              <forename>Oğuz Kaan</forename>
-            </persName>
-          </person>
-          <person xml:id="BülentTuran">
-            <persName>
-              <surname>Turan</surname>
-              <forename>Bülent</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetUğurDilipak">
-            <persName>
-              <surname>Dilipak</surname>
-              <forename>Mehmet Uğur</forename>
-            </persName>
-          </person>
-          <person xml:id="HilmiBilgin">
-            <persName>
-              <surname>Bilgin</surname>
-              <forename>Hilmi</forename>
-            </persName>
-          </person>
-          <person xml:id="ŞahinTin">
-            <persName>
-              <surname>Tin</surname>
-              <forename>Şahin</forename>
-            </persName>
-          </person>
-          <person xml:id="HakanÇavuşoğlu">
-            <persName>
-              <surname>Çavuşoğlu</surname>
-              <forename>Hakan</forename>
-            </persName>
-          </person>
-          <person xml:id="İlyasŞeker">
-            <persName>
-              <surname>Şeker</surname>
-              <forename>İlyas</forename>
-            </persName>
-          </person>
-          <person xml:id="TanjuÖzcan">
-            <persName>
-              <surname>Özcan</surname>
-              <forename>Tanju</forename>
-            </persName>
-          </person>
-          <person xml:id="MuratEmir">
-            <persName>
-              <surname>Emir</surname>
-              <forename>Murat</forename>
-            </persName>
-          </person>
-          <person xml:id="EmreKöprülü">
-            <persName>
-              <surname>Köprülü</surname>
-              <forename>Emre</forename>
-            </persName>
-          </person>
-          <person xml:id="SabriÖztürk">
-            <persName>
-              <surname>Öztürk</surname>
-              <forename>Sabri</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetDemir">
-            <persName>
-              <surname>Demir</surname>
-              <forename>Mehmet</forename>
-            </persName>
-          </person>
-          <person xml:id="MazlumNurlu">
-            <persName>
-              <surname>Nurlu</surname>
-              <forename>Mazlum</forename>
-            </persName>
-          </person>
-          <person xml:id="Emrullahİşler">
-            <persName>
-              <surname>İşler</surname>
-              <forename>Emrullah</forename>
-            </persName>
-          </person>
-          <person xml:id="AkifÇağatayKılıç">
-            <persName>
-              <surname>Kılıç</surname>
-              <forename>Akif Çağatay</forename>
-            </persName>
-          </person>
-          <person xml:id="YusufBaşer">
-            <persName>
-              <surname>Başer</surname>
-              <forename>Yusuf</forename>
-            </persName>
-          </person>
-          <person xml:id="OrhanSarıbal">
-            <persName>
-              <surname>Sarıbal</surname>
-              <forename>Orhan</forename>
-            </persName>
-          </person>
-          <person xml:id="İbrahimAydemir">
-            <persName>
-              <surname>Aydemir</surname>
-              <forename>İbrahim</forename>
-            </persName>
-          </person>
-          <person xml:id="ZiyaPir">
-            <persName>
-              <surname>Pir</surname>
-              <forename>Ziya</forename>
-            </persName>
-          </person>
-          <person xml:id="MeralDanışBeştaş">
-            <persName>
-              <surname>Beştaş</surname>
-              <forename>Meral Danış</forename>
-            </persName>
-          </person>
-          <person xml:id="ŞahapKavcıoğlu">
-            <persName>
-              <surname>Kavcıoğlu</surname>
-              <forename>Şahap</forename>
-            </persName>
-          </person>
-          <person xml:id="BurcuÇelik">
-            <persName>
-              <surname>Çelik</surname>
-              <forename>Burcu</forename>
-            </persName>
-          </person>
-          <person xml:id="MusaÇam">
-            <persName>
-              <surname>Çam</surname>
-              <forename>Musa</forename>
-            </persName>
-          </person>
-          <person xml:id="TahirÖztürk">
-            <persName>
-              <surname>Öztürk</surname>
-              <forename>Tahir</forename>
-            </persName>
-          </person>
-          <person xml:id="HikmetAyar">
-            <persName>
-              <surname>Ayar</surname>
-              <forename>Hikmet</forename>
-            </persName>
-          </person>
-          <person xml:id="HasanTuran">
-            <persName>
-              <surname>Turan</surname>
-              <forename>Hasan</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetDoğanKubat">
-            <persName>
-              <surname>Kubat</surname>
-              <forename>Mehmet Doğan</forename>
-            </persName>
-          </person>
-          <person xml:id="ÖzcanPurçu">
-            <persName>
-              <surname>Purçu</surname>
-              <forename>Özcan</forename>
-            </persName>
-          </person>
-          <person xml:id="MetinBulut">
-            <persName>
-              <surname>Bulut</surname>
-              <forename>Metin</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetBekaroğlu">
-            <persName>
-              <surname>Bekaroğlu</surname>
-              <forename>Mehmet</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetEminAdıyaman">
-            <persName>
-              <surname>Adıyaman</surname>
-              <forename>Mehmet Emin</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetAkifHamzaçebi">
-            <persName>
-              <surname>Hamzaçebi</surname>
-              <forename>Mehmet Akif</forename>
-            </persName>
-          </person>
-          <person xml:id="ZekeriyaTemizel">
-            <persName>
-              <surname>Temizel</surname>
-              <forename>Zekeriya</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetAliPulcu">
-            <persName>
-              <surname>Pulcu</surname>
-              <forename>Mehmet Ali</forename>
-            </persName>
-          </person>
-          <person xml:id="AhmetTuncayÖzkan">
-            <persName>
-              <surname>Özkan</surname>
-              <forename>Ahmet Tuncay</forename>
-            </persName>
-          </person>
-          <person xml:id="MustafaHüsnüBozkurt">
-            <persName>
-              <surname>Bozkurt</surname>
-              <forename>Mustafa Hüsnü</forename>
-            </persName>
-          </person>
-          <person xml:id="AlimTunç">
-            <persName>
-              <surname>Tunç</surname>
-              <forename>Alim</forename>
-            </persName>
-          </person>
-          <person xml:id="GamzeAkkuşİlgezdi">
-            <persName>
-              <surname>İlgezdi</surname>
-              <forename>Gamze Akkuş</forename>
-            </persName>
-          </person>
-          <person xml:id="BülentYenerBektaşoğlu">
-            <persName>
-              <surname>Bektaşoğlu</surname>
-              <forename>Bülent Yener</forename>
-            </persName>
-          </person>
-          <person xml:id="HüseyinYıldız">
-            <persName>
-              <surname>Yıldız</surname>
-              <forename>Hüseyin</forename>
-            </persName>
-          </person>
-          <person xml:id="İsmetYılmaz">
-            <persName>
-              <surname>Yılmaz</surname>
-              <forename>İsmet</forename>
-            </persName>
-          </person>
-          <person xml:id="NecatiYılmaz">
-            <persName>
-              <surname>Yılmaz</surname>
-              <forename>Necati</forename>
-            </persName>
-          </person>
-          <person xml:id="Aycanİrmez">
-            <persName>
-              <surname>İrmez</surname>
-              <forename>Aycan</forename>
-            </persName>
-          </person>
-          <person xml:id="NecipKalkan">
-            <persName>
-              <surname>Kalkan</surname>
-              <forename>Necip</forename>
-            </persName>
-          </person>
-          <person xml:id="KadriYıldırım">
-            <persName>
-              <surname>Yıldırım</surname>
-              <forename>Kadri</forename>
-            </persName>
-          </person>
-          <person xml:id="ZülfikarİnönüTümer">
-            <persName>
-              <surname>Tümer</surname>
-              <forename>Zülfikar İnönü</forename>
-            </persName>
-          </person>
-          <person xml:id="SamiDedeoğlu">
-            <persName>
-              <surname>Dedeoğlu</surname>
-              <forename>Sami</forename>
-            </persName>
-          </person>
-          <person xml:id="MuratBakan">
-            <persName>
-              <surname>Bakan</surname>
-              <forename>Murat</forename>
-            </persName>
-          </person>
-          <person xml:id="MustafaAliBalbay">
-            <persName>
-              <surname>Balbay</surname>
-              <forename>Mustafa Ali</forename>
-            </persName>
-          </person>
-          <person xml:id="SelinaDoğan">
-            <persName>
-              <surname>Doğan</surname>
-              <forename>Selina</forename>
-            </persName>
-          </person>
-          <person xml:id="BehçetYıldırım">
-            <persName>
-              <surname>Yıldırım</surname>
-              <forename>Behçet</forename>
-            </persName>
-          </person>
-          <person xml:id="SalimUslu">
-            <persName>
-              <surname>Uslu</surname>
-              <forename>Salim</forename>
-            </persName>
-          </person>
-          <person xml:id="MahmutToğrul">
-            <persName>
-              <surname>Toğrul</surname>
-              <forename>Mahmut</forename>
-            </persName>
-          </person>
-          <person xml:id="ErtuğrulKürkcü">
-            <persName>
-              <surname>Kürkcü</surname>
-              <forename>Ertuğrul</forename>
-            </persName>
-          </person>
-          <person xml:id="AyhanBilgen">
-            <persName>
-              <surname>Bilgen</surname>
-              <forename>Ayhan</forename>
-            </persName>
-          </person>
-          <person xml:id="TekinBingöl">
-            <persName>
-              <surname>Bingöl</surname>
-              <forename>Tekin</forename>
-            </persName>
-          </person>
-          <person xml:id="GaroPaylan">
-            <persName>
-              <surname>Paylan</surname>
-              <forename>Garo</forename>
-            </persName>
-          </person>
-          <person xml:id="ÇiğdemKaraaslan">
-            <persName>
-              <surname>Karaaslan</surname>
-              <forename>Çiğdem</forename>
-            </persName>
-          </person>
-          <person xml:id="HüsnüyeErdoğan">
-            <persName>
-              <surname>Erdoğan</surname>
-              <forename>Hüsnüye</forename>
-            </persName>
-          </person>
-          <person xml:id="NurettinCanikli">
-            <persName>
-              <surname>Canikli</surname>
-              <forename>Nurettin</forename>
-            </persName>
-          </person>
-          <person xml:id="SalihCora">
-            <persName>
-              <surname>Cora</surname>
-              <forename>Salih</forename>
-            </persName>
-          </person>
-          <person xml:id="CelalAdan">
-            <persName>
-              <surname>Adan</surname>
-              <forename>Celal</forename>
-            </persName>
-          </person>
-          <person xml:id="EsinKara">
-            <persName>
-              <surname>Kara</surname>
-              <forename>Esin</forename>
-            </persName>
-          </person>
-          <person xml:id="AliFazılKasap">
-            <persName>
-              <surname>Kasap</surname>
-              <forename>Ali Fazıl</forename>
-            </persName>
-          </person>
-          <person xml:id="AyhanAltıntaş">
-            <persName>
-              <surname>Altıntaş</surname>
-              <forename>Ayhan</forename>
-            </persName>
-          </person>
-          <person xml:id="ArslanKabukcuoğlu">
-            <persName>
-              <surname>Kabukcuoğlu</surname>
-              <forename>Arslan</forename>
-            </persName>
-          </person>
-          <person xml:id="BedriSerter">
-            <persName>
-              <surname>Serter</surname>
-              <forename>Bedri</forename>
-            </persName>
-          </person>
-          <person xml:id="AyhanBarut">
-            <persName>
-              <surname>Barut</surname>
-              <forename>Ayhan</forename>
-            </persName>
-          </person>
-          <person xml:id="AyhanErel">
-            <persName>
-              <surname>Erel</surname>
-              <forename>Ayhan</forename>
-            </persName>
-          </person>
-          <person xml:id="SemihaEkinci">
-            <persName>
-              <surname>Ekinci</surname>
-              <forename>Semiha</forename>
-            </persName>
-          </person>
-          <person xml:id="MücahitDurmuşoğlu">
-            <persName>
-              <surname>Durmuşoğlu</surname>
-              <forename>Mücahit</forename>
-            </persName>
-          </person>
-          <person xml:id="ÖzgürCeylan">
-            <persName>
-              <surname>Ceylan</surname>
-              <forename>Özgür</forename>
-            </persName>
-          </person>
-          <person xml:id="ÇetinArık">
-            <persName>
-              <surname>Arık</surname>
-              <forename>Çetin</forename>
-            </persName>
-          </person>
-          <person xml:id="AhmetVehbiBakırlıoğlu">
-            <persName>
-              <surname>Bakırlıoğlu</surname>
-              <forename>Ahmet Vehbi</forename>
-            </persName>
-          </person>
-          <person xml:id="AhmetKaya">
-            <persName>
-              <surname>Kaya</surname>
-              <forename>Ahmet</forename>
-            </persName>
-          </person>
-          <person xml:id="İmamHüseyinFiliz">
-            <persName>
-              <surname>Filiz</surname>
-              <forename>İmam Hüseyin</forename>
-            </persName>
-          </person>
-          <person xml:id="MuratÇepni">
-            <persName>
-              <surname>Çepni</surname>
-              <forename>Murat</forename>
-            </persName>
-          </person>
-          <person xml:id="HacıÖzkan">
-            <persName>
-              <surname>Özkan</surname>
-              <forename>Hacı</forename>
-            </persName>
-          </person>
-          <person xml:id="EkremÇelebi">
-            <persName>
-              <surname>Çelebi</surname>
-              <forename>Ekrem</forename>
-            </persName>
-          </person>
-          <person xml:id="AliKeven">
-            <persName>
-              <surname>Keven</surname>
-              <forename>Ali</forename>
-            </persName>
-          </person>
-          <person xml:id="SabahatÖzgürsoyÇelik">
-            <persName>
-              <surname>Çelik</surname>
-              <forename>Sabahat Özgürsoy</forename>
-            </persName>
-          </person>
-          <person xml:id="SaffetSancaklı">
-            <persName>
-              <surname>Sancaklı</surname>
-              <forename>Saffet</forename>
-            </persName>
-          </person>
-          <person xml:id="CengizGökçel">
-            <persName>
-              <surname>Gökçel</surname>
-              <forename>Cengiz</forename>
-            </persName>
-          </person>
-          <person xml:id="BayramYılmazkaya">
-            <persName>
-              <surname>Yılmazkaya</surname>
-              <forename>Bayram</forename>
-            </persName>
-          </person>
-          <person xml:id="SüleymanGirgin">
-            <persName>
-              <surname>Girgin</surname>
-              <forename>Süleyman</forename>
-            </persName>
-          </person>
-          <person xml:id="LütfüTürkkan">
-            <persName>
-              <surname>Türkkan</surname>
-              <forename>Lütfü</forename>
-            </persName>
-          </person>
-          <person xml:id="HakkıSaruhanOluç">
-            <persName>
-              <surname>Oluç</surname>
-              <forename>Hakkı Saruhan</forename>
-            </persName>
-          </person>
-          <person xml:id="MuhammetEminAkbaşoğlu">
-            <persName>
-              <surname>Akbaşoğlu</surname>
-              <forename>Muhammet Emin</forename>
-            </persName>
-          </person>
-          <person xml:id="HayrettinNuhoğlu">
-            <persName>
-              <surname>Nuhoğlu</surname>
-              <forename>Hayrettin</forename>
-            </persName>
-          </person>
-          <person xml:id="ZülfüDemirbağ">
-            <persName>
-              <surname>Demirbağ</surname>
-              <forename>Zülfü</forename>
-            </persName>
-          </person>
-          <person xml:id="MahmutAtillaKaya">
-            <persName>
-              <surname>Kaya</surname>
-              <forename>Mahmut Atilla</forename>
-            </persName>
-          </person>
-          <person xml:id="ÜmitDikbayır">
-            <persName>
-              <surname>Dikbayır</surname>
-              <forename>Ümit</forename>
-            </persName>
-          </person>
-          <person xml:id="AylinCesur">
-            <persName>
-              <surname>Cesur</surname>
-              <forename>Aylin</forename>
-            </persName>
-          </person>
-          <person xml:id="MuhammetNaciCinisli">
-            <persName>
-              <surname>Cinisli</surname>
-              <forename>Muhammet Naci</forename>
-            </persName>
-          </person>
-          <person xml:id="HüseyinÖrs">
-            <persName>
-              <surname>Örs</surname>
-              <forename>Hüseyin</forename>
-            </persName>
-          </person>
-          <person xml:id="İsmailOk">
-            <persName>
-              <surname>Ok</surname>
-              <forename>İsmail</forename>
-            </persName>
-          </person>
-          <person xml:id="AslanKabukcuoğlu">
-            <persName>
-              <surname>Kabukcuoğlu</surname>
-              <forename>Aslan</forename>
-            </persName>
-          </person>
-          <person xml:id="İsmailKoncuk">
-            <persName>
-              <surname>Koncuk</surname>
-              <forename>İsmail</forename>
-            </persName>
-          </person>
-          <person xml:id="YavuzAğıralioğlu">
-            <persName>
-              <surname>Ağıralioğlu</surname>
-              <forename>Yavuz</forename>
-            </persName>
-          </person>
-          <person xml:id="RamazanCan">
-            <persName>
-              <surname>Can</surname>
-              <forename>Ramazan</forename>
-            </persName>
-          </person>
-          <person xml:id="AhmetÜnalÇeviköz">
-            <persName>
-              <surname>Çeviköz</surname>
-              <forename>Ahmet Ünal</forename>
-            </persName>
-          </person>
-          <person xml:id="AhmetKamilErozan">
-            <persName>
-              <surname>Erozan</surname>
-              <forename>Ahmet Kamil</forename>
-            </persName>
-          </person>
-          <person xml:id="AydınÖzer">
-            <persName>
-              <surname>Özer</surname>
-              <forename>Aydın</forename>
-            </persName>
-          </person>
-          <person xml:id="SerpilKemalbayPekgözegü">
-            <persName>
-              <surname>Pekgözegü</surname>
-              <forename>Serpil Kemalbay</forename>
-            </persName>
-          </person>
-          <person xml:id="GökanZeybek">
-            <persName>
-              <surname>Zeybek</surname>
-              <forename>Gökan</forename>
-            </persName>
-          </person>
-          <person xml:id="SelahattinMinsolmaz">
-            <persName>
-              <surname>Minsolmaz</surname>
-              <forename>Selahattin</forename>
-            </persName>
-          </person>
-          <person xml:id="HabipEksik">
-            <persName>
-              <surname>Eksik</surname>
-              <forename>Habip</forename>
-            </persName>
-          </person>
-          <person xml:id="NimetullahErdoğmuş">
-            <persName>
-              <surname>Erdoğmuş</surname>
-              <forename>Nimetullah</forename>
-            </persName>
-          </person>
-          <person xml:id="OğuzhanKaya">
-            <persName>
-              <surname>Kaya</surname>
-              <forename>Oğuzhan</forename>
-            </persName>
-          </person>
-          <person xml:id="OlcayKılavuz">
-            <persName>
-              <surname>Kılavuz</surname>
-              <forename>Olcay</forename>
-            </persName>
-          </person>
-          <person xml:id="OrhanSümer">
-            <persName>
-              <surname>Sümer</surname>
-              <forename>Orhan</forename>
-            </persName>
-          </person>
-          <person xml:id="BurakErbay">
-            <persName>
-              <surname>Erbay</surname>
-              <forename>Burak</forename>
-            </persName>
-          </person>
-          <person xml:id="İsmailAtakanÜnver">
-            <persName>
-              <surname>Ünver</surname>
-              <forename>İsmail Atakan</forename>
-            </persName>
-          </person>
-          <person xml:id="HayatiArkaz">
-            <persName>
-              <surname>Arkaz</surname>
-              <forename>Hayati</forename>
-            </persName>
-          </person>
-          <person xml:id="UlaşKarasu">
-            <persName>
-              <surname>Karasu</surname>
-              <forename>Ulaş</forename>
-            </persName>
-          </person>
-          <person xml:id="ZemzemGülenderAçalan">
-            <persName>
-              <surname>Açalan</surname>
-              <forename>Zemzem Gülender</forename>
-            </persName>
-          </person>
-          <person xml:id="TuranAydoğan">
-            <persName>
-              <surname>Aydoğan</surname>
-              <forename>Turan</forename>
-            </persName>
-          </person>
-          <person xml:id="Metinİlhan">
-            <persName>
-              <surname>İlhan</surname>
-              <forename>Metin</forename>
-            </persName>
-          </person>
-          <person xml:id="SüleymanBülbül">
-            <persName>
-              <surname>Bülbül</surname>
-              <forename>Süleyman</forename>
-            </persName>
-          </person>
-          <person xml:id="MuhammedLeventBülbül">
-            <persName>
-              <surname>Bülbül</surname>
-              <forename>Muhammed Levent</forename>
-            </persName>
-          </person>
-          <person xml:id="AliÖztunç">
-            <persName>
-              <surname>Öztunç</surname>
-              <forename>Ali</forename>
-            </persName>
-          </person>
-          <person xml:id="BurhanÇakır">
-            <persName>
-              <surname>Çakır</surname>
-              <forename>Burhan</forename>
-            </persName>
-          </person>
-          <person xml:id="TamerDağlı">
-            <persName>
-              <surname>Dağlı</surname>
-              <forename>Tamer</forename>
-            </persName>
-          </person>
-          <person xml:id="GülüstanKılıçKoçyiğit">
-            <persName>
-              <surname>Koçyiğit</surname>
-              <forename>Gülüstan Kılıç</forename>
-            </persName>
-          </person>
-          <person xml:id="ErolKavuncu">
-            <persName>
-              <surname>Kavuncu</surname>
-              <forename>Erol</forename>
-            </persName>
-          </person>
-          <person xml:id="OyaEronat">
-            <persName>
-              <surname>Eronat</surname>
-              <forename>Oya</forename>
-            </persName>
-          </person>
-          <person xml:id="ErolKatırcıoğlu">
-            <persName>
-              <surname>Katırcıoğlu</surname>
-              <forename>Erol</forename>
-            </persName>
-          </person>
-          <person xml:id="BedriYaşar">
-            <persName>
-              <surname>Yaşar</surname>
-              <forename>Bedri</forename>
-            </persName>
-          </person>
-          <person xml:id="YaşarKırkpınar">
-            <persName>
-              <surname>Kırkpınar</surname>
-              <forename>Yaşar</forename>
-            </persName>
-          </person>
-          <person xml:id="UğurAydemir">
-            <persName>
-              <surname>Aydemir</surname>
-              <forename>Uğur</forename>
-            </persName>
-          </person>
-          <person xml:id="MihrimahBelmaSatır">
-            <persName>
-              <surname>Satır</surname>
-              <forename>Mihrimah Belma</forename>
-            </persName>
-          </person>
-          <person xml:id="ErdalAydemir">
-            <persName>
-              <surname>Aydemir</surname>
-              <forename>Erdal</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetRuştuTiryaki">
-            <persName>
-              <surname>Tiryaki</surname>
-              <forename>Mehmet Ruştu</forename>
-            </persName>
-          </person>
-          <person xml:id="FahrettinYokuş">
-            <persName>
-              <surname>Yokuş</surname>
-              <forename>Fahrettin</forename>
-            </persName>
-          </person>
-          <person xml:id="KemalBülbül">
-            <persName>
-              <surname>Bülbül</surname>
-              <forename>Kemal</forename>
-            </persName>
-          </person>
-          <person xml:id="YunusKılıç">
-            <persName>
-              <surname>Kılıç</surname>
-              <forename>Yunus</forename>
-            </persName>
-          </person>
-          <person xml:id="İsmalGüneş">
-            <persName>
-              <surname>Güneş</surname>
-              <forename>İsmal</forename>
-            </persName>
-          </person>
-          <person xml:id="İsmailGüneş">
-            <persName>
-              <surname>Güneş</surname>
-              <forename>İsmail</forename>
-            </persName>
-          </person>
-          <person xml:id="ÇiğdemErdoğanAtabek">
-            <persName>
-              <surname>Atabek</surname>
-              <forename>Çiğdem Erdoğan</forename>
-            </persName>
-          </person>
-          <person xml:id="DursunAtaş">
-            <persName>
-              <surname>Ataş</surname>
-              <forename>Dursun</forename>
-            </persName>
-          </person>
-          <person xml:id="AzizAydınlık">
-            <persName>
-              <surname>Aydınlık</surname>
-              <forename>Aziz</forename>
-            </persName>
-          </person>
-          <person xml:id="RamazanKaşlı">
-            <persName>
-              <surname>Kaşlı</surname>
-              <forename>Ramazan</forename>
-            </persName>
-          </person>
-          <person xml:id="YaşarKaradağ">
-            <persName>
-              <surname>Karadağ</surname>
-              <forename>Yaşar</forename>
-            </persName>
-          </person>
-          <person xml:id="İrfanKaplan">
-            <persName>
-              <surname>Kaplan</surname>
-              <forename>İrfan</forename>
-            </persName>
-          </person>
-          <person xml:id="AbdulAhatAndican">
-            <persName>
-              <surname>Andican</surname>
-              <forename>Abdul Ahat</forename>
-            </persName>
-          </person>
-          <person xml:id="ZüleyhaGülüm">
-            <persName>
-              <surname>Gülüm</surname>
-              <forename>Züleyha</forename>
-            </persName>
-          </person>
-          <person xml:id="İsmailÖzdemir">
-            <persName>
-              <surname>Özdemir</surname>
-              <forename>İsmail</forename>
-            </persName>
-          </person>
-          <person xml:id="HalilÖzşavlı">
-            <persName>
-              <surname>Özşavlı</surname>
-              <forename>Halil</forename>
-            </persName>
-          </person>
-          <person xml:id="RecepÖzel">
-            <persName>
-              <surname>Özel</surname>
-              <forename>Recep</forename>
-            </persName>
-          </person>
-          <person xml:id="CeydaBölünmezÇankırı">
-            <persName>
-              <surname>Çankırı</surname>
-              <forename>Ceyda Bölünmez</forename>
-            </persName>
-          </person>
-          <person xml:id="SerminBalık">
-            <persName>
-              <surname>Balık</surname>
-              <forename>Sermin</forename>
-            </persName>
-          </person>
-          <person xml:id="HabibeÖçal">
-            <persName>
-              <surname>Öçal</surname>
-              <forename>Habibe</forename>
-            </persName>
-          </person>
-          <person xml:id="YunusEmre">
-            <persName>
-              <surname>Emre</surname>
-              <forename>Yunus</forename>
-            </persName>
-          </person>
-          <person xml:id="MahirPolat">
-            <persName>
-              <surname>Polat</surname>
-              <forename>Mahir</forename>
-            </persName>
-          </person>
-          <person xml:id="ServetÜnsal">
-            <persName>
-              <surname>Ünsal</surname>
-              <forename>Servet</forename>
-            </persName>
-          </person>
-          <person xml:id="MehmetCihatSezal">
-            <persName>
-              <surname>Sezal</surname>
-              <forename>Mehmet Cihat</forename>
-            </persName>
-          </person>
-          <person xml:id="BurcuKöksal">
-            <persName>
-              <surname>Köksal</surname>
-              <forename>Burcu</forename>
-            </persName>
-          </person>
-          <person xml:id="MüzeyyenŞevkin">
-            <persName>
-              <surname>Şevkin</surname>
-              <forename>Müzeyyen</forename>
-            </persName>
-          </person>
-          <person xml:id="AbdullahGüler">
+          <person xml:id="Abdullah.Güler">
             <persName>
               <surname>Güler</surname>
               <forename>Abdullah</forename>
             </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
           </person>
-          <person xml:id="Nuranİmir">
+          <person xml:id="Abdullah.Koç">
             <persName>
-              <surname>İmir</surname>
-              <forename>Nuran</forename>
+              <surname>Koç</surname>
+              <forename>Abdullah</forename>
             </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
           </person>
-          <person xml:id="UtkuÇakırözer">
+          <person xml:id="Abdurrahman.Tutdere">
+            <persName>
+              <surname>Tutdere</surname>
+              <forename>Abdurrahman</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Abdüllatif.Şener">
+            <persName>
+              <surname>Şener</surname>
+              <forename>Abdüllatif</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.21" from="1999-05-02" to="2002-10-01"/>
+            <affiliation role="member" ref="#party.FAZILET" ana="#TBMM.21" from="1999-05-02" to="2002-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.22" from="2002-11-14" to="2007-06-03"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.22" from="2002-11-14" to="2007-06-03"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="AdnanSelçuk.Mızraklı">
+            <persName>
+              <surname>Mızraklı</surname>
+              <forename>Adnan Selçuk</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ahmet.Şık">
+            <persName>
+              <surname>Şık</surname>
+              <forename>Ahmet</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="AhmetSami.Ceylan">
+            <persName>
+              <surname>Ceylan</surname>
+              <forename>Ahmet Sami</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="AhmetVehbi.Bakırlıoğlu">
+            <persName>
+              <surname>Bakırlıoğlu</surname>
+              <forename>Ahmet Vehbi</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="AkifÇağatay.Kılıç">
+            <persName>
+              <surname>Kılıç</surname>
+              <forename>Akif Çağatay</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ali.Kenanoğlu">
+            <persName>
+              <surname>Kenanoğlu</surname>
+              <forename>Ali</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ali.Keven">
+            <persName>
+              <surname>Keven</surname>
+              <forename>Ali</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ali.Öztunç">
+            <persName>
+              <surname>Öztunç</surname>
+              <forename>Ali</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ali.Şeker">
+            <persName>
+              <surname>Şeker</surname>
+              <forename>Ali</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="AliCumhur.Taşkın">
+            <persName>
+              <surname>Taşkın</surname>
+              <forename>Ali Cumhur</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="AliFazıl.Kasap">
+            <persName>
+              <surname>Kasap</surname>
+              <forename>Ali Fazıl</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="AliHaydar.Hakverdi">
+            <persName>
+              <surname>Hakverdi</surname>
+              <forename>Ali Haydar</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Alpay.Antmen">
+            <persName>
+              <surname>Antmen</surname>
+              <forename>Alpay</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Arslan.Kabukcuoğlu">
+            <persName>
+              <surname>Kabukcuoğlu</surname>
+              <forename>Arslan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Arzu.Erdem">
+            <persName>
+              <surname>Erdem</surname>
+              <forename>Arzu</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Atila.Sertel">
+            <persName>
+              <surname>Sertel</surname>
+              <forename>Atila</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="AydınAdnan.Sezgin">
+            <persName>
+              <surname>Sezgin</surname>
+              <forename>Aydın Adnan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ayhan.Altıntaş">
+            <persName>
+              <surname>Altıntaş</surname>
+              <forename>Ayhan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ayhan.Barut">
+            <persName>
+              <surname>Barut</surname>
+              <forename>Ayhan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ayhan.Bilgen">
+            <persName>
+              <surname>Bilgen</surname>
+              <forename>Ayhan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ayhan.Erel">
+            <persName>
+              <surname>Erel</surname>
+              <forename>Ayhan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Aytun.Çıray">
+            <persName>
+              <surname>Çıray</surname>
+              <forename>Aytun</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ayşe.AcarBaşaran">
+            <persName>
+              <surname>Acar Başaran</surname>
+              <forename>Ayşe</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ayşe.Keşir">
+            <persName>
+              <surname>Keşir</surname>
+              <forename>Ayşe</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="AyşeSibel.Ersoy">
+            <persName>
+              <surname>Ersoy</surname>
+              <forename>Ayşe Sibel</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Bayram.Özçelik">
+            <persName>
+              <surname>Özçelik</surname>
+              <forename>Bayram</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.22" from="2002-11-14" to="2007-06-03"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.22" from="2002-11-14" to="2007-06-03"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Bedri.Yaşar">
+            <persName>
+              <surname>Yaşar</surname>
+              <forename>Bedri</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.21" from="1999-05-02" to="2002-10-01"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.21" from="1999-05-02" to="2002-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Behiç.Çelik">
+            <persName>
+              <surname>Çelik</surname>
+              <forename>Behiç</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="BekirKuvvet.Erim">
+            <persName>
+              <surname>Erim</surname>
+              <forename>Bekir Kuvvet</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Bülent.Kuşoğlu">
+            <persName>
+              <surname>Kuşoğlu</surname>
+              <forename>Bülent</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Bülent.Turan">
+            <persName>
+              <surname>Turan</surname>
+              <forename>Bülent</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Cavit.Arı">
+            <persName>
+              <surname>Arı</surname>
+              <forename>Cavit</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Celal.Adan">
+            <persName>
+              <surname>Adan</surname>
+              <forename>Celal</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.21" from="1999-05-02" to="2002-10-01"/>
+            <affiliation role="member" ref="#party.DYP" ana="#TBMM.21" from="1999-05-02" to="2002-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Celalettin.Güvenç">
+            <persName>
+              <surname>Güvenç</surname>
+              <forename>Celalettin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Cengiz.Gökçel">
+            <persName>
+              <surname>Gökçel</surname>
+              <forename>Cengiz</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ceyda.BölünmezÇankırı">
+            <persName>
+              <surname>Bölünmez Çankırı</surname>
+              <forename>Ceyda</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Dilşat.CanbazKaya">
+            <persName>
+              <surname>Canbaz Kaya</surname>
+              <forename>Dilşat</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Durmuş.Yılmaz">
+            <persName>
+              <surname>Yılmaz</surname>
+              <forename>Durmuş</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Emine.YavuzGözgeç">
+            <persName>
+              <surname>Yavuz Gözgeç</surname>
+              <forename>Emine</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="EmineGülizar.Emecan">
+            <persName>
+              <surname>Emecan</surname>
+              <forename>Emine Gülizar</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Engin.Özkoç">
+            <persName>
+              <surname>Özkoç</surname>
+              <forename>Engin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Erdin.Bircan">
+            <persName>
+              <surname>Bircan</surname>
+              <forename>Erdin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Erkan.Akçay">
+            <persName>
+              <surname>Akçay</surname>
+              <forename>Erkan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Fahrettin.Yokuş">
+            <persName>
+              <surname>Yokuş</surname>
+              <forename>Fahrettin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Faruk.Sarıaslan">
+            <persName>
+              <surname>Sarıaslan</surname>
+              <forename>Faruk</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Fatma.KaplanHürriyet">
+            <persName>
+              <surname>Kaplan Hürriyet</surname>
+              <forename>Fatma</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Fatma.Kurtulan">
+            <persName>
+              <surname>Kurtulan</surname>
+              <forename>Fatma</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Feridun.Bahşi">
+            <persName>
+              <surname>Bahşi</surname>
+              <forename>Feridun</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Fikret.Şahin">
+            <persName>
+              <surname>Şahin</surname>
+              <forename>Fikret</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Garo.Paylan">
+            <persName>
+              <surname>Paylan</surname>
+              <forename>Garo</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Hakkı.Köylü">
+            <persName>
+              <surname>Köylü</surname>
+              <forename>Hakkı</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.22" from="2002-11-14" to="2007-06-03"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.22" from="2002-11-14" to="2007-06-03"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="HakkıSaruhan.Oluç">
+            <persName>
+              <surname>Oluç</surname>
+              <forename>Hakkı Saruhan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Halil.Etyemez">
+            <persName>
+              <surname>Etyemez</surname>
+              <forename>Halil</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Halil.Öztürk">
+            <persName>
+              <surname>Öztürk</surname>
+              <forename>Halil</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Hasan.Baltacı">
+            <persName>
+              <surname>Baltacı</surname>
+              <forename>Hasan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Hasan.Subaşı">
+            <persName>
+              <surname>Subaşı</surname>
+              <forename>Hasan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Hasan.Çilez">
+            <persName>
+              <surname>Çilez</surname>
+              <forename>Hasan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Hayati.Arkaz">
+            <persName>
+              <surname>Arkaz</surname>
+              <forename>Hayati</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Hayrettin.Nuhoğlu">
+            <persName>
+              <surname>Nuhoğlu</surname>
+              <forename>Hayrettin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="HaşimTeoman.Sancar">
+            <persName>
+              <surname>Sancar</surname>
+              <forename>Haşim Teoman</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Hişyar.Özsoy">
+            <persName>
+              <surname>Özsoy</surname>
+              <forename>Hişyar</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Hüda.Kaya">
+            <persName>
+              <surname>Kaya</surname>
+              <forename>Hüda</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Hüseyin.Kaçmaz">
+            <persName>
+              <surname>Kaçmaz</surname>
+              <forename>Hüseyin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Hüseyin.Yıldız">
+            <persName>
+              <surname>Yıldız</surname>
+              <forename>Hüseyin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Hüseyin.Örs">
+            <persName>
+              <surname>Örs</surname>
+              <forename>Hüseyin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Kani.Beko">
+            <persName>
+              <surname>Beko</surname>
+              <forename>Kani</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Kazım.Arslan">
+            <persName>
+              <surname>Arslan</surname>
+              <forename>Kazım</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Kemal.Bülbül">
+            <persName>
+              <surname>Bülbül</surname>
+              <forename>Kemal</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Kemal.Peköz">
+            <persName>
+              <surname>Peköz</surname>
+              <forename>Kemal</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Lale.Karabıyık">
+            <persName>
+              <surname>Karabıyık</surname>
+              <forename>Lale</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Levent.Gök">
+            <persName>
+              <surname>Gök</surname>
+              <forename>Levent</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Lütfü.Türkkan">
+            <persName>
+              <surname>Türkkan</surname>
+              <forename>Lütfü</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Mahmut.Tanal">
+            <persName>
+              <surname>Tanal</surname>
+              <forename>Mahmut</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Mahmut.Toğrul">
+            <persName>
+              <surname>Toğrul</surname>
+              <forename>Mahmut</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="MahmutAtilla.Kaya">
+            <persName>
+              <surname>Kaya</surname>
+              <forename>Mahmut Atilla</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="MahmutCeladet.Gaydalı">
+            <persName>
+              <surname>Gaydalı</surname>
+              <forename>Mahmut Celadet</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Mehmet.Bekaroğlu">
+            <persName>
+              <surname>Bekaroğlu</surname>
+              <forename>Mehmet</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.21" from="1999-05-02" to="2002-10-01"/>
+            <affiliation role="member" ref="#party.FAZILET" ana="#TBMM.21" from="1999-05-02" to="2002-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Mehmet.Göker">
+            <persName>
+              <surname>Göker</surname>
+              <forename>Mehmet</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Mehmet.Güzelmansur">
+            <persName>
+              <surname>Güzelmansur</surname>
+              <forename>Mehmet</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="MehmetAkif.Hamzaçebi">
+            <persName>
+              <surname>Hamzaçebi</surname>
+              <forename>Mehmet Akif</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="MehmetDoğan.Kubat">
+            <persName>
+              <surname>Kubat</surname>
+              <forename>Mehmet Doğan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Meral.DanışBeştaş">
+            <persName>
+              <surname>Danış Beştaş</surname>
+              <forename>Meral</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Metin.Yavuz">
+            <persName>
+              <surname>Yavuz</surname>
+              <forename>Metin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="MetinNurullah.Sazak">
+            <persName>
+              <surname>Sazak</surname>
+              <forename>Metin Nurullah</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Mevlüt.Karakaya">
+            <persName>
+              <surname>Karakaya</surname>
+              <forename>Mevlüt</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Muazzez.Orhan">
+            <persName>
+              <surname>Orhan</surname>
+              <forename>Muazzez</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="MuhammedLevent.Bülbül">
+            <persName>
+              <surname>Bülbül</surname>
+              <forename>Muhammed Levent</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="MuhammetNaci.Cinisli">
+            <persName>
+              <surname>Cinisli</surname>
+              <forename>Muhammet Naci</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Murat.Emir">
+            <persName>
+              <surname>Emir</surname>
+              <forename>Murat</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Mustafa.Demir">
+            <persName>
+              <surname>Demir</surname>
+              <forename>Mustafa</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.22" from="2002-11-14" to="2007-06-03"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.22" from="2002-11-14" to="2007-06-03"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Mustafa.Kalaycı">
+            <persName>
+              <surname>Kalaycı</surname>
+              <forename>Mustafa</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Mustafa.Şentop">
+            <persName>
+              <surname>Şentop</surname>
+              <forename>Mustafa</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="MustafaSezgin.Tanrıkulu">
+            <persName>
+              <surname>Tanrıkulu</surname>
+              <forename>Mustafa Sezgin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Mücahit.Durmuşoğlu">
+            <persName>
+              <surname>Durmuşoğlu</surname>
+              <forename>Mücahit</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Müzeyyen.Şevkin">
+            <persName>
+              <surname>Şevkin</surname>
+              <forename>Müzeyyen</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Necdet.İpekyüz">
+            <persName>
+              <surname>İpekyüz</surname>
+              <forename>Necdet</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Neslihan.Hancıoğlu">
+            <persName>
+              <surname>Hancıoğlu</surname>
+              <forename>Neslihan</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Nurhayat.AltacaKayışoğlu">
+            <persName>
+              <surname>Altaca Kayışoğlu</surname>
+              <forename>Nurhayat</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Okan.Gaytancıoğlu">
+            <persName>
+              <surname>Gaytancıoğlu</surname>
+              <forename>Okan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Onursal.Adıgüzel">
+            <persName>
+              <surname>Adıgüzel</surname>
+              <forename>Onursal</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="OsmanAşkın.Bak">
+            <persName>
+              <surname>Bak</surname>
+              <forename>Osman Aşkın</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Oya.Eronat">
+            <persName>
+              <surname>Eronat</surname>
+              <forename>Oya</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Oya.Ersoy">
+            <persName>
+              <surname>Ersoy</surname>
+              <forename>Oya</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Radiye.SezerKatırcıoğlu">
+            <persName>
+              <surname>Sezer Katırcıoğlu</surname>
+              <forename>Radiye</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Rafet.Zeybek">
+            <persName>
+              <surname>Zeybek</surname>
+              <forename>Rafet</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ramazan.Can">
+            <persName>
+              <surname>Can</surname>
+              <forename>Ramazan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.22" from="2002-11-14" to="2007-06-03"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.22" from="2002-11-14" to="2007-06-03"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ramazan.Kaşlı">
+            <persName>
+              <surname>Kaşlı</surname>
+              <forename>Ramazan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Recep.Özel">
+            <persName>
+              <surname>Özel</surname>
+              <forename>Recep</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.22" from="2002-11-14" to="2007-06-03"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.22" from="2002-11-14" to="2007-06-03"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Recep.Şeker">
+            <persName>
+              <surname>Şeker</surname>
+              <forename>Recep</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Salih.Cora">
+            <persName>
+              <surname>Cora</surname>
+              <forename>Salih</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="SalihaSera.KadıgilSütlü">
+            <persName>
+              <surname>Kadıgil Sütlü</surname>
+              <forename>Saliha Sera</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Selahattin.Minsolmaz">
+            <persName>
+              <surname>Minsolmaz</surname>
+              <forename>Selahattin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Serkan.Topal">
+            <persName>
+              <surname>Topal</surname>
+              <forename>Serkan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Servet.Ünsal">
+            <persName>
+              <surname>Ünsal</surname>
+              <forename>Servet</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Sibel.Özdemir">
+            <persName>
+              <surname>Özdemir</surname>
+              <forename>Sibel</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Süleyman.Bülbül">
+            <persName>
+              <surname>Bülbül</surname>
+              <forename>Süleyman</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Süleyman.Girgin">
+            <persName>
+              <surname>Girgin</surname>
+              <forename>Süleyman</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Tamer.Akkal">
+            <persName>
+              <surname>Akkal</surname>
+              <forename>Tamer</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Tamer.Dağlı">
+            <persName>
+              <surname>Dağlı</surname>
+              <forename>Tamer</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Tufan.Köse">
+            <persName>
+              <surname>Köse</surname>
+              <forename>Tufan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Tuma.Çelik">
+            <persName>
+              <surname>Çelik</surname>
+              <forename>Tuma</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Turan.Aydoğan">
+            <persName>
+              <surname>Aydoğan</surname>
+              <forename>Turan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Türabi.Kayan">
+            <persName>
+              <surname>Kayan</surname>
+              <forename>Türabi</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ulaş.Karasu">
+            <persName>
+              <surname>Karasu</surname>
+              <forename>Ulaş</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Utku.Çakırözer">
             <persName>
               <surname>Çakırözer</surname>
               <forename>Utku</forename>
             </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
           </person>
-          <person xml:id="SeferAycan">
+          <person xml:id="Uğur.Bayraktutan">
             <persName>
-              <surname>Aycan</surname>
-              <forename>Sefer</forename>
+              <surname>Bayraktutan</surname>
+              <forename>Uğur</forename>
             </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
           </person>
-          <person xml:id="ÜmitBeyaz">
+          <person xml:id="Veli.Ağbaba">
             <persName>
-              <surname>Beyaz</surname>
+              <surname>Ağbaba</surname>
+              <forename>Veli</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Yasin.Öztürk">
+            <persName>
+              <surname>Öztürk</surname>
+              <forename>Yasin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Yavuz.Ağıralioğlu">
+            <persName>
+              <surname>Ağıralioğlu</surname>
+              <forename>Yavuz</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Yaşar.Kırkpınar">
+            <persName>
+              <surname>Kırkpınar</surname>
+              <forename>Yaşar</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Yelda.ErolGökcan">
+            <persName>
+              <surname>Erol Gökcan</surname>
+              <forename>Yelda</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Yıldırım.Kaya">
+            <persName>
+              <surname>Kaya</surname>
+              <forename>Yıldırım</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Yılmaz.Tunç">
+            <persName>
+              <surname>Tunç</surname>
+              <forename>Yılmaz</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="ZekiHakan.Sıdalı">
+            <persName>
+              <surname>Sıdalı</surname>
+              <forename>Zeki Hakan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Zeynel.Emre">
+            <persName>
+              <surname>Emre</surname>
+              <forename>Zeynel</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Zeynel.Özen">
+            <persName>
+              <surname>Özen</surname>
+              <forename>Zeynel</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.HDP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Çetin.Arık">
+            <persName>
+              <surname>Arık</surname>
+              <forename>Çetin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Çiğdem.ErdoğanAtabek">
+            <persName>
+              <surname>Erdoğan Atabek</surname>
+              <forename>Çiğdem</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Çiğdem.Koncagül">
+            <persName>
+              <surname>Koncagül</surname>
+              <forename>Çiğdem</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="ÖmerFethi.Gürer">
+            <persName>
+              <surname>Gürer</surname>
+              <forename>Ömer Fethi</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Özgür.Karabat">
+            <persName>
+              <surname>Karabat</surname>
+              <forename>Özgür</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Özgür.Özel">
+            <persName>
+              <surname>Özel</surname>
+              <forename>Özgür</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Özkan.Yalım">
+            <persName>
+              <surname>Yalım</surname>
+              <forename>Özkan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Özlem.Zengin">
+            <persName>
+              <surname>Zengin</surname>
+              <forename>Özlem</forename>
+            </persName>
+            <sex value="F"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Ümit.Özdağ">
+            <persName>
+              <surname>Özdağ</surname>
               <forename>Ümit</forename>
             </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="İbrahim.Aydemir">
+            <persName>
+              <surname>Aydemir</surname>
+              <forename>İbrahim</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="İbrahimÖzden.Kaboğlu">
+            <persName>
+              <surname>Kaboğlu</surname>
+              <forename>İbrahim Özden</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="İlhamiÖzcan.Aygun">
+            <persName>
+              <surname>Aygun</surname>
+              <forename>İlhami Özcan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="İlyas.Şeker">
+            <persName>
+              <surname>Şeker</surname>
+              <forename>İlyas</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="İmamHüseyin.Filiz">
+            <persName>
+              <surname>Filiz</surname>
+              <forename>İmam Hüseyin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="İsmail.Güneş">
+            <persName>
+              <surname>Güneş</surname>
+              <forename>İsmail</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.24" from="2011-06-28" to="2015-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="İsmail.Koncuk">
+            <persName>
+              <surname>Koncuk</surname>
+              <forename>İsmail</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="İsmail.Ok">
+            <persName>
+              <surname>Ok</surname>
+              <forename>İsmail</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="İsmail.Tatlıoğlu">
+            <persName>
+              <surname>Tatlıoğlu</surname>
+              <forename>İsmail</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="İsmailAtakan.Ünver">
+            <persName>
+              <surname>Ünver</surname>
+              <forename>İsmail Atakan</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.CHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="İsmailFaruk.Aksu">
+            <persName>
+              <surname>Aksu</surname>
+              <forename>İsmail Faruk</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="İzzetUlvi.Yönter">
+            <persName>
+              <surname>Yönter</surname>
+              <forename>İzzet Ulvi</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.25" from="2015-06-23" to="2015-10-01"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Şahin.Tin">
+            <persName>
+              <surname>Tin</surname>
+              <forename>Şahin</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.26" from="2015-11-17" to="2018-05-16"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.AKP" ana="#TBMM.27" from="2018-07-07"/>
+          </person>
+          <person xml:id="Şenol.Bal">
+            <persName>
+              <surname>Bal</surname>
+              <forename>Şenol</forename>
+            </persName>
+            <sex value="M"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="member" ref="#party.MHP" ana="#TBMM.23" from="2007-07-23" to="2011-04-23"/>
+            <affiliation role="MP" ref="#TBMM" ana="#TBMM.27" from="2018-07-07"/>
+            <affiliation role="member" ref="#party.IYI" ana="#TBMM.27" from="2018-07-07"/>
           </person>
         </listPerson>
       </particDesc>
@@ -2062,8 +2414,8 @@
       <change when="2021-02-25"><name>Çağrı Çöltekin</name>: Make sample file.</change>
     </revisionDesc>
   </teiHeader>
-  <xi:include href="ParlaMint-TR_T26-tbmm-2017-01-14.xml"/>
-  <xi:include href="ParlaMint-TR_T26-tbmm-2018-04-18.xml"/>
-  <xi:include href="ParlaMint-TR_T27-tbmm-2019-07-02.xml"/>
-  <xi:include href="ParlaMint-TR_T27-tbmm-2021-02-09.xml"/>
+  <xi:include href="ParlaMint-TR_T27-tbmm-2018-07-07.xml"/>
+  <xi:include href="ParlaMint-TR_T27-tbmm-2018-07-23.xml"/>
+  <xi:include href="ParlaMint-TR_T27-tbmm-2020-05-27.xml"/>
+  <xi:include href="ParlaMint-TR_T27-tbmm-2020-06-17.xml"/>
 </teiCorpus>
