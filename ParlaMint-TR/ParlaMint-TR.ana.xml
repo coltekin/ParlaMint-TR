@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Turkish parliamentary corpus ParlaMint-TR [ParlaMint.ana SAMPLE]</title>
+        <title type="main" xml:lang="en">Turkish parliamentary corpus ParlaMint-TR [ParlaMint.ana]</title>
         <meeting n="27" corresp="#TBMM" ana="#parla.term #TBMM.27">Term 27</meeting>
         <respStmt>
           <persName>Çağrı Çöltekin</persName>
@@ -17,8 +17,8 @@
         <edition>0.1</edition>
       </editionStmt>
       <extent>
-        <measure unit="speeches" quantity="000" xml:lang="en">000 speeches</measure>
-        <measure unit="words" quantity="000" xml:lang="en">000 words</measure>
+        <measure unit="speeches" quantity="15" xml:lang="en">15 speeches</measure>
+        <measure unit="words" quantity="125676" xml:lang="en">125,676 words</measure>
       </extent>
       <publicationStmt>
         <publisher>
@@ -66,19 +66,18 @@
       </editorialDecl>
       <tagsDecl>
         <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="text" occurs="000"/>
-          <tagUsage gi="body" occurs="000"/>
-          <tagUsage gi="div" occurs="000"/>
-          <tagUsage gi="head" occurs="000"/>
-          <tagUsage gi="note" occurs="000"/>
-          <tagUsage gi="u" occurs="000"/>
-          <tagUsage gi="seg" occurs="000"/>
-          <tagUsage gi="s" occurs="000"/>
-          <tagUsage gi="name" occurs="000"/>
-          <tagUsage gi="w" occurs="000"/>
-          <tagUsage gi="pc" occurs="000"/>
-          <tagUsage gi="linkGrp" occurs="000"/>
-          <tagUsage gi="link" occurs="000"/>
+          <tagUsage gi="text" occurs="4"/>
+          <tagUsage gi="body" occurs="4"/>
+          <tagUsage gi="div" occurs="15"/>
+          <tagUsage gi="note" occurs="504"/>
+          <tagUsage gi="u" occurs="4386"/>
+          <tagUsage gi="seg" occurs="4386"/>
+          <tagUsage gi="s" occurs="8503"/>
+          <tagUsage gi="name" occurs="8060"/>
+          <tagUsage gi="w" occurs="112544"/>
+          <tagUsage gi="pc" occurs="19542"/>
+          <tagUsage gi="link" occurs="132086"/>
+          <tagUsage gi="linkGrp" occurs="8503"/>
         </namespace>
       </tagsDecl>
       <classDecl>
@@ -704,13 +703,6 @@
         </listOrg>
         <listPerson>
           <head xml:lang="en">List of speakers</head>
-          <person xml:id="Unknown">
-            <persName>
-              <surname>Unknown</surname>
-              <forename>Speaker</forename>
-            </persName>
-            <sex value="F"/>
-          </person>
           <person xml:id="Abdullah.Doğru">
             <persName>
               <surname>Doğru</surname>
@@ -2553,9 +2545,6 @@
         <language ident="en" xml:lang="en">English</language>
       </langUsage>
     </profileDesc>
-    <revisionDesc>
-      <change when="2021-02-25"><name>Çağrı Çöltekin</name>: Make sample file.</change>
-    </revisionDesc>
   </teiHeader>
   <xi:include href="ParlaMint-TR_T27-tbmm-2018-07-07.ana.xml"/>
   <xi:include href="ParlaMint-TR_T27-tbmm-2018-07-23.ana.xml"/>

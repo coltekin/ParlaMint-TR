@@ -66,22 +66,26 @@
            <p>The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
         </segmentation>
      </editorialDecl>
-	<!-- TODO -->
      <tagsDecl>
         <namespace name="http://www.tei-c.org/ns/1.0">
-           <tagUsage gi="text" occurs="000"/>
-           <tagUsage gi="body" occurs="000"/>
-           <tagUsage gi="div" occurs="000"/>
-           <tagUsage gi="head" occurs="000"/>
-           <tagUsage gi="note" occurs="000"/>
-           <tagUsage gi="u" occurs="000"/>
-           <tagUsage gi="seg" occurs="000"/>
-           <tagUsage gi="s" occurs="000"/>
-           <tagUsage gi="name" occurs="000"/>
-           <tagUsage gi="w" occurs="000"/>
-           <tagUsage gi="pc" occurs="000"/>
-           <tagUsage gi="linkGrp" occurs="000"/>
-           <tagUsage gi="link" occurs="000"/>			   
+          <tagUsage gi="text" occurs="000" />
+          <tagUsage gi="body" occurs="000" />
+          <tagUsage gi="div" occurs="000" />
+          <tagUsage gi="head" occurs="000" />
+          <tagUsage gi="note" occurs="000" />
+          <tagUsage gi="u" occurs="000" />
+          <tagUsage gi="seg" occurs="000" />
+          <tagUsage gi="kinesic" occurs="000" />
+          <tagUsage gi="desc" occurs="000" />
+          <tagUsage gi="gap" occurs="000" />
+          <tagUsage gi="vocal" occurs="000" />
+          <tagUsage gi="incident" occurs="000" />
+          <tagUsage gi="s" occurs="000" />
+          <tagUsage gi="name" occurs="000" />
+          <tagUsage gi="w" occurs="000" />
+          <tagUsage gi="pc" occurs="000" />
+          <tagUsage gi="link" occurs="000" />
+          <tagUsage gi="linkGrp" occurs="000" />
         </namespace>
      </tagsDecl>
          <classDecl>
@@ -693,13 +697,6 @@
         </listOrg>
         <listPerson>
            <head xml:lang="en">List of speakers</head>
-           <person xml:id="Unknown">
-              <persName>
-                 <surname>Unknown</surname>
-                 <forename>Speaker</forename>
-              </persName>
-              <sex value="F"/>
-           </person>
         </listPerson>
      </particDesc>
          <langUsage>
@@ -709,9 +706,9 @@
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
   </profileDesc>
-  <revisionDesc>
+  <!-- revisionDesc>
      <change when="2021-02-25">
         <name>Çağrı Çöltekin</name>: Make sample file.</change>
-  </revisionDesc>
+  </revisionDesc -->
 </teiHeader>
 </teiCorpus>

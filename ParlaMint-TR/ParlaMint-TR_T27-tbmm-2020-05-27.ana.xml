@@ -3,8 +3,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Session 000 [ParlaMint.ana SAMPLE]</title>
-        <meeting n="00" ana="#parla.session">00</meeting>
+        <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Session 91 [ParlaMint.ana]</title>
+        <meeting n="91" ana="#parla.session">91</meeting>
         <respStmt>
           <persName>Çağrı Çöltekin</persName>
           <resp xml:lang="en">Data retrieval, linguistic annotation, and conversion to TEI</resp>
@@ -17,8 +17,8 @@
         <edition>1.0</edition>
       </editionStmt>
       <extent>
-        <measure unit="speeches" quantity="000" xml:lang="en">000 speeches</measure>
-        <measure unit="words" quantity="000" xml:lang="en">000 words</measure>
+        <measure unit="speeches" quantity="1" xml:lang="en">1 speech</measure>
+        <measure unit="words" quantity="44" xml:lang="en">44 words</measure>
       </extent>
       <publicationStmt>
         <publisher>
@@ -33,14 +33,14 @@
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
           <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
         </availability>
-        <date when="2021-02-09">2021-02-09</date>
+        <date when="2021-03-31">2021-03-31</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
           <title type="main" xml:lang="en">Hansards of the Turkish Parliament</title>
           <publisher xml:lang="en">The Turkish Parliament</publisher>
           <idno type="URI">https://www.tbmm.gov.tr/</idno>
-          <date when="2018-03-20">0000-00-00</date>
+          <date when="2020-05-27">2020-05-27</date>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -52,17 +52,17 @@
       </projectDesc>
       <tagsDecl>
         <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="body" occurs="000"/>
-          <tagUsage gi="div" occurs="000"/>
-          <tagUsage gi="head" occurs="000"/>
-          <tagUsage gi="link" occurs="000"/>
-          <tagUsage gi="linkGrp" occurs="000"/>
-          <tagUsage gi="note" occurs="000"/>
-          <tagUsage gi="pc" occurs="000"/>
-          <tagUsage gi="s" occurs="000"/>
-          <tagUsage gi="seg" occurs="000"/>
-          <tagUsage gi="u" occurs="000"/>
-          <tagUsage gi="w" occurs="000"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="note" occurs="3"/>
+          <tagUsage gi="u" occurs="3"/>
+          <tagUsage gi="seg" occurs="3"/>
+          <tagUsage gi="s" occurs="4"/>
+          <tagUsage gi="name" occurs="4"/>
+          <tagUsage gi="w" occurs="41"/>
+          <tagUsage gi="pc" occurs="4"/>
+          <tagUsage gi="link" occurs="45"/>
+          <tagUsage gi="linkGrp" occurs="4"/>
         </namespace>
       </tagsDecl>
     </encodingDesc>
@@ -75,9 +75,6 @@
         </setting>
       </settingDesc>
     </profileDesc>
-    <revisionDesc xml:lang="en">
-      <change when="2021-01-29"><name>Çağrı Çöltekin</name>: Sample ParlaMint file.</change>
-    </revisionDesc>
   </teiHeader>
   <text ana="#reference" xml:lang="tr">
     <body>
