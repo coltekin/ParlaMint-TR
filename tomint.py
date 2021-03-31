@@ -77,11 +77,13 @@ def new_sitt(id_, **kwargs):
     sittdiv = et.Element('div', type='debateSection')
     if 'sitt_starttime' in kwargs:
         tmp = et.Element('note', type="time")
-        tmp.text = kwargs['sitt_starttime'].strip()
+        if kwargs['sitt_starttime']:
+            tmp.text = kwargs['sitt_starttime'].strip()
         sittdiv.append(tmp)
     if 'sitt_chair' in kwargs:
         tmp = et.Element('note', type="chair")
-        tmp.text = kwargs['sitt_chair'].strip()
+        if kwargs['sitt_chair']:
+            tmp.text = kwargs['sitt_chair'].strip()
         sittdiv.append(tmp)
     return sittdiv
 
@@ -135,8 +137,11 @@ def new_sent(sent, comm):
             tokparent.set('type', ne.replace('B-', ''))
 
         wid = "{}.t{}".format(comm['sent_id'], node.index)
-        w = et.SubElement(tokparent, toktyp,
-                msd="UPosTag={}|{}".format(node.upos, node.feats))
+        if node.feats is None:
+            msd="UPosTag={}".format(node.upos)
+        else:
+            msd="UPosTag={}|{}".format(node.upos, node.feats)
+        w = et.SubElement(tokparent, toktyp, msd=msd)
         if toktyp == 'w': w.set('lemma', node.lemma)
         w.set(et.QName(NS['xml'], 'id'), wid)
         w.text = node.form.strip()
@@ -203,6 +208,7 @@ if __name__ == "__main__":
     ap.add_argument('--nproc', '-j', default=4, type=int)
     ap.add_argument('--debug', '-d', action='store_true')
     ap.add_argument('--skip-from', '-s')
+    ap.add_argument('--split', '-S', action='store_true')
     ap.add_argument('--prefix', '-p', default='ParlaMint-TR')
     args = ap.parse_args()
 
@@ -258,8 +264,8 @@ if __name__ == "__main__":
                             ana="#{}".format(spktype))
                     if spkid is not None:
                         u.set('who', '#{}'.format(spkid))
-                    else:
-                        u.set('who', '#Unknown')
+#                    else:
+#                        u.set('who', '#Unknown')
                     u.set(et.QName(NS['xml'], 'id'), comm['new_par'])
                 move_notes(seg)
                 seg = et.SubElement(u, 'seg')
@@ -279,6 +285,10 @@ if __name__ == "__main__":
 
 #        path = os.path.join(args.output_dir, 'term-{:03d}'.format(term))
         path = args.output_dir
+        year = None
+        if args.split:
+            year = os.path.basename(f).split('-')[0]
+            path = os.path.join(path, year)
         if path: os.makedirs(path, exist_ok=True)
         outfile = os.path.basename(f).replace('.conllu', ext)
         outfile = "{}_T{}-tbmm-{}".format(args.prefix, term, outfile)
@@ -288,6 +298,8 @@ if __name__ == "__main__":
                 pretty_print=True, encoding='utf-8').decode())
 #            print(et.tostring(doc, pretty_print=True,
 #                encoding='unicode'), file=fp)
+        if year:
+            outfile = '/'.join((year, outfile))
         maindoc.append(
                 et.Element(et.QName(NS['xi'], 'include'),
                     href=outfile))
