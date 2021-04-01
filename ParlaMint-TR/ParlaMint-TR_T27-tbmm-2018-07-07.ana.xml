@@ -4,6 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Session 1 [ParlaMint.ana]</title>
+        <meeting n="27" corresp="#TBMM" ana="#parla.term #TBMM.27">Term 27</meeting>
         <meeting n="1" ana="#parla.session">1</meeting>
         <respStmt>
           <persName>Çağrı Çöltekin</persName>
@@ -17,8 +18,8 @@
         <edition>1.0</edition>
       </editionStmt>
       <extent>
-        <measure unit="speeches" quantity="4" xml:lang="en">4 speeches</measure>
-        <measure unit="words" quantity="5241" xml:lang="en">5,241 words</measure>
+        <measure unit="speeches" quantity="35" xml:lang="en">35 speeches</measure>
+        <measure unit="words" quantity="5610" xml:lang="en">5,610 words</measure>
       </extent>
       <publicationStmt>
         <publisher>
@@ -33,7 +34,7 @@
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
           <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
         </availability>
-        <date when="2021-03-31">2021-03-31</date>
+        <date when="2021-04-01">2021-04-01</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -71,7 +72,7 @@
         <setting>
           <name type="city">Ankara</name>
           <name type="country" key="TR">Turkey</name>
-          <date from="1996-11-28" to="2000-10-27"/>
+          <date when="2018-07-07" ana="#parla.session">07.07.2018</date>
         </setting>
       </settingDesc>
     </profileDesc>
@@ -201,7 +202,7 @@
             </s>
           </seg>
         </u>
-        <note>(AK PARTİ sıralarından ayakta alkışlar)</note>
+        <note>AK PARTİ sıralarından ayakta alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p004">
           <seg xml:id="tbmm-2018-07-07s01p004.seg0">
             <s xml:id="tbmm-2018-07-07s01p004-000010">
@@ -222,7 +223,7 @@
             </s>
           </seg>
         </u>
-        <note>(İstiklal Marşı)</note>
+        <note>İstiklal Marşı</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p006">
           <seg xml:id="tbmm-2018-07-07s01p006.seg0">
             <s xml:id="tbmm-2018-07-07s01p006-000010">
@@ -2757,7 +2758,7 @@
             </s>
           </seg>
         </u>
-        <note>(Alkışlar)</note>
+        <note>Alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p016">
           <seg xml:id="tbmm-2018-07-07s01p016.seg0">
             <s xml:id="tbmm-2018-07-07s01p016-000010">
@@ -3318,8 +3319,8 @@
             </s>
           </seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
-        <note>(İstanbul Milletvekili Musa Piroğlu ant içti)</note>
+        <note>HDP sıralarından alkışlar</note>
+        <note>İstanbul Milletvekili Musa Piroğlu ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p022">
           <seg xml:id="tbmm-2018-07-07s01p022.seg0">
             <s xml:id="tbmm-2018-07-07s01p022-000010">
@@ -3356,8 +3357,8 @@
             </s>
           </seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
-        <note>(Hakkâri Milletvekili Husret Dinç ant içti)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
+        <note>Hakkâri Milletvekili Husret Dinç ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p024">
           <seg xml:id="tbmm-2018-07-07s01p024.seg0">
             <s xml:id="tbmm-2018-07-07s01p024-000010">
@@ -3398,8 +3399,8 @@
             </s>
           </seg>
         </u>
-        <note>(AK PARTİ sıralarından ayakta alkışlar)</note>
-        <note>(İzmir Milletvekili Binali Yıldırım ant içti)</note>
+        <note>AK PARTİ sıralarından ayakta alkışlar</note>
+        <note>İzmir Milletvekili Binali Yıldırım ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p026">
           <seg xml:id="tbmm-2018-07-07s01p026.seg0">
             <s xml:id="tbmm-2018-07-07s01p026-000010">
@@ -3440,7 +3441,7 @@
             </s>
           </seg>
         </u>
-        <note>(Trabzon Milletvekili Muhammet Balta ant içti)</note>
+        <note>Trabzon Milletvekili Muhammet Balta ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p028">
           <seg xml:id="tbmm-2018-07-07s01p028.seg0">
             <s xml:id="tbmm-2018-07-07s01p028-000010">
@@ -3481,7 +3482,7 @@
             </s>
           </seg>
         </u>
-        <note>(Kocaeli Milletvekili Saffet Sancaklı ant içti)</note>
+        <note>Kocaeli Milletvekili Saffet Sancaklı ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p030">
           <seg xml:id="tbmm-2018-07-07s01p030.seg0">
             <s xml:id="tbmm-2018-07-07s01p030-000010">
@@ -3522,7 +3523,7 @@
             </s>
           </seg>
         </u>
-        <note>(Yozgat Milletvekili Bekir Bozdağ ant içti)</note>
+        <note>Yozgat Milletvekili Bekir Bozdağ ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p032">
           <seg xml:id="tbmm-2018-07-07s01p032.seg0">
             <s xml:id="tbmm-2018-07-07s01p032-000010">
@@ -3561,7 +3562,7 @@
             </s>
           </seg>
         </u>
-        <note>(Kahramanmaraş Milletvekili Habibe Öçal ant içti)</note>
+        <note>Kahramanmaraş Milletvekili Habibe Öçal ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p034">
           <seg xml:id="tbmm-2018-07-07s01p034.seg0">
             <s xml:id="tbmm-2018-07-07s01p034-000010">
@@ -4060,7 +4061,7 @@
             </s>
           </seg>
         </u>
-        <note>(Adana ilinden ant içmeye devam edildi)</note>
+        <note>Adana ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p045">
           <seg xml:id="tbmm-2018-07-07s01p045.seg0">
             <s xml:id="tbmm-2018-07-07s01p045-000010">
@@ -4683,7 +4684,7 @@
             </s>
           </seg>
         </u>
-        <note>(Saygı duruşunda bulunuldu)</note>
+        <note>Saygı duruşunda bulunuldu</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p084">
           <seg xml:id="tbmm-2018-07-07s01p084.seg0">
             <s xml:id="tbmm-2018-07-07s01p084-000010">
@@ -4752,7 +4753,7 @@
             </s>
           </seg>
         </u>
-        <note>(AK PARTİ sıralarından ayakta alkışlar)</note>
+        <note>AK PARTİ sıralarından ayakta alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p086">
           <seg xml:id="tbmm-2018-07-07s01p086.seg0">
             <s xml:id="tbmm-2018-07-07s01p086-000010">
@@ -4879,7 +4880,7 @@
             </s>
           </seg>
         </u>
-        <note>(Ordu Milletvekili Ergün Taşcı ant içti)</note>
+        <note>Ordu Milletvekili Ergün Taşcı ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p091">
           <seg xml:id="tbmm-2018-07-07s01p091.seg0">
             <s xml:id="tbmm-2018-07-07s01p091-000010">
@@ -4912,7 +4913,7 @@
             </s>
           </seg>
         </u>
-        <note>(İzmir Milletvekili Ahmet Tuncay Özkan ant içti)</note>
+        <note>İzmir Milletvekili Ahmet Tuncay Özkan ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p093">
           <seg xml:id="tbmm-2018-07-07s01p093.seg0">
             <s xml:id="tbmm-2018-07-07s01p093-000010">
@@ -5035,7 +5036,7 @@
             </s>
           </seg>
         </u>
-        <note>(Ankara ilinden ant içmeye devam edildi)</note>
+        <note>Ankara ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p096">
           <seg xml:id="tbmm-2018-07-07s01p096.seg0">
             <s xml:id="tbmm-2018-07-07s01p096-000010">
@@ -5094,7 +5095,7 @@
             </s>
           </seg>
         </u>
-        <note>(Dinleyici locasından alkışlar)</note>
+        <note>Dinleyici locasından alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p101">
           <seg xml:id="tbmm-2018-07-07s01p101.seg0">
             <s xml:id="tbmm-2018-07-07s01p101-000010">
@@ -5213,7 +5214,7 @@
             </s>
           </seg>
         </u>
-        <note>(Ankara ilinden ant içmeye devam edildi)</note>
+        <note>Ankara ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p103">
           <seg xml:id="tbmm-2018-07-07s01p103.seg0">
             <s xml:id="tbmm-2018-07-07s01p103-000010">
@@ -6292,7 +6293,7 @@
             </s>
           </seg>
         </u>
-        <note>(Ankara ilinden ant içmeye devam edildi)</note>
+        <note>Ankara ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p137">
           <seg xml:id="tbmm-2018-07-07s01p137.seg0">
             <s xml:id="tbmm-2018-07-07s01p137-000010">
@@ -7309,7 +7310,7 @@
             </s>
           </seg>
         </u>
-        <note>(Balıkesir ilinden ant içmeye devam edildi)</note>
+        <note>Balıkesir ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p184">
           <seg xml:id="tbmm-2018-07-07s01p184.seg0">
             <s xml:id="tbmm-2018-07-07s01p184-000010">
@@ -8230,7 +8231,7 @@
             </s>
           </seg>
         </u>
-        <note>(Dinleyici locasından alkışlar)</note>
+        <note>Dinleyici locasından alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p249">
           <seg xml:id="tbmm-2018-07-07s01p249.seg0">
             <s xml:id="tbmm-2018-07-07s01p249-000010">
@@ -8315,7 +8316,7 @@
             </s>
           </seg>
         </u>
-        <note>(Çorum ilinden ant içmeye devam edildi)</note>
+        <note>Çorum ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p253">
           <seg xml:id="tbmm-2018-07-07s01p253.seg0">
             <s xml:id="tbmm-2018-07-07s01p253-000010">
@@ -8832,7 +8833,7 @@
             </s>
           </seg>
         </u>
-        <note>(Dinleyici locasından alkışlar)</note>
+        <note>Dinleyici locasından alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p290">
           <seg xml:id="tbmm-2018-07-07s01p290.seg0">
             <s xml:id="tbmm-2018-07-07s01p290-000010">
@@ -9029,7 +9030,7 @@
             </s>
           </seg>
         </u>
-        <note>(Elâzığ ilinden ant içmeye devam edildi)</note>
+        <note>Elâzığ ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p294">
           <seg xml:id="tbmm-2018-07-07s01p294.seg0">
             <s xml:id="tbmm-2018-07-07s01p294-000010">
@@ -9410,8 +9411,8 @@
             </s>
           </seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
-        <note>(Rize Milletvekili Hayati Yazıcı ant içti)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
+        <note>Rize Milletvekili Hayati Yazıcı ant içti</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s02p014">
           <seg xml:id="tbmm-2018-07-07s02p014.seg0">
             <s xml:id="tbmm-2018-07-07s02p014-000010">
@@ -10002,7 +10003,7 @@
             </s>
           </seg>
         </u>
-        <note>(Eskişehir ilinden ant içmeye devam edildi)</note>
+        <note>Eskişehir ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s02p027">
           <seg xml:id="tbmm-2018-07-07s02p027.seg0">
             <s xml:id="tbmm-2018-07-07s02p027-000010">
@@ -10435,7 +10436,7 @@
             </s>
           </seg>
         </u>
-        <note>(Dinleyici locasından alkışlar)</note>
+        <note>Dinleyici locasından alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s02p057">
           <seg xml:id="tbmm-2018-07-07s02p057.seg0">
             <s xml:id="tbmm-2018-07-07s02p057-000010">
@@ -10606,7 +10607,7 @@
             </s>
           </seg>
         </u>
-        <note>(Hatay ilinden ant içmeye devam edildi)</note>
+        <note>Hatay ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s02p062">
           <seg xml:id="tbmm-2018-07-07s02p062.seg0">
             <s xml:id="tbmm-2018-07-07s02p062-000010">
@@ -10653,7 +10654,7 @@
             </s>
           </seg>
         </u>
-        <note>(Dinleyici locasından “Yuh!” sesi)</note>
+        <note>Dinleyici locasından “Yuh!” sesi</note>
         <u ana="#regular" who="#Ali.Kenanoğlu" xml:id="tbmm-2018-07-07s02p066">
           <seg xml:id="tbmm-2018-07-07s02p066.seg0">
             <s xml:id="tbmm-2018-07-07s02p066-000010">
@@ -10772,7 +10773,7 @@
             </s>
           </seg>
         </u>
-        <note>(HDP sıralarından sıra kapaklarına vurmalar)</note>
+        <note>HDP sıralarından sıra kapaklarına vurmalar</note>
         <u ana="#regular" who="#Ali.Kenanoğlu" xml:id="tbmm-2018-07-07s02p072">
           <seg xml:id="tbmm-2018-07-07s02p072.seg0">
             <s xml:id="tbmm-2018-07-07s02p072-000010">
@@ -10967,7 +10968,7 @@
             </s>
           </seg>
         </u>
-        <note>(Hatay ilinden ant içmeye devam edildi)</note>
+        <note>Hatay ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s02p081">
           <seg xml:id="tbmm-2018-07-07s02p081.seg0">
             <s xml:id="tbmm-2018-07-07s02p081-000010">
@@ -11086,7 +11087,7 @@
             </s>
           </seg>
         </u>
-        <note>(Dinleyici locasından alkışlar)</note>
+        <note>Dinleyici locasından alkışlar</note>
         <u ana="#regular" who="#Tuma.Çelik" xml:id="tbmm-2018-07-07s02p090">
           <seg xml:id="tbmm-2018-07-07s02p090.seg0">
             <s xml:id="tbmm-2018-07-07s02p090-000010">
@@ -11139,7 +11140,7 @@
             </s>
           </seg>
         </u>
-        <note>(Dinleyici locasından alkışlar, gürültüler)</note>
+        <note>Dinleyici locasından alkışlar, gürültüler</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s02p093">
           <seg xml:id="tbmm-2018-07-07s02p093.seg0">
             <s xml:id="tbmm-2018-07-07s02p093-000010">
@@ -11766,7 +11767,7 @@
             </s>
           </seg>
         </u>
-        <note>(İstanbul ilinden ant içmeye devam edildi)</note>
+        <note>İstanbul ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s03p019">
           <seg xml:id="tbmm-2018-07-07s03p019.seg0">
             <s xml:id="tbmm-2018-07-07s03p019-000010">
@@ -11991,7 +11992,7 @@
             </s>
           </seg>
         </u>
-        <note>(CHP sıralarından ayakta alkışlar, HDP sıralarından alkışlar)</note>
+        <note>CHP sıralarından ayakta alkışlar, HDP sıralarından alkışlar</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s03p034">
           <seg xml:id="tbmm-2018-07-07s03p034.seg0">
             <s xml:id="tbmm-2018-07-07s03p034-000010">
@@ -13018,7 +13019,7 @@
             </s>
           </seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#SalihaSera.KadıgilSütlü" xml:id="tbmm-2018-07-07s03p097">
           <seg xml:id="tbmm-2018-07-07s03p097.seg0">
             <s xml:id="tbmm-2018-07-07s03p097-000010">
@@ -13183,7 +13184,7 @@
             </s>
           </seg>
         </u>
-        <note>(İstanbul ilinden ant içmeye devam edildi)</note>
+        <note>İstanbul ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s03p099">
           <seg xml:id="tbmm-2018-07-07s03p099.seg0">
             <s xml:id="tbmm-2018-07-07s03p099-000010">
@@ -13546,8 +13547,8 @@
             </s>
           </seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
-        <note>(Kayseri Milletvekili Taner Yıldız ant içti)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
+        <note>Kayseri Milletvekili Taner Yıldız ant içti</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s03p121">
           <seg xml:id="tbmm-2018-07-07s03p121.seg0">
             <s xml:id="tbmm-2018-07-07s03p121-000010">
@@ -14150,7 +14151,7 @@
             </s>
           </seg>
         </u>
-        <note>(İzmir ilinden ant içmeye devam edildi)</note>
+        <note>İzmir ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s03p142">
           <seg xml:id="tbmm-2018-07-07s03p142.seg0">
             <s xml:id="tbmm-2018-07-07s03p142-000010">
@@ -17241,7 +17242,7 @@
             </s>
           </seg>
         </u>
-        <note>(Siirt Milletvekili Meral Danış Beştaş ant içti)</note>
+        <note>Siirt Milletvekili Meral Danış Beştaş ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s04p161">
           <seg xml:id="tbmm-2018-07-07s04p161.seg0">
             <s xml:id="tbmm-2018-07-07s04p161-000010">
@@ -17264,7 +17265,7 @@
             </s>
           </seg>
         </u>
-        <note>(Siirt Milletvekili Sıdık Taş ant içti)</note>
+        <note>Siirt Milletvekili Sıdık Taş ant içti</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s04p163">
           <seg xml:id="tbmm-2018-07-07s04p163.seg0">
             <s xml:id="tbmm-2018-07-07s04p163-000010">
@@ -17491,7 +17492,7 @@
             </s>
           </seg>
         </u>
-        <note>(Dinleyici locasından alkışlar)</note>
+        <note>Dinleyici locasından alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s04p179">
           <seg xml:id="tbmm-2018-07-07s04p179.seg0">
             <s xml:id="tbmm-2018-07-07s04p179-000010">
@@ -17648,7 +17649,7 @@
             </s>
           </seg>
         </u>
-        <note>(Şanlıurfa ilinden ant içmeye devam edildi)</note>
+        <note>Şanlıurfa ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s04p184">
           <seg xml:id="tbmm-2018-07-07s04p184.seg0">
             <s xml:id="tbmm-2018-07-07s04p184-000010">
@@ -18661,7 +18662,7 @@
             </s>
           </seg>
         </u>
-        <note>(Van ilinden ant içmeye devam edildi)</note>
+        <note>Van ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s04p229">
           <seg xml:id="tbmm-2018-07-07s04p229.seg0">
             <s xml:id="tbmm-2018-07-07s04p229-000010">
@@ -18966,8 +18967,8 @@
             </s>
           </seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
-        <note>(Samsun Milletvekili Ahmet Demircan ant içti)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
+        <note>Samsun Milletvekili Ahmet Demircan ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s04p249">
           <seg xml:id="tbmm-2018-07-07s04p249.seg0">
             <s xml:id="tbmm-2018-07-07s04p249-000010">
@@ -19458,7 +19459,7 @@
             </s>
           </seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s04p253">
           <seg xml:id="tbmm-2018-07-07s04p253.seg0">
             <s xml:id="tbmm-2018-07-07s04p253-000010">

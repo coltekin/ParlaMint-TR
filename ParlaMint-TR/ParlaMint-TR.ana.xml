@@ -5,6 +5,9 @@
       <titleStmt>
         <title type="main" xml:lang="en">Turkish parliamentary corpus ParlaMint-TR [ParlaMint.ana]</title>
         <meeting n="27" corresp="#TBMM" ana="#parla.term #TBMM.27">Term 27</meeting>
+        <meeting n="26" corresp="#TBMM" ana="#parla.term #TBMM.26">Term 26</meeting>
+        <meeting n="25" corresp="#TBMM" ana="#parla.term #TBMM.25">Term 25</meeting>
+        <meeting n="24" corresp="#TBMM" ana="#parla.term #TBMM.24">Term 24</meeting>
         <respStmt>
           <persName>Çağrı Çöltekin</persName>
           <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
@@ -17,8 +20,8 @@
         <edition>0.1</edition>
       </editionStmt>
       <extent>
-        <measure unit="speeches" quantity="15" xml:lang="en">15 speeches</measure>
-        <measure unit="words" quantity="125676" xml:lang="en">125,676 words</measure>
+        <measure unit="speeches" quantity="846" xml:lang="en">846 speeches</measure>
+        <measure unit="words" quantity="128618" xml:lang="en">128,618 words</measure>
       </extent>
       <publicationStmt>
         <publisher>

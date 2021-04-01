@@ -4,6 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Session 91 [ParlaMint]</title>
+        <meeting n="27" corresp="#TBMM" ana="#parla.term #TBMM.27">Term 27</meeting>
         <meeting n="91" ana="#parla.session">91</meeting>
         <respStmt>
           <persName>Çağrı Çöltekin</persName>
@@ -17,8 +18,8 @@
         <edition>1.0</edition>
       </editionStmt>
       <extent>
-        <measure unit="speeches" quantity="1" xml:lang="en">1 speech</measure>
-        <measure unit="words" quantity="44" xml:lang="en">44 words</measure>
+        <measure unit="speeches" quantity="0" xml:lang="en">0 speech</measure>
+        <measure unit="words" quantity="47" xml:lang="en">47 words</measure>
       </extent>
       <publicationStmt>
         <publisher>
@@ -33,7 +34,7 @@
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
           <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
         </availability>
-        <date when="2021-03-31">2021-03-31</date>
+        <date when="2021-04-01">2021-04-01</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -65,7 +66,7 @@
         <setting>
           <name type="city">Ankara</name>
           <name type="country" key="TR">Turkey</name>
-          <date from="1996-11-28" to="2000-10-27"/>
+          <date when="2020-05-27" ana="#parla.session">27.05.2020</date>
         </setting>
       </settingDesc>
     </profileDesc>
@@ -75,7 +76,7 @@
       <div type="debateSection">
         <note type="time">14.01</note>
         <note type="chair">Levent Gök</note>
-        <note>(x)</note>
+        <note>x</note>
         <u ana="#regular" who="#Levent.Gök" xml:id="tbmm-2020-05-27s01p002">
           <seg xml:id="tbmm-2020-05-27s01p002.seg0">Başkanlık Divanı teşekkül etmediğinden çalışmalarımıza başlayamıyoruz.</seg>
         </u>

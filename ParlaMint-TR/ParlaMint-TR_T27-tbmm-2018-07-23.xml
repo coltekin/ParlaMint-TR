@@ -4,6 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Session 8 [ParlaMint]</title>
+        <meeting n="27" corresp="#TBMM" ana="#parla.term #TBMM.27">Term 27</meeting>
         <meeting n="8" ana="#parla.session">8</meeting>
         <respStmt>
           <persName>Çağrı Çöltekin</persName>
@@ -17,8 +18,8 @@
         <edition>1.0</edition>
       </editionStmt>
       <extent>
-        <measure unit="speeches" quantity="5" xml:lang="en">5 speeches</measure>
-        <measure unit="words" quantity="57826" xml:lang="en">57,826 words</measure>
+        <measure unit="speeches" quantity="413" xml:lang="en">413 speeches</measure>
+        <measure unit="words" quantity="58984" xml:lang="en">58,984 words</measure>
       </extent>
       <publicationStmt>
         <publisher>
@@ -33,7 +34,7 @@
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
           <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
         </availability>
-        <date when="2021-03-31">2021-03-31</date>
+        <date when="2021-04-01">2021-04-01</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -65,7 +66,7 @@
         <setting>
           <name type="city">Ankara</name>
           <name type="country" key="TR">Turkey</name>
-          <date from="1996-11-28" to="2000-10-27"/>
+          <date when="2018-07-23" ana="#parla.session">23.07.2018</date>
         </setting>
       </settingDesc>
     </profileDesc>
@@ -102,18 +103,18 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p009">
           <seg xml:id="tbmm-2018-07-23s01p009.seg0">Devletin bekası, milletin istiklal ve istikbali söz konusu olduğunda, en namüsait şartlar altında dahi toplanıp çalışmayı başaran kurucu Meclis her zaman bizim yegâne örneğimiz ve modelimiz olmaya devam edecektir. Bugün de daha demokratik bir ülke, daha müreffeh bir toplum ve daha güçlü bir devlet için aynı gayretle çalışmaya devam edeceğiz.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p011">
           <seg xml:id="tbmm-2018-07-23s01p011.seg0">Değerli arkadaşlarım, bugün, 1919’da istiklal mücadelemizin en önemli adımlarından olan Erzurum Kongresi başlamış, Mustafa Kemal Paşa kongreye başkan seçilmiştir. 99’uncu yıl dönümünde bu büyük tarihî günü saygıyla anıyorum.</seg>
         </u>
-        <note>(AK PARTİ ve CHP sıralarından alkışlar)</note>
+        <note>AK PARTİ ve CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p013">
           <seg xml:id="tbmm-2018-07-23s01p013.seg0">Değerli arkadaşlar, gündeme geçmeden önce üç milletvekiline gündem dışı söz vereceğim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p014">
           <seg xml:id="tbmm-2018-07-23s01p014.seg0">Gündem dışı ilk söz, Kıbrıs Barış Harekâtı’nın 44’üncü yıl dönümü münasebetiyle söz isteyen Tekirdağ Milletvekili Çiğdem Koncagül’e aittir.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Çiğdem.Koncagül" xml:id="tbmm-2018-07-23s01p016">
           <seg xml:id="tbmm-2018-07-23s01p016.seg0">Sayın Başkan, değerli milletvekilleri, aziz milletim; Kıbrıs Barış Harekâtı’nın 44’üncü yılı nedeniyle Türkiye Büyük Millet Meclisi Genel Kurulunda gündem dışı söz almış bulunmaktayım. Bu vesileyle 27’nci Dönem yasama çalışmalarımızın hayırlı olmasını diler, Genel Kurul çalışmalarımızın karşılıklı anlayış ve hoşgörü içerisinde gerçekleşmesini temenni ederim.</seg>
         </u>
@@ -129,21 +130,21 @@
         <u ana="#regular" who="#Çiğdem.Koncagül" xml:id="tbmm-2018-07-23s01p020">
           <seg xml:id="tbmm-2018-07-23s01p020.seg0">Yüce Meclisimizi saygıyla selamlıyorum.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p022">
           <seg xml:id="tbmm-2018-07-23s01p022.seg0">Teşekkür ederim Sayın Koncagül.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p023">
           <seg xml:id="tbmm-2018-07-23s01p023.seg0">Gündem dışı ikinci söz, Hatay’ın Türkiye’ye katılmasının 79’uncu yıl dönümü münasebetiyle söz isteyen Hatay Milletvekili Mehmet Güzelmansur’a ait.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mehmet.Güzelmansur" xml:id="tbmm-2018-07-23s01p025">
           <seg xml:id="tbmm-2018-07-23s01p025.seg0">Sayın Başkan, değerli milletvekili arkadaşlarım; medeniyetler, kardeşlik ve hoşgörü şehri Hatay’ın ana vatana katılmasının 79’uncu yıl dönümü vesilesiyle söz almış bulunmaktayım. Sizleri ve ekran başında bizi izleyen tüm Hataylı hemşehrilerimi ve tüm yurttaşlarımı saygıyla selamlıyorum.</seg>
         </u>
         <u ana="#regular" who="#Mehmet.Güzelmansur" xml:id="tbmm-2018-07-23s01p026">
           <seg xml:id="tbmm-2018-07-23s01p026.seg0">Hatay’ın ana vatana katılması, Atatürk’ün savaşsız, silahsız, tek kurşun atılmadan, barış diplomasisiyle elde ettiği olağanüstü siyasi bir zaferdir; aynı zamanda, Atatürk’ün Türkiye Cumhuriyeti dış politikasının ana eksenine oturttuğu “Yurtta sulh, cihanda sulh.” ilkesinin uygulamadaki ilk örneklerinden biridir. Ulu Önder Atatürk “Kırk asırlık Türk yurdu düşman elinde esir kalamaz.” diyerek Hatay’dan asla vazgeçilmeyeceğini tüm cihana haykırmıştır. Hastalığını hiçe sayarak Hatay’ı kurtarmak uğruna hayatını riske atan Ulu Önderimiz Mustafa Kemal Atatürk’e Hataylıların gönül borcu sonsuza kadar sürecektir. Ulu Önder Atatürk’ün yürüttüğü diplomasi sayesinde önce Tayfur Sökmen Cumhurbaşkanlığında Hatay Devleti kurulmuş, daha sonra da Hatay referandumla ana vatana katılmıştır. Atatürk’ün Hatay davasında izlediği politika Türkiye'yi yönetenler tarafından örnek alınmış olsaydı bugün Suriye’de, Irak’ta ve Orta Doğu’da Türkiye'yi tehdit eden ateş çemberinin oluşmasına izin verilmezdi.</seg>
         </u>
-        <note>(CHP ve AK PARTİ sıralarından alkışlar)</note>
+        <note>CHP ve AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mehmet.Güzelmansur" xml:id="tbmm-2018-07-23s01p028">
           <seg xml:id="tbmm-2018-07-23s01p028.seg0">Değerli milletvekili arkadaşlarım, Hatay enlerin ve ilklerin şehridir. Hatay Arkeoloji Müzesi mozaik koleksiyonu zenginliği bakımından dünyanın 2’nci müzesidir. Antakya’daki milattan sonra 636 yılında inşa edilen Habib-i Neccar Camisi Anadolu’daki ilk camidir. Antakya’daki Saint Pierre Kilisesi Hristiyanlığın ilk mabetlerinden biri ve hac mekânıdır. Tarihte ilk “Hristiyan” adı da Antakya’daki bu kilise cemaatine verilmiştir. Samandağ ilçemizde bulunan sahilimiz de 14 kilometre uzunluğuyla dünyanın en uzun ve eşsiz sahillerinden biridir. Dünyanın ilk ışıklandırılan caddesi olan Kurtuluş Caddesi yine Antakya’dadır. Türkiye'nin tek Ermeni köyü Vakıflı köyü yine Hatay’dadır. Hatay Büyükşehir Belediye Başkanımızın girişimiyle 600’ün üzerinde yemek ve tatlı çeşidini barındıran zengin mutfağıyla Hatay, UNESCO tarafından gastronomi kenti ilan edilmiştir. Yine Büyükşehir Belediye Başkanının girişimiyle Hatay, EXPO 2021’e ev sahipliği yapacaktır.</seg>
         </u>
@@ -153,7 +154,7 @@
         <u ana="#regular" who="#Mehmet.Güzelmansur" xml:id="tbmm-2018-07-23s01p030">
           <seg xml:id="tbmm-2018-07-23s01p030.seg0">Buradan Sayın Cumhurbaşkanımıza ve kabinesindeki bakanlara sesleniyorum: Dördüncü teşvik bölgesinde bulunan Hatay'ın beşinci teşvik bölgesine geçmesi için acilen gerekli girişimlerde bulunulmalıdır. Bunun için Büyükşehir Belediye Başkanımız 538 bin imza toplamıştır.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Mehmet.Güzelmansur" xml:id="tbmm-2018-07-23s01p032">
           <seg xml:id="tbmm-2018-07-23s01p032.seg0">EXPO 2021 ve gastronomi konusunda uluslararası yapılacak çalışmalara katkı verilmeli, güvenlik nedeniyle Cilvegözü Sınır Kapısı açılamıyorsa Yayladağı Sınır Kapısı bir an önce açılmalı.</seg>
         </u>
@@ -169,14 +170,14 @@
         <u ana="#regular" who="#Mehmet.Güzelmansur" xml:id="tbmm-2018-07-23s01p036">
           <seg xml:id="tbmm-2018-07-23s01p036.seg0">Yedi yıldır savaşın gölgesinde olan ve 500 bin civarında Suriyeli misafire ev sahipliği yapan hoşgörü kenti Hatay’ın hak ettiği değeri ve ilgiyi alması gerektiğine inanıyorum. Lütfen bunu bizden esirgemeyin.</seg>
         </u>
-        <note>(CHP ve AK PARTİ sıralarından alkışlar)</note>
+        <note>CHP ve AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p038">
           <seg xml:id="tbmm-2018-07-23s01p038.seg0">Teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p039">
           <seg xml:id="tbmm-2018-07-23s01p039.seg0">Şimdi, gündem dışı üçüncü söz, uzman çavuşların kadro sorunları hakkında söz isteyen İstanbul Milletvekili İzzet Ulvi Yönter’e aittir.</seg>
         </u>
-        <note>(MHP sıralarından alkışlar)</note>
+        <note>MHP sıralarından alkışlar</note>
         <u ana="#regular" who="#İzzetUlvi.Yönter" xml:id="tbmm-2018-07-23s01p041">
           <seg xml:id="tbmm-2018-07-23s01p041.seg0">Sayın Başkan, değerli milletvekilleri; sizleri saygılarımla selamlıyorum.</seg>
         </u>
@@ -222,7 +223,7 @@
         <u ana="#guest" xml:id="tbmm-2018-07-23s01p055">
           <seg xml:id="tbmm-2018-07-23s01p055.seg0">Ben size bir veri sunmak ve paylaşmak istiyorum: 20 Temmuz 2015’ten bu tarafa -altını kalın çiziyorum, lütfen dikkat buyurunuz- 1.552 şehit verdik. Bu 1.552 şehidin 530’u uzman çavuş. Ben şehitler arasında hiyerarşik bir fark var falan demiyorum fakat vatan müdafaasında gösterilen fedakârlığı ifade etmek adına uzman çavuşlarımızın durumunu sizlerle paylaşıyorum.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p057">
           <seg xml:id="tbmm-2018-07-23s01p057.seg0">Sayın Yönter, lütfen tamamlayın.</seg>
         </u>
@@ -238,7 +239,7 @@
         <u ana="#regular" who="#İzzetUlvi.Yönter" xml:id="tbmm-2018-07-23s01p061">
           <seg xml:id="tbmm-2018-07-23s01p061.seg0">Diyorum ki: “Kahramanlar büyüsün masalda dev misali,/ Eğilsin öpsün gökler, canım nazlı hilali.” Bu nazlı hilali öpmek için bu kahramanlara el uzatmak lazım; bu vatan için, millet için, bekamızın müdafaası için, uzman çavuşlarımıza, uzman jandarmalarımıza hepimizin ihtimam göstermesi lazım.</seg>
         </u>
-        <note>(MHP sıralarından alkışlar)</note>
+        <note>MHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p063">
           <seg xml:id="tbmm-2018-07-23s01p063.seg0">Teşekkür ederim Sayın Yönter.</seg>
         </u>
@@ -326,8 +327,8 @@
         <u ana="#regular" who="#Çetin.Arık" xml:id="tbmm-2018-07-23s01p091">
           <seg xml:id="tbmm-2018-07-23s01p091.seg0">Tabii, bu ve bunun gibi şahsiyetsizler Atatürk’e küfretme cesaretini nereden alıyor, ona bakmak lazım. Eğer ki Meclis Başkanlığı yapmış biri 1923’e darbe diyebiliyorsa, Meclisteki Atatürk fotoğraflarını kaldırmaya kalkıyorsa, “Laiklik Anayasa’dan çıkarılmalı.” diyebiliyorsa, Atatürk’e küfreden, “Keşke Yunan kazansaydı.” diyen sözde tarihçi saray sofrasında ağırlanıyor, hastanede ziyaret ediliyorsa, “10 Kasım törenlerine içim kan ağlayarak katılmak zorunda kalıyorum.” diyen biri saraya başdanışman seçilebiliyorsa, “Atatürk” ismi stadyumlardan çıkartılıp “Es-Es Arena” “Vodafone Arena” “Timsah Arena” gibi saçma sapan isimler veriliyorsa bu şahsiyetsizler de…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p094">
           <seg xml:id="tbmm-2018-07-23s01p094.seg0">Sayın Kayışoğlu, buyurun.</seg>
         </u>
@@ -343,7 +344,7 @@
         <u ana="#regular" who="#Nurhayat.AltacaKayışoğlu" xml:id="tbmm-2018-07-23s01p098">
           <seg xml:id="tbmm-2018-07-23s01p098.seg0">Nişasta bazlı şeker üreten ABD’li Cargill fabrikasının ruhsatının iptali için, mensubu bulunduğum Bursa Barosu yıllardır hukuk mücadelesi veriyor. Kazanılan onca davaya rağmen bugüne kadar AKP hükûmetleri mahkeme kararlarını uygulamamış, hatta mahkeme kararlarını devre dışı bırakmak için Cargill’e özel kanunlar çıkarmıştır. Son olarak seçim döneminde Avrupa İnsan Hakları Mahkemesi, yine Bursa Barosunun başvurusuyla, yapılan hukuksuzlukları Avrupa İnsan Hakları Sözleşmesi’ne aykırı bulmuş ve ülkemiz hakkında ihlal kararı vermiştir. Şimdi, Cargill’e özel yasa çıkaran dönemin Başbakanı, bugünün tek yürütme organından, yaptığı yanlıştan geri dönmesini ve gerçek anlamda millî meselemiz olan şeker konusunda uluslararası hukuku ve Avrupa İnsan Hakları Mahkemesinin kararını…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p100">
           <seg xml:id="tbmm-2018-07-23s01p100.seg0">Sayın Çakırözer, buyurun.</seg>
         </u>
@@ -359,14 +360,14 @@
         <u ana="#regular" who="#Utku.Çakırözer" xml:id="tbmm-2018-07-23s01p104">
           <seg xml:id="tbmm-2018-07-23s01p104.seg0">İstanbul Milletvekilimiz Enis Berberoğlu dört yüz altı gündür tutuklu bulunmakta. 24 Haziran seçimlerinde bir kez daha millet iradesiyle seçilmesine rağmen Yargıtay, kendisi hakkındaki yargılamanın durdurulması ve yemin ederek görevine başlaması talebini reddetmiştir. Dönemin Anayasa Komisyonu Başkanı sıfatıyla şahsınızın, “Tekrar seçim olması durumunda seçilenler dokunulmazlıklarını yeniden kazanacaktır.” şeklinde beyanatınız vardı. Benzer biçimde Anayasa Komisyonu raporunda da aynı ifadeler yer aldı. Bu nedenle, dokunulmazlıklar bu çerçevede kaldırılmıştı ama şimdi Sayın Berberoğlu ve diğer tutuklu milletvekili aramızda bulunamıyorlar.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Utku.Çakırözer" xml:id="tbmm-2018-07-23s01p106">
           <seg xml:id="tbmm-2018-07-23s01p106.seg0">Bir dakika daha alabilir miyim Sayın Başkan?</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p107">
           <seg xml:id="tbmm-2018-07-23s01p107.seg0">Süre uzatamıyorum.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p109">
           <seg xml:id="tbmm-2018-07-23s01p109.seg0">Sayın Topal, buyurun.</seg>
         </u>
@@ -379,7 +380,7 @@
         <u ana="#regular" who="#Serkan.Topal" xml:id="tbmm-2018-07-23s01p112">
           <seg xml:id="tbmm-2018-07-23s01p112.seg0">Bu anlamlı gün dolayısıyla Sayın Cumhurbaşkanı ve bakanlara sesleniyorum: Hatay’ın bölgeden kaynaklanan ekonomik, sosyal ve güvenlik sorunu var. Günlük 400-450 bin arası yerleşik hâle gelen misafir nüfusa ev sahipliği yapmaktadır. Yerel yönetimler bu anlamda ciddi ekonomik sıkıntılar yaşamaktadır. Bu nüfusu da dikkate alarak Hatay’a bütçeden ayrıca bir ödenek verilmelidir. Bunun için buradan tekrar Sayın Cumhurbaşkanına, bakanlara ve sizlere, Sayın Meclis Başkanına da sesleniyorum: Lütfen, bu konuda çözüm istiyoruz.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p114">
           <seg xml:id="tbmm-2018-07-23s01p114.seg0">Sayın Arslan, buyurun.</seg>
         </u>
@@ -419,11 +420,11 @@
         <u ana="#regular" who="#Yıldırım.Kaya" xml:id="tbmm-2018-07-23s01p126">
           <seg xml:id="tbmm-2018-07-23s01p126.seg0">Siz, OHAL'i fiilî olarak üç yıl uzatarak halkın aklıyla dalga geçiyorsunuz. Darbe ürünü YÖK bile AKP’nin darbe yasalarının sorumluluğunu almak istemiyor. OHAL Kanun Teklifi’nin 23’üncü maddesiyle 375 sayılı KHK’ye eklenecek geçici 35’inci maddesi YÖK’ü bile isyan ettirdi. Böylesine antidemokratik düzenlemelerle akademisyenlerin üniversitelerden ihracı konusunda sorumluluk almak istemeyen YÖK düzenlemeye karşı çıktı. YÖK, akademik kadroların üniversiteler tarafından alındığını, güvenlik soruşturması ve arşiv araştırmalarının da ilgili üniversiteler tarafından yapıldığını, ihraçların da üniversiteler tarafından yapılması gerektiğini söyledi. Biz, YÖK’ten yargısız infazlara karşı çıkmasını, evrensel hukuku, adaleti, insan haklarını savunmasını beklemiyoruz.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Yıldırım.Kaya" xml:id="tbmm-2018-07-23s01p128">
           <seg xml:id="tbmm-2018-07-23s01p128.seg0">Ancak kendisi de darbe ürünü olan YÖK bile AKP’nin darbe ürünü yasalarına karşı çıkmıştır. Sayın Şeker haziranı bilmez. 70 yaşında 450 kilometreyi yürüyen Sayın Kemal Kılıçdaroğlu haziranın direniş sembolüdür. O 15 metre yürüyemeyen… (CHP sıralarından alkışlar)</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p130">
           <seg xml:id="tbmm-2018-07-23s01p130.seg0">Süreniz doldu.</seg>
         </u>
@@ -475,7 +476,7 @@
         <u ana="#regular" who="#AliFazıl.Kasap" xml:id="tbmm-2018-07-23s01p146">
           <seg xml:id="tbmm-2018-07-23s01p146.seg0">Ayrıca, Kütahya’da çöp toplama işlerinde, atık toplama işinde çalışan Kütahya Belediyesi bünyesindeki işçilerimiz yaklaşık yirmi beş gündür maaşlarını alamamaktalar, artı, özlük haklarından yoksun olarak çalışmaktadırlar. Taşeron işçi kapsamından kadroya geçmesi…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p148">
           <seg xml:id="tbmm-2018-07-23s01p148.seg0">Sayın Karabat, buyurun.</seg>
         </u>
@@ -485,7 +486,7 @@
         <u ana="#regular" who="#Özgür.Karabat" xml:id="tbmm-2018-07-23s01p150">
           <seg xml:id="tbmm-2018-07-23s01p150.seg0">15 Temmuzda yayımlanan kararnameyle Devlet Denetleme Kuruluna sendika ve meslek örgütü yöneticilerini görevden alma yetkisi verildi. Bu düzenlemeyle sendikalar, meslek örgütleri ve dernekler Cumhurbaşkanlığı vesayeti altına alınıyor. Hükûmet kayyum uygulamalarını çok sevmiş olacak ki bu sefer emeğin örgütlü mücadelesine de el uzatmaya yelteniyor.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p152">
           <seg xml:id="tbmm-2018-07-23s01p152.seg0">Şimdi sayın grup başkan vekillerimize bakıyorum…</seg>
         </u>
@@ -513,7 +514,7 @@
         <u ana="#regular" who="#Erkan.Akçay" xml:id="tbmm-2018-07-23s01p160">
           <seg xml:id="tbmm-2018-07-23s01p160.seg0">Bugün ayrıca kurtuluş mücadelemizin en önemli aşamalarından birisi olan Erzurum Kongresi’nin de 99’uncu yıl dönümüdür. İşgal girişimlerinin başladığı, emperyalist devletlerin ve taşeronların Türk milletini esaret altına alma ve yok etme hamleleri karşısında…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Erkan.Akçay" xml:id="tbmm-2018-07-23s01p162">
           <seg xml:id="tbmm-2018-07-23s01p162.seg0">Tamamlıyorum Sayın Başkan.</seg>
         </u>
@@ -562,7 +563,7 @@
         <u ana="#regular" who="#Engin.Özkoç" xml:id="tbmm-2018-07-23s01p177">
           <seg xml:id="tbmm-2018-07-23s01p177.seg0">Siz Sayın Başkan, 2 Mayıs 2016 tarihinde Anayasa Komisyonu Başkanı sıfatıyla Komisyonda bize açıklama yaptınız. Tutanaktan bire bir aktarıyorum: “Anayasa’nın 83’üncü maddesinin dördüncü fıkrası var, o da şudur: ‘Tekrar seçilen milletvekili hakkında soruşturma ve kovuşturma Meclisin yeniden dokunulmazlığını kaldırmasına bağlıdır.’ Dolayısıyla, bu hükme ilişkin bizim herhangi bir düzenlememiz olmadığı için burada, bu hükmün yerinde durduğunu, geçerli olduğunu, dolayısıyla tekrar bir seçim olması hâlinde seçilenlerin dokunulmazlığını yeniden kazanacağını bu hüküm dolayısıyla burada ifade etmek istiyorum.” dediniz.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p179">
           <seg xml:id="tbmm-2018-07-23s01p179.seg0">İlave süre verelim arkadaşlar.</seg>
         </u>
@@ -575,7 +576,7 @@
         <u ana="#regular" who="#Engin.Özkoç" xml:id="tbmm-2018-07-23s01p182">
           <seg xml:id="tbmm-2018-07-23s01p182.seg0">Sizin de belirttiğiniz gibi, Anayasa’nın 83’üncü maddesi ve dördüncü fıkrası çok açıktır. Mecliste dokunulmazlığın kaldırılması esası açıktır. Ancak Yargıtay “Hayır.” diyor, “Tahliye talebini kabul etmiyorum.” diyor ve hepimize şu mesajı veriyor: “Ne Anayasa ne Meclis, orada kural ve kaide yok. Bu ülke adamına göre muamele ülkesidir. Bir milletvekili de olsanız, kurunun yanında yaş da olsanız bugün bu ülkede herhangi bir vatandaşın, hiç kimsenin, hiçbirimizin güvenebileceği bir Anayasa, dayanak oluşturacağı bir yasa yoktur.”</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Engin.Özkoç" xml:id="tbmm-2018-07-23s01p184">
           <seg xml:id="tbmm-2018-07-23s01p184.seg0">Tamamlıyorum Sayın Başkan.</seg>
         </u>
@@ -609,7 +610,7 @@
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s01p194">
           <seg xml:id="tbmm-2018-07-23s01p194.seg0">Sayın Başkan, değerli milletvekilleri; yetmiş dokuz yıl önce Hatay, cumhuriyetimizin kurucusu Gazi Mustafa Kemal Atatürk’ün barışçıl ve akılcı politikaları sayesinde ana vatana katıldı. Bu katılım, cumhuriyetimizin ilanından sonra aziz milletimizin en önemli kazanımlarından birisi oldu. Bu vesileyle Hatay’ın ana vatana katılmasının yıl dönümünü kutluyoruz.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s01p196">
           <seg xml:id="tbmm-2018-07-23s01p196.seg0">Bu vesileyle Gazi Mustafa Kemal başta olmak üzere Hatay Cumhurbaşkanı Tayfur Sökmen ve tüm arkadaşlarını saygıyla anıyoruz.</seg>
         </u>
@@ -622,22 +623,22 @@
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s01p199">
           <seg xml:id="tbmm-2018-07-23s01p199.seg0">Sayın Başkan, değerli milletvekilleri; Türk asıllı Alman Millî Takım futbolcusu Mesut Özil, Sayın Cumhurbaşkanımızla görüşmesinden sonra çeşitli ırkçı saldırılara maruz kaldı.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s01p202">
           <seg xml:id="tbmm-2018-07-23s01p202.seg0">Sayın Başkan, değerli milletvekilleri; bir diğer gündem de şudur: İsrail, işgal ettiği topraklar altında zulüm politikalarına maalesef devam ediyor. İsrail, kabul ettiği ulus devlet yasasıyla Arapçayı resmî dil olmaktan çıkardı, iki tip vatandaş öngörerek nüfusun yüzde 20’sini oluşturan Filistinlileri ikinci sınıf ilan etti, hukukta bir boşluk olduğunda Yahudi şeriatının geçerli olduğunu ifade etti.</seg>
         </u>
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s01p203">
           <seg xml:id="tbmm-2018-07-23s01p203.seg0">Birleşmiş Milletler kararlarıyla…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p205">
           <seg xml:id="tbmm-2018-07-23s01p205.seg0">Tamamlayalım Sayın Turan.</seg>
         </u>
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s01p206">
           <seg xml:id="tbmm-2018-07-23s01p206.seg0">…hukuksuz olduğu defalarca söylenen yerleşimin teşvik edildiği bir yasa bizim açımızdan kabul edilemez. Böylesine ayrımcı ve ırkçı uygulamalar bölgede gerginliği artıracak, barış ve huzura hizmet etmeyecektir. Bu ırkçı anlayıştan dolayı İsrail’i kınıyor, Filistinlilerin hak ve özgürlük mücadelesini desteklediğimizi bir kez daha ifade etmek istiyorum.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p208">
           <seg xml:id="tbmm-2018-07-23s01p208.seg0">Teşekkür ederim.</seg>
         </u>
@@ -680,7 +681,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p221">
           <seg xml:id="tbmm-2018-07-23s01p221.seg0">Önerinin gerekçesini açıklamak üzere, öneri sahibi İYİ PARTİ Grubu adına Sayın Çıray.</seg>
         </u>
-        <note>(İYİ PARTİ sıralarından alkışlar)</note>
+        <note>İYİ PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p223">
           <seg xml:id="tbmm-2018-07-23s01p223.seg0">Süreniz beş dakikadır.</seg>
         </u>
@@ -708,14 +709,14 @@
         <u ana="#regular" who="#Aytun.Çıray" xml:id="tbmm-2018-07-23s01p231">
           <seg xml:id="tbmm-2018-07-23s01p231.seg0">Son olarak, konuyla ilgisi yok ama şunu söylemek istiyorum: Değerli arkadaşlar, dokunulmazlıklar milletvekillerini egemenlere karşı korumak için getirilmiştir. İktidar partisi dâhil, dokunulmazlıklarımızdan vazgeçmeyelim. Aksi hâlde, bir gün gelir, devir değişir, sokakta trafik polisleri bizi tutuklamaya başlar.</seg>
         </u>
-        <note>(İYİ PARTİ sıralarından alkışlar)</note>
+        <note>İYİ PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p233">
           <seg xml:id="tbmm-2018-07-23s01p233.seg0">Teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p234">
           <seg xml:id="tbmm-2018-07-23s01p234.seg0">Şimdi Halkların Demokratik Partisi Grubu adına Sayın Mahmut Toğrul.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mahmut.Toğrul" xml:id="tbmm-2018-07-23s01p236">
           <seg xml:id="tbmm-2018-07-23s01p236.seg0">Teşekkür ederim Sayın Başkan.</seg>
         </u>
@@ -737,7 +738,7 @@
         <u ana="#regular" who="#Mahmut.Toğrul" xml:id="tbmm-2018-07-23s01p242">
           <seg xml:id="tbmm-2018-07-23s01p242.seg0">Eğer gerçekten böyle bir darbe mekaniğinin çalışmasını istemiyorsanız İYİ PARTİ’nin verdiği bu önergeyle mutlak şekilde bir komisyonun kurulması; sadece siyasi ayağının değil, yargı ayağının, askerî boyutuyla…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Mahmut.Toğrul" xml:id="tbmm-2018-07-23s01p244">
           <seg xml:id="tbmm-2018-07-23s01p244.seg0">…diğer ayakları için de ayrı ayrı komisyonların kurulması gerekir.</seg>
         </u>
@@ -750,15 +751,15 @@
         <u ana="#regular" who="#Mahmut.Toğrul" xml:id="tbmm-2018-07-23s01p247">
           <seg xml:id="tbmm-2018-07-23s01p247.seg0">Değerli arkadaşlar, şu soruları sormamız gerekiyor: Bakın, Türkiye Cumhuriyeti, Fetullah Gülen cemaatine nasıl teslim edildi? Bu sorunun cevaplanması lazım. Genelkurmay Başkanı ve MİT Müsteşarı darbeyle ilgili bilgileri Cumhurbaşkanından veya Başbakandan sakladılar mı? Eğer bu bilgi saklandıysa neden Sayın Akar bugün bakan koltuğunda ve Fidan hâlâ görevde? Darbe gecesi neler oldu? Derdest edilen kuvvet komutanlarından Genelkurmay Başkanı ve MİT Müsteşarı bilgi sakladı mı? Darbe önceden biliniyor muydu? Darbe gecesi can veren insanlarımız kontrollü bir darbeye mi kurban edildi? 15 Temmuz öğle saatlerinde MİT’e yapılan ihbarla darbe biliniyor olmasına rağmen gerekli önlemler neden alınmadı? Adil Öksüz kimdir? Neden serbest bırakıldı? Darbenin siyasi ayağı kimlerden oluşuyor? Darbe başarılı olsaydı Başbakan kimdi, Cumhurbaşkanı kim olacaktı?</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p250">
           <seg xml:id="tbmm-2018-07-23s01p250.seg0">Sayın Toğrul, teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p251">
           <seg xml:id="tbmm-2018-07-23s01p251.seg0">Şimdi Cumhuriyet Halk Partisi Grubu adına Sayın Mustafa Sezgin Tanrıkulu.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#MustafaSezgin.Tanrıkulu" xml:id="tbmm-2018-07-23s01p253">
           <seg xml:id="tbmm-2018-07-23s01p253.seg0">Sayın Başkan, değerli milletvekilleri; hepinizi saygıyla selamlıyorum.</seg>
         </u>
@@ -777,7 +778,7 @@
         <u ana="#regular" who="#MustafaSezgin.Tanrıkulu" xml:id="tbmm-2018-07-23s01p258">
           <seg xml:id="tbmm-2018-07-23s01p258.seg0">MİT… Önceden bilmesi lazım, haber alması lazım, bu haberi devletin kurumlarıyla paylaşması lazım darbenin olmaması için, 250 yurttaşımızın ölmemesi için, demokrasimizin bu kadar yara almaması için. Nerede? En azından, biliyoruz ki o gün saat 14.30’da bilgi almış. Darbe girişimi ne zaman? Saat 22.00 sıralarında. Sekiz saatte bu önlenemez miydi? Uçakların kalkması, tankların gezmesi, yurttaşlarımızın ölmesi, bu Meclisin bombalanması önlenemez miydi? Ama biliyoruz ki başka bir Suriyeli muhalifle başka bir yemekte. Kendisi nerede? Yine burada. Bunları biz sorabildik mi peki? Hepimiz adına, hepiniz adına, oy birliğiyle oluşmuş komisyon sorabildi mi?</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#MustafaSezgin.Tanrıkulu" xml:id="tbmm-2018-07-23s01p260">
           <seg xml:id="tbmm-2018-07-23s01p260.seg0">Geldiler mi buraya? Gelmediler. Meclisin iradesini yok saydılar.</seg>
         </u>
@@ -796,14 +797,14 @@
         <u ana="#regular" who="#MustafaSezgin.Tanrıkulu" xml:id="tbmm-2018-07-23s01p265">
           <seg xml:id="tbmm-2018-07-23s01p265.seg0">Çok teşekkür ediyorum Sayın Başkan.</seg>
         </u>
-        <note>(CHP ve HDP sıralarından alkışlar)</note>
+        <note>CHP ve HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p267">
           <seg xml:id="tbmm-2018-07-23s01p267.seg0">Teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p268">
           <seg xml:id="tbmm-2018-07-23s01p268.seg0">Şimdi, Adalet ve Kalkınma Partisi Grubu adına Sayın Mahmut Atilla Kaya.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#MahmutAtilla.Kaya" xml:id="tbmm-2018-07-23s01p270">
           <seg xml:id="tbmm-2018-07-23s01p270.seg0">Sayın Başkanım, değerli milletvekilleri; İYİ PARTİ’nin mevcut bütün politik kurumların ve aktörlerin yakın vadeli hedef ve çıkarlarının üzerinde yer alacak şekilde, özellikle de hain FETÖ kalkışmasının siyasi ayağının araştırılması amacıyla Anayasa’nın 98’inci maddesi gereğince vermiş olduğu araştırma komisyonu açılması konusundaki önerge için söz almış bulunmaktayım. Bu vesileyle yüce heyetinizi saygıyla sevgiyle selamlıyorum.</seg>
         </u>
@@ -825,7 +826,7 @@
         <u ana="#regular" who="#MahmutAtilla.Kaya" xml:id="tbmm-2018-07-23s01p276">
           <seg xml:id="tbmm-2018-07-23s01p276.seg0">Diğer bir konuşmacı da “Başbakan kim olacak?” diye ifade etmişti. Ben bağır bağır bağıran “Ben başbakan olacağım.” diyen birisini hatırlıyorum. O noktada muhatabı da biz değiliz, onu da gider onlara sorarsınız diyorum.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p278">
           <seg xml:id="tbmm-2018-07-23s01p278.seg0">Teşekkür ederim.</seg>
         </u>
@@ -865,7 +866,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p290">
           <seg xml:id="tbmm-2018-07-23s01p290.seg0">Önerinin gerekçesini açıklamak üzere öneri sahibi Halkların Demokratik Partisi Grubu adına Sayın Fatma Kurtulan.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Fatma.Kurtulan" xml:id="tbmm-2018-07-23s01p292">
           <seg xml:id="tbmm-2018-07-23s01p292.seg0">Sayın Başkan, değerli milletvekili arkadaşlarım; hepinizi saygıyla selamlıyorum.</seg>
         </u>
@@ -899,7 +900,7 @@
         <u ana="#regular" who="#Fatma.Kurtulan" xml:id="tbmm-2018-07-23s01p302">
           <seg xml:id="tbmm-2018-07-23s01p302.seg0">Seçim sabahı kaç zarf ve pusulanın gönderildiğini, kaç zarf ve pusulanın kullanıldığını, geriye kalanların ne yapıldığını hâlâ bilmiyoruz. Sandık sonuç tutanaklarında doldurulması zorunlu olan birçok alanın boş bırakıldığını, bazı tutanakların mühürsüz olduğunu, bazılarının da imzasız olarak sisteme girdiğini biliyoruz. En önemlisi de tüm bu usulsüzlüklerin, haksızlıkların, ihlallerin YSK tarafından kabul görülmesi şaşırtıcıdır. Tüm bu şaibeli durumu göz önüne aldığımızda, bu seçimi ne “Adam kazandı.” diyerek geçiştirebiliriz ne de “Oldu, bitti; sonuca katlanın.” diyerek geçiştirebiliriz. Mutlaka Meclisin bir araştırma önergesiyle…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Fatma.Kurtulan" xml:id="tbmm-2018-07-23s01p304">
           <seg xml:id="tbmm-2018-07-23s01p304.seg0">Bağlıyorum bir cümleyle.</seg>
         </u>
@@ -909,7 +910,7 @@
         <u ana="#regular" who="#Fatma.Kurtulan" xml:id="tbmm-2018-07-23s01p306">
           <seg xml:id="tbmm-2018-07-23s01p306.seg0">Teşekkür ediyorum Başkan.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p308">
           <seg xml:id="tbmm-2018-07-23s01p308.seg0">Teşekkür ederim.</seg>
         </u>
@@ -922,8 +923,8 @@
         <u ana="#regular" who="#Yavuz.Ağıralioğlu" xml:id="tbmm-2018-07-23s01p311">
           <seg xml:id="tbmm-2018-07-23s01p311.seg0">İstirham ediyorum, bu mevzuda iki senedir meydan meydan konuşup “Bu mevzuda bir toplu iğne başı kadar irtibat…”</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
-        <note>(İYİ PARTİ sıralarından alkışlar)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
+        <note>İYİ PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p314">
           <seg xml:id="tbmm-2018-07-23s01p314.seg0">Teşekkür ederim.</seg>
         </u>
@@ -951,7 +952,7 @@
         <u ana="#regular" who="#İsmail.Koncuk" xml:id="tbmm-2018-07-23s01p322">
           <seg xml:id="tbmm-2018-07-23s01p322.seg0">115 bin kamu çalışanı, öğretmeni, memuru, FETÖ’cü olduğu dahi şüpheli vatansever, milliyetçi birçok insanın ben şu anda açıkta olduğunu, ihraç edildiğini biliyorum ama bu FETÖ olaylarının her ne hikmetse siyasi ayağı ortada yok. Yani garibanlar ihraç, açıkta ama ağalar, ağababalar ortada yok. Bu nasıl bir anlayış ya? Bunu araştırmaktan neden imtina ediyoruz? İYİ PARTİ yüreklilikle bir teklif verdi, yüreği yeten açıklar, yüreği yeten onaylar. İYİ PARTİ içerisinde de FETÖ’cü varsa, AKP içerisinde de varsa hodri meydan, ortaya çıksın. Hadi bakayım! (İYİ PARTİ sıralarından alkışlar) Şimdi, neye engel oluyorsunuz, neyden korkuyorsunuz? Bizim karın ağrımız yok. Biz çiğ yemedik, Allah’a şükürler olsun karnımız da ağrımıyor, her türlü araştırmaya varız bu seçim güvenliği mevzusunda olduğu gibi.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#İsmail.Koncuk" xml:id="tbmm-2018-07-23s01p324">
           <seg xml:id="tbmm-2018-07-23s01p324.seg0">Tabii, seçim bittikten sonra ne desek boş ama…</seg>
         </u>
@@ -967,7 +968,7 @@
         <u ana="#regular" who="#İsmail.Koncuk" xml:id="tbmm-2018-07-23s01p328">
           <seg xml:id="tbmm-2018-07-23s01p328.seg0">Seçim güvenliği konusunda da milletimizin yüreğinin mutmain olmadığını biliyorum. Her zaman çeşitli olaylar yaşıyoruz, bu seçimde de yaşadık ama maalesef minareyi çalanın kılıfı iyi hazırladığını bu sefer buradan itiraf etmek durumundayım çünkü sonuçları izah edilemeyecek seçim sonuçlarıyla bazı bölgelerde bazı siyasi partilerimiz karşı karşıya kaldılar. Ama hep “Millet iradesi.” diyoruz ya, hani “Söz milletin.”… Millet iradesi müsaade edin de sandığa yansısın, sandığa yansıtılsın, yoksa buralarda konuşmamızın bir anlamı kalmıyor. İşte bakın, millet iradesinin yansıması gereken Türkiye Büyük Millet Meclisinde bile millet iradesinin yansımasının ne kadar eksik olduğunu görüyoruz. Önümüzdeki dönemde AK PARTİ’li milletvekillerinin isyanını hep birlikte göreceğiz, bu sisteme bizden önce onlar isyan edecekler.</seg>
         </u>
-        <note>(İYİ PARTİ sıralarından alkışlar)</note>
+        <note>İYİ PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p330">
           <seg xml:id="tbmm-2018-07-23s01p330.seg0">Teşekkür ederim.</seg>
         </u>
@@ -980,7 +981,7 @@
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s01p333">
           <seg xml:id="tbmm-2018-07-23s01p333.seg0">…zapta geçsin diye ifade etmek istiyorum.</seg>
         </u>
-        <note>[İYİ PARTİ sıralarından gülüşmeler, alkışlar(!)]</note>
+        <note>İYİ PARTİ sıralarından gülüşmeler, alkışlar(!</note>
         <u ana="#regular" who="#MuhammetNaci.Cinisli" xml:id="tbmm-2018-07-23s01p335">
           <seg xml:id="tbmm-2018-07-23s01p335.seg0">Kabul etseydiniz.</seg>
         </u>
@@ -996,14 +997,14 @@
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s01p339">
           <seg xml:id="tbmm-2018-07-23s01p339.seg0">Ama şunu söyleyeyim, belki bilmiyor olabilir arkadaşlarımız, mesele şu: Sadece bugün 5 tane grup önerisi var. “Her biri önemlidir, kabul edelim.” desek bu Meclis iş yapamaz hâle gelir. Burada grup önerilerinin nasıl kabul edildiğini eski arkadaşlar bilirler; 5 parti bir araya gelir, ortak metin verir ve anlaşılır. Dolayısıyla usuli bir “hayır”dır söylemek istediğimiz. Kaldı ki bu konu daha önce araştırılmış. Aynı zamanda yargı da tam bağımsız olarak işini yapmaktadır. Bizim burada ilgili partinin önergesine “hayır” dememiz usuli bir işlemdir.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p341">
           <seg xml:id="tbmm-2018-07-23s01p341.seg0">Teşekkür ederim Sayın Turan.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p342">
           <seg xml:id="tbmm-2018-07-23s01p342.seg0">Öneri üzerinde Cumhuriyet Halk Partisi Grubu adına Sayın Ali Haydar Hakverdi.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#AliHaydar.Hakverdi" xml:id="tbmm-2018-07-23s01p344">
           <seg xml:id="tbmm-2018-07-23s01p344.seg0">Sayın Başkan, sayın milletvekilleri; Genel Kurulu saygıyla selamlıyorum.</seg>
         </u>
@@ -1031,21 +1032,21 @@
         <u ana="#regular" who="#AliHaydar.Hakverdi" xml:id="tbmm-2018-07-23s01p352">
           <seg xml:id="tbmm-2018-07-23s01p352.seg0">Samsun Vezirköprü’de seçim sırasında AKP’li bir adayın mikrofonunu bölgenin kaymakamı tutmaktadır ve çok utanç verici bir durumdur bu. Bütün uygulamalar iktidar lehine yapılmış ve sonuçta bir meşruiyet tartışması devam etmektedir. Yüce Meclisimiz bu haksızlığı giderebilecek önlemleri ivedi olarak almak zorundadır.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#AliHaydar.Hakverdi" xml:id="tbmm-2018-07-23s01p354">
           <seg xml:id="tbmm-2018-07-23s01p354.seg0">Bu sorumluluk sizin olduğu kadar iktidar partisinin ve Meclis Başkanımızındır.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p355">
           <seg xml:id="tbmm-2018-07-23s01p355.seg0">Sayın Hakverdi, tamamlayalım lütfen.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p357">
           <seg xml:id="tbmm-2018-07-23s01p357.seg0">Teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p358">
           <seg xml:id="tbmm-2018-07-23s01p358.seg0">Öneri üzerinde Adalet ve Kalkınma Partisi Grubu adına Sayın Celalettin Güvenç…</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Celalettin.Güvenç" xml:id="tbmm-2018-07-23s01p360">
           <seg xml:id="tbmm-2018-07-23s01p360.seg0">Sayın Başkan, değerli milletvekilleri; sizleri saygıyla selamlıyorum.</seg>
         </u>
@@ -1076,7 +1077,7 @@
         <u ana="#regular" who="#Celalettin.Güvenç" xml:id="tbmm-2018-07-23s01p369">
           <seg xml:id="tbmm-2018-07-23s01p369.seg0">Bunun sonucunda, değerli arkadaşlarım, son seçimde yüzde 86 katılım olmuştur, 51 milyon seçmen sandığa gitmiştir ve sandıkların açılmasından üç dört saat sonra gibi bir sürede seçimlerin sonuçlarına bütün dünya gibi Türkiye de ulaşmıştır. Bu bir başarı hikâyesidir. Seçimlerde, iddia edildiğinin aksine, AGİT dâhil Avrupa Birliğinden, dünyadan gelen gözlemciler sandık sandık görev yapmışlardır. Sandıkları gezdiğimiz sırada bunlarla bizzat görüşüp görüşlerini alma imkânı bulduğumuzu ifade etmek istiyorum.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Celalettin.Güvenç" xml:id="tbmm-2018-07-23s01p371">
           <seg xml:id="tbmm-2018-07-23s01p371.seg0">Başkanım, ek süre verir misiniz?</seg>
         </u>
@@ -1092,7 +1093,7 @@
         <u ana="#regular" who="#Celalettin.Güvenç" xml:id="tbmm-2018-07-23s01p375">
           <seg xml:id="tbmm-2018-07-23s01p375.seg0">Çok iddia edilen 142’yle ilgili, gelmeden önce bir ilçe seçim kurulu başkanını arayarak bilgi aldım. 142, görevlilerin, askılardan indikten sonra sandık kurulu başkan ve üyeleri ile diğer kamu görevlilerinin, başka sandıklarda -kendi sandığında değil- görev yapacak…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Celalettin.Güvenç" xml:id="tbmm-2018-07-23s01p377">
           <seg xml:id="tbmm-2018-07-23s01p377.seg0">Bunu da söyleyebilir miyim Başkanım? Teknik bir şey anlatıyorum.</seg>
         </u>
@@ -1102,7 +1103,7 @@
         <u ana="#regular" who="#Celalettin.Güvenç" xml:id="tbmm-2018-07-23s01p379">
           <seg xml:id="tbmm-2018-07-23s01p379.seg0">Başka sandıklarda görev alacak görevlilerle ilgili bir uygulamadır. 17 Haziranda Yüksek Seçim Kurulu bunların hangi sandıkta oy vermeyip hangi sandıkta oy vereceğine dair isteği yayınlamıştır. Bu, tüm partilerimizin de elinde vardır.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p381">
           <seg xml:id="tbmm-2018-07-23s01p381.seg0">Teşekkür ederim Sayın Güvenç.</seg>
         </u>
@@ -1187,7 +1188,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p408">
           <seg xml:id="tbmm-2018-07-23s01p408.seg0">Önerinin gerekçesini açıklamak üzere öneri sahibi Cumhuriyet Halk Partisi Grubu adına Sayın Turan Aydoğan.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Turan.Aydoğan" xml:id="tbmm-2018-07-23s01p410">
           <seg xml:id="tbmm-2018-07-23s01p410.seg0">Sayın Başkan, sayın milletvekilleri; OHAL’in olumsuz etkilerinin araştırılması ve giderilmesi için bir araştırma komisyonu kurulması amacıyla verdiğimiz önergeye ilişkin söz almış bulunuyorum.</seg>
         </u>
@@ -1227,14 +1228,14 @@
         <u ana="#regular" who="#Turan.Aydoğan" xml:id="tbmm-2018-07-23s01p422">
           <seg xml:id="tbmm-2018-07-23s01p422.seg0">Sayın milletvekilleri, tıpkı 1987 yılında ilan edilen OHAL’in etkileri nasıl uzun yıllar sürdüyse iki yıldır yaşadığımız ve iktidarın üç yıl daha sürdürmek istediği OHAL’in de etkileri uzun yıllar sürecektir. Gelin, ülkemize bir iyilik yapalım. Şimdi gündeme getirdiğiniz, OHAL’in kalıcı etkilerinden daha ağır travmalar yaşatacak olan bu yasayı el birliğiyle bu Meclisten geçirmeyelim. Halkımıza bir iyilik yapalım, çocuklarımızın geleceğine bir iyilik yapalım. Travmalar altında yaşayacak bir Türk toplumu yaratmayalım. Gelin, bu olumsuz etkileri minimuma indirmek için alınacak tedbirleri belirleyelim. Gelin, Meclis olarak elimizi taşın altına koyalım, getirdiğiniz bu yasa teklifini burada geri çevirelim. Öncelikle OHAL’in Türk toplumunda yaratmış olduğu bu travmaları gelecek nesillere daha büyük travmalar bırakmamak için tartışalım, bir yere taşıyalım. Bir daha ne darbeleri ne bu travmaları yaşamamız söz konusu olmasın.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p424">
           <seg xml:id="tbmm-2018-07-23s01p424.seg0">Teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p425">
           <seg xml:id="tbmm-2018-07-23s01p425.seg0">Şimdi, öneri üzerinde İYİ PARTİ Grubu adına Sayın Aydın Adnan Sezgin…</seg>
         </u>
-        <note>(İYİ PARTİ sıralarından alkışlar)</note>
+        <note>İYİ PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#AydınAdnan.Sezgin" xml:id="tbmm-2018-07-23s01p427">
           <seg xml:id="tbmm-2018-07-23s01p427.seg0">Genel Kurulu saygıyla selamlıyorum.</seg>
         </u>
@@ -1247,7 +1248,7 @@
         <u ana="#regular" who="#AydınAdnan.Sezgin" xml:id="tbmm-2018-07-23s01p430">
           <seg xml:id="tbmm-2018-07-23s01p430.seg0">Efendim, OHAL tabiatıyla fevkalade sakıncalı bir rejimdir, bir düzendir. OHAL’in yurt dışında Türkiye'nin imajına, Türkiye'nin algısına çok önemli zararları olmuştur. Demokrasiyle yönetilen veya o iddiada olan bir ülkede OHAL’in bu denli uzun uygulanması ve bu denli sert bir şekilde tatbik edilmesi bizim demokrasi iddialarımızı altüst etmiştir. Ayrıca, birçok açıdan da bizlerin, Türkiye'nin ait olmaktan büyük memnuniyet duyduğu, hatta onurlandığı uluslararası kurumların, Avrupa kurumlarının, Birleşmiş Milletler kurumlarının normlarına ve sözleşmelerine ciddi şekilde aykırı düşmemize yol açmıştır. Bunun, yurt dışında bizim en fazla temasta olduğumuz âlemdeki hükûmetlerin veya yasama organlarının Türkiye’ye bakışı açısından geçerli olduğunu söylemek istiyorum ama aynı zamanda, kamuoyunda ve ekonomik çevrelerde aynı ciddi ölçüde menfi bakış hâkim duruma gelmiştir. Bu fevkalade üzücü bir durumdur, bizleri maalesef bulunmayı talep ettiğimiz düzeyin çok ama pek çok gerisine itmiştir. Demokrasi ve insan haklarına saygı Türkiye’yi en fazla onurlandıran değerlerdir, ilkelerdir.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#AydınAdnan.Sezgin" xml:id="tbmm-2018-07-23s01p432">
           <seg xml:id="tbmm-2018-07-23s01p432.seg0">Bitiriyorum Sayın Başkan.</seg>
         </u>
@@ -1260,14 +1261,14 @@
         <u ana="#regular" who="#AydınAdnan.Sezgin" xml:id="tbmm-2018-07-23s01p435">
           <seg xml:id="tbmm-2018-07-23s01p435.seg0">Bu düşüncelerle böyle bir yasanın yüce Meclisten geçmemesini temenni ediyorum.</seg>
         </u>
-        <note>(İYİ PARTİ sıralarından alkışlar)</note>
+        <note>İYİ PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p437">
           <seg xml:id="tbmm-2018-07-23s01p437.seg0">Teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p438">
           <seg xml:id="tbmm-2018-07-23s01p438.seg0">Şimdi, Halkların Demokratik Partisi Grubu adına Sayın Ayşe Acar Başaran.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Ayşe.AcarBaşaran" xml:id="tbmm-2018-07-23s01p440">
           <seg xml:id="tbmm-2018-07-23s01p440.seg0">Sayın Başkan, değerli milletvekilleri; öncelikle, hepinizi saygıyla selamlıyorum ama bizi televizyonları başında, koğuşlarda izlemek zorunda kalan tutuklu, tutsak milletvekillerini de buradan saygıyla selamlıyorum. Umarım en kısa zamanda asıl olmaları gereken yerde, burada, yanımızda, yasama faaliyetinin içerisinde yer alırlar.</seg>
         </u>
@@ -1286,21 +1287,21 @@
         <u ana="#regular" who="#Ayşe.AcarBaşaran" xml:id="tbmm-2018-07-23s01p445">
           <seg xml:id="tbmm-2018-07-23s01p445.seg0">Şimdi, bugün -tekrar konuşacağız- yeni bir yasa geliyor, “üç yıl” diye topluma lanse ediliyor, aslında üç yılla sınırlı olmayan bir yasa. Bazı düzenlemeler evet ama yasanın geneli aslında ülkeyi artık OHAL rejimiyle, Başkanlık sistemi dedikleri rejimin devamı…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p447">
           <seg xml:id="tbmm-2018-07-23s01p447.seg0">Sayın Başaran, tamamlayalım lütfen.</seg>
         </u>
         <u ana="#regular" who="#Ayşe.AcarBaşaran" xml:id="tbmm-2018-07-23s01p448">
           <seg xml:id="tbmm-2018-07-23s01p448.seg0">Başkanlık sisteminin devamı şeklinde oluşturdukları OHAL rejimiyle bu ülkeyi yönetmeye çalışıyorlar. Anladık ki iktidar ülkeyi OHAL’siz yönetemez duruma gelmiş, OHAL’le de yönetemiyor şu anda. Ekonomi iflas etmiş durumda, zaten işsizlik had safhadaydı, ihraçlarla beraber işsizlik oranı daha fazla arttı. Demokratikleşme adına bir dönem Avrupa standartlarına yetişmeye çalışırken şu anda günbegün Avrupa standartlarından uzaklaşıyor durumdayız, üçüncü dünya ülkesi vasfına gelmiş durumdayız. O açıdan, değerli arkadaşlar, kendimizi kandırmayalım. Çünkü şu anda herkesin evinde OHAL’den söz ediliyor, herkesin. Herkes, toplum, sizin haricinizde belki iktidarın sıralarında oturanlar haricinde 81 milyonun evinde OHAL konuşuluyor. Haberleşme hürriyetleri, örgütlenme hürriyetleri, seyahat hürriyetleri yani en temel hürriyetlerin hepsi ihlal ediliyor. O açıdan, Mecliste bu komisyonu kuralım, OHAL yasasından vazgeçelim, ülkeyi daha demokratik bir zeminde yönetmenin yollarını arayalım.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p450">
           <seg xml:id="tbmm-2018-07-23s01p450.seg0">Teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p451">
           <seg xml:id="tbmm-2018-07-23s01p451.seg0">Şimdi, Adalet ve Kalkınma Partisi Grubu adına Sayın Selahattin Minsolmaz…</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Selahattin.Minsolmaz" xml:id="tbmm-2018-07-23s01p453">
           <seg xml:id="tbmm-2018-07-23s01p453.seg0">Sayın Başkan, değerli milletvekilleri; Cumhuriyet Halk Partisinin, OHAL’in ülkemize yönelik olumsuz etkilerinin tespit edilmesi ve OHAL’e ilişkin alınacak önlemlerin tespitiyle ilgili Meclis araştırması komisyonu kurulması önerisinin aleyhinde grubum adına söz almış bulunuyorum. Yüce heyetinizi saygıyla selamlıyorum.</seg>
         </u>
@@ -1316,7 +1317,7 @@
         <u ana="#regular" who="#Selahattin.Minsolmaz" xml:id="tbmm-2018-07-23s01p457">
           <seg xml:id="tbmm-2018-07-23s01p457.seg0">Nihayetinde, burada bir araştırma komisyonu kurulması yönünde oyumuzun renginin aleyhte olduğunu belirtiyorum. Sayın Grup Başkan Vekilimiz Özlem Zengin Hanımefendi kapsamlı açıklama yapacak.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p459">
           <seg xml:id="tbmm-2018-07-23s01p459.seg0">Teşekkür ederim.</seg>
         </u>
@@ -1380,7 +1381,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p479">
           <seg xml:id="tbmm-2018-07-23s01p479.seg0">Önerinin gerekçesini açıklamak üzere, öneri sahibi Adalet ve Kalkınma Partisi Grubu adına Sayın Bülent Turan.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s01p481">
           <seg xml:id="tbmm-2018-07-23s01p481.seg0">Sayın Başkan, değerli milletvekilleri; yüce heyetinizi saygıyla selamlıyorum.</seg>
         </u>
@@ -1414,7 +1415,7 @@
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s01p491">
           <seg xml:id="tbmm-2018-07-23s01p491.seg0">Teklifi incelediğinizde birçok hususun aslında demokratik bir kazanım olduğunu göreceksiniz. Bir defa, bu teklif asla olağanüstü hâlin devamı falan değil. Olağanüstü hâl, bambaşka bir konsept, bambaşka bir anayasal sistem ama şimdiki getirilen teklif, sıkıyönetimin kaldırılmasından tutun da Avrupa İnsan Hakları Mahkemesindeki ara buluculuğa kadar birçok konunun makul yaklaşıldığında zaten kabul göreceği bir sistem. O yüzden, bu kanunu olağanüstü hâlin yerine ikame edilen bir kanun gibi görmeyi çok ön yargıyla yaklaşılan bir mesele olarak düşünüyorum.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p493">
           <seg xml:id="tbmm-2018-07-23s01p493.seg0">Teşekkür ederim.</seg>
         </u>
@@ -1499,7 +1500,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p520">
           <seg xml:id="tbmm-2018-07-23s01p520.seg0">Değerli arkadaşlar, İYİ PARTİ Grubu adına Sayın Feridun Bahşi.</seg>
         </u>
-        <note>(İYİ PARTİ sıralarından alkışlar)</note>
+        <note>İYİ PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Lütfü.Türkkan" xml:id="tbmm-2018-07-23s01p522">
           <seg xml:id="tbmm-2018-07-23s01p522.seg0">Antalya Milletvekili Başkanım.</seg>
         </u>
@@ -1551,7 +1552,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p538">
           <seg xml:id="tbmm-2018-07-23s01p538.seg0">Şimdi, Milliyetçi Hareket Partisi Grubu adına Sayın Erkan Akçay konuşacak.</seg>
         </u>
-        <note>(MHP sıralarından alkışlar)</note>
+        <note>MHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Erkan.Akçay" xml:id="tbmm-2018-07-23s01p540">
           <seg xml:id="tbmm-2018-07-23s01p540.seg0">Sayın Başkan, değerli milletvekilleri; muhterem heyetinizi saygıyla selamlıyorum.</seg>
         </u>
@@ -1570,14 +1571,14 @@
         <u ana="#regular" who="#Erkan.Akçay" xml:id="tbmm-2018-07-23s01p545">
           <seg xml:id="tbmm-2018-07-23s01p545.seg0">15 Temmuz 2016 tarihinde, malumunuz, bir hain darbe girişimini yaşadık. Bunu takiben, 20 Temmuz 2016 tarihinde de OHAL düzenlemesi geldi ve iki yıllık bir süreyle OHAL uygulamaları yapıldı ve bu süre içerisinde çok önemli bir mücadele gerçekleştirildi. Biz Milliyetçi Hareket Partisi olarak gerek FETÖ’yle gerekse terörle mücadele nihayete erdirilene kadar bu OHAL uygulamalarının devam etmesi yönünde görüşümüzü beyan etmiştik. Akabinde, Hükûmetin, devletin gerekli organlarının gerekli görüşlerini de almak suretiyle vardığı netice itibarıyla bu OHAL’in tekrar uzatılması yönünde herhangi bir önergesi, tezkere teklifi olmamıştır. Tabii, iki yıl sonra OHAL’in kalkmış olması, başta FETÖ olmak üzere terörle mücadelenin neticelendiği anlamını taşımamaktadır. Türkiye'nin gerek FETÖ’yle gerekse PKK ve diğer terör örgütleriyle mücadelesi devam etmektedir ve ayrıca, bu mücadelenin de -OHAL’in bitmiş olmasına rağmen- kesinlikle bir kesintiye uğramaması gerekir. OHAL uzatılmamış olabilir ancak güvenlik tedbirleri devam etmelidir ve etmektedir. İşte bu tedbirleri bugün görüşeceğimiz kanun teklifiyle de hukuk sistemimize dâhil edeceğiz.</seg>
         </u>
-        <note>(MHP ve AK PARTİ sıralarından alkışlar)</note>
+        <note>MHP ve AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p547">
           <seg xml:id="tbmm-2018-07-23s01p547.seg0">Teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p548">
           <seg xml:id="tbmm-2018-07-23s01p548.seg0">Şimdi, öneri üzerinde Halkların Demokratik Partisi Grubu adına Hakkı Saruhan Oluç konuşacak.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#HakkıSaruhan.Oluç" xml:id="tbmm-2018-07-23s01p550">
           <seg xml:id="tbmm-2018-07-23s01p550.seg0">Sayın Başkan, değerli vekiller; hepinizi saygıyla selamlıyorum.</seg>
         </u>
@@ -1596,11 +1597,11 @@
         <u ana="#regular" who="#HakkıSaruhan.Oluç" xml:id="tbmm-2018-07-23s01p555">
           <seg xml:id="tbmm-2018-07-23s01p555.seg0">Şimdi, bir son cümle söyleyeyim, zamanım doldu.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p557">
           <seg xml:id="tbmm-2018-07-23s01p557.seg0">Tamamlayalım Sayın Oluç.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s01p559">
           <seg xml:id="tbmm-2018-07-23s01p559.seg0">Teşekkür ederim.</seg>
         </u>
@@ -1662,7 +1663,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p013">
           <seg xml:id="tbmm-2018-07-23s02p013.seg0">Evet, önce lehte Sayın Bülent Turan.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p015">
           <seg xml:id="tbmm-2018-07-23s02p015.seg0">Süreniz üç dakikadır.</seg>
         </u>
@@ -1690,11 +1691,11 @@
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s02p023">
           <seg xml:id="tbmm-2018-07-23s02p023.seg0">Bakınız, İç Tüzük 62 “Komisyonu ve bakanı arar.” Ama o hükûmetin bakanı artık yok. O yüzden komisyon başkanı burada, sözcüsü burada. Bundan sonraki görüşmeler komisyon başkanının beraberinde yürüyecek. Ne zamana kadar? Tüm partiler bir araya gelir, bir tüzük hazırlar, tekrar Anayasa’ya uygun tüzük yaparsa bu baş tacı olur, bir daha söylüyorum ama şimdi Hükûmet yok diye Mecliste kanun görüşmeyecek miyiz? Hükûmet yok diye, İç Tüzük Anayasa’ya uygun hâle getirilmedi diye beş sene boyunca kanun görüşmeyecek miyiz?</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s02p025">
           <seg xml:id="tbmm-2018-07-23s02p025.seg0">Üst norma uyan bir adım atmıştır Sayın Başkan. Bu kanunun lehinde olduğumuzu ifade etmek istiyorum.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p027">
           <seg xml:id="tbmm-2018-07-23s02p027.seg0">Teşekkür ederim Sayın Turan.</seg>
         </u>
@@ -1704,7 +1705,7 @@
         <u ana="#regular" who="#Engin.Özkoç" xml:id="tbmm-2018-07-23s02p029">
           <seg xml:id="tbmm-2018-07-23s02p029.seg0">Efendim, İbrahim Kaboğlu konuşma yapacak.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#İbrahimÖzden.Kaboğlu" xml:id="tbmm-2018-07-23s02p031">
           <seg xml:id="tbmm-2018-07-23s02p031.seg0">Sayın Başkan, değerli milletvekilleri; Başkanlık Divanını kutluyorum öncelikle.</seg>
         </u>
@@ -1720,14 +1721,14 @@
         <u ana="#regular" who="#İbrahimÖzden.Kaboğlu" xml:id="tbmm-2018-07-23s02p035">
           <seg xml:id="tbmm-2018-07-23s02p035.seg0">O bakımdan benim önerim pozitif hukuk açısından “eski Türkiye yeni Türkiye” tartışması değil, Anayasa’nın 11’inci maddesine göre Anayasa hükümleri üstündür; yasama, yürütme, yargı organlarını bağlamaktadır. Dolayısıyla tüzüğe ilişkin hükümler de hepimizi bağlamaktadır.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p037">
           <seg xml:id="tbmm-2018-07-23s02p037.seg0">Teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p038">
           <seg xml:id="tbmm-2018-07-23s02p038.seg0">Şimdi, aleyhte Sayın Ayhan Bilgen.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Ayhan.Bilgen" xml:id="tbmm-2018-07-23s02p040">
           <seg xml:id="tbmm-2018-07-23s02p040.seg0">Sayın Başkan, değerli milletvekilleri; tabii, usul tartışmasının son kararını verecek olan sizsiniz. Dolayısıyla, bir biçimde, bu yaptığımız işin de sonunda çıkacak karar herkes için bağlayıcı olacak. Yani, ya iddia edildiği gibi Anayasa’ya aykırı bir davranışa birlikte ortak olacağız ya da bunu düzeltmenin imkânını, yolunu değerlendireceğiz.</seg>
         </u>
@@ -1740,14 +1741,14 @@
         <u ana="#regular" who="#Ayhan.Bilgen" xml:id="tbmm-2018-07-23s02p043">
           <seg xml:id="tbmm-2018-07-23s02p043.seg0">Bakın, beş gündür OHAL yok, çok da büyük bir kıyamet kopmuyor. Yani OHAL kalktığı için büyük bir kriz, büyük bir kaos, bir yetki karmaşası falan yaşamıyoruz. Bunu bir iki hafta daha erteleyebiliriz, İç Tüzük tartışmasını öne çekebiliriz, gereğini yaparız. Önce bir İç Tüzük’te uzlaşırız, sonra onun gerektirdiği ilk gündem yine size göre OHAL'e dair düzenlemelerse onun da gündem planlaması buna uygun biçimde yapılabilir.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p045">
           <seg xml:id="tbmm-2018-07-23s02p045.seg0">Teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p046">
           <seg xml:id="tbmm-2018-07-23s02p046.seg0">Son olarak Sayın Mehmet Doğan Kubat.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#MehmetDoğan.Kubat" xml:id="tbmm-2018-07-23s02p048">
           <seg xml:id="tbmm-2018-07-23s02p048.seg0">Sayın Başkanım, çok değerli milletvekili arkadaşlarım; açılan usul görüşmesinde Başkanlığın görüşülmekte olan 1 sıra sayılı Kanun Teklifi’nin görüşmelerinin Hükûmet olmaksızın da sadece Komisyonun varlığıyla sürdürülmesinin mümkün olduğu yönündeki tutumu lehinde görüşlerimi ifade etmek üzere söz almış bulunuyorum. Bu vesileyle yüce heyetinizi saygılarımla selamlarım.</seg>
         </u>
@@ -1760,7 +1761,7 @@
         <u ana="#regular" who="#MehmetDoğan.Kubat" xml:id="tbmm-2018-07-23s02p051">
           <seg xml:id="tbmm-2018-07-23s02p051.seg0">Kaldı ki zaten komisyonda -mecburi değil- hükûmet katılmış ama 62’ye göre de “bir defa ertelenir” diyor. Bu 62’nci maddenin 73’teki komisyon görüşmelerine de bakılınca, komisyonun bir defa, sonra görüşmelere devam etmesinin hikmeti, hükûmetin çalışmaları engellemesinin önüne geçmek olarak da ifade edilmiştir.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Engin.Özkoç" xml:id="tbmm-2018-07-23s02p053">
           <seg xml:id="tbmm-2018-07-23s02p053.seg0">Hiç bu kadar zorlandığını görmemiştim.</seg>
         </u>
@@ -1773,7 +1774,7 @@
         <u ana="#regular" who="#MehmetDoğan.Kubat" xml:id="tbmm-2018-07-23s02p056">
           <seg xml:id="tbmm-2018-07-23s02p056.seg0">Başkanımızın tutumu yerindedir. Komisyonun varlığıyla görüşmeler devam edebilir.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p058">
           <seg xml:id="tbmm-2018-07-23s02p058.seg0">Teşekkür ederim Sayın Kubat.</seg>
         </u>
@@ -1804,7 +1805,7 @@
         <u ana="#regular" who="#Erkan.Akçay" xml:id="tbmm-2018-07-23s02p067">
           <seg xml:id="tbmm-2018-07-23s02p067.seg0">Şimdi, söz konusu olan bir Anayasa değişikliği ve normlar hiyerarşisine göre Anayasa en üstün norm olduğuna göre öncelikle Anayasa’ya riayet etme mecburiyetimiz vardır. Aykırılık söz konusu değil, yalnız İç Tüzük nedeniyle fiilî bir boşluk söz konusu, bir fiilî boşluk var. Bunu aykırılık olarak da değerlendirmemek gerekir. Kaldı ki Anayasa’ya aykırı bir durum söz konusu değil çünkü Anayasa’ya uyma gayretindeyiz, bu tartışmalar da Anayasa değişikliğine uyma eğiliminden kaynaklanmaktadır.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Erkan.Akçay" xml:id="tbmm-2018-07-23s02p069">
           <seg xml:id="tbmm-2018-07-23s02p069.seg0">Tamamlıyorum Sayın Başkan.</seg>
         </u>
@@ -1874,7 +1875,7 @@
         <u ana="#regular" who="#Engin.Özkoç" xml:id="tbmm-2018-07-23s02p091">
           <seg xml:id="tbmm-2018-07-23s02p091.seg0">Ve ardından bir şey daha söyledik: Siz yasalara uygun bir şekilde Meclisi yönetmek zorundaysanız, önce yasaları kendimize uydurarak değil onunla ilgili kararları Meclisten çıkararak bunu yapmalıyız. Dünyanın her tarafındaki itibarlı devletler ve meclisler bunları böyle yapıyorlar.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p093">
           <seg xml:id="tbmm-2018-07-23s02p093.seg0">Teşekkür ederim Sayın Özkoç.</seg>
         </u>
@@ -1920,7 +1921,7 @@
         <u ana="#regular" who="#Engin.Özkoç" xml:id="tbmm-2018-07-23s02p107">
           <seg xml:id="tbmm-2018-07-23s02p107.seg0">Evet, gerçekten!</seg>
         </u>
-        <note>(CHP sıralarından gürültüler)</note>
+        <note>CHP sıralarından gürültüler</note>
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s02p109">
           <seg xml:id="tbmm-2018-07-23s02p109.seg0">Ama dinlerseniz daha rahat konuşuruz arkadaşlar.</seg>
         </u>
@@ -1933,7 +1934,7 @@
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s02p112">
           <seg xml:id="tbmm-2018-07-23s02p112.seg0">Bakınız, önemli bir şey söylüyorum Sayın Başkanım. İddia ediyorum, eğer bugün bu sıralarda bir bakanımız olsaydı, muhtemeldir ki aynı arkadaşlar “Bakanın burada ne işi var?” diyeceklerdi çünkü Komisyon tartışmalarında, üst kattaki görüşmelerde CHP’nin grup başkan vekili Komisyonu izlemeye gelen Adalet Bakanına “Sayın Komisyon Başkanı, bu bakanı siz mi çağırdınız?” demişti, “Burada olamaz.” demişti. Yani bakan geldi izlemek için, suç oldu, gelmedi, suç oldu. Bu tarz, doğru bir yaklaşım değil. (AK PARTİ sıralarından alkışlar) Biz diyoruz ki: Mesele üzüm yemek, iş yapmak. Farz edin ki 5 parti bir araya geldi, beş sene boyunca da İç Tüzük’te anlaşamadık. Biz beş sene boyunca kanun görüşmeyecek miyiz, Meclisi yok mu sayacağız? Erken seçimden kaynaklı olarak İç Tüzük’ün değişmemesi bir sorundur, bunu hemen değiştirelim, kabul ediyoruz ama bakan var mı yok mu tartışmasına yeni sisteme ayak uydurarak bakmamız lazım. “Komisyonda bakanın ne işi var?” diyen anlayışın da burada bakan aramasının yanlış olduğunu hatırlatmak istiyorum.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p114">
           <seg xml:id="tbmm-2018-07-23s02p114.seg0">Teşekkür ederim Sayın Turan.</seg>
         </u>
@@ -1955,7 +1956,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p120">
           <seg xml:id="tbmm-2018-07-23s02p120.seg0">Uzman olarak davet edildiyse bakan olarak değil demek ki, siz onu söylüyorsunuz.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p122">
           <seg xml:id="tbmm-2018-07-23s02p122.seg0">Teşekkür ederim.</seg>
         </u>
@@ -2007,7 +2008,7 @@
         <u ana="#regular" who="#İbrahimÖzden.Kaboğlu" xml:id="tbmm-2018-07-23s02p138">
           <seg xml:id="tbmm-2018-07-23s02p138.seg0">Sayın Başkan, burada siyasal kimliğimizi bir yana bırakırsak farklı partilerden 4, 5, 6 hukukçular olarak bir araya geldiğimizde siyasal kimliğimizin ötesinde, biliyoruz ki öncelikli görevimiz İç Tüzük'ü yapmak ama bir haftada ama on beş günde. Bunu iyi biliyoruz hepimiz ama siyasal aidiyetlerimiz nedeniyle farklı konuşmak durumundayız. Net olan budur. İç Tüzük'ü yapalım, sonra bu yasayı görüşelim, o zaman Anayasa’ya uygun hâle gelir yoksa bunu sistem tartışmasıyla çözemeyiz Anayasa yürürlüktedir. Benim söyleyeceğim bu kadar. Anayasa’ya aykırı bir iş yapmayalım diyorum.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p140">
           <seg xml:id="tbmm-2018-07-23s02p140.seg0">Teşekkür ederim.</seg>
         </u>
@@ -2029,7 +2030,7 @@
         <u ana="#regular" who="#Nurhayat.AltacaKayışoğlu" xml:id="tbmm-2018-07-23s02p146">
           <seg xml:id="tbmm-2018-07-23s02p146.seg0">Yine, aynı Anayasa’da, daha doğrusu daha önceki Anayasa değişikliğinde de dokunulmazlıklarla ilgili sizin o dönemde “Tekrar seçilenler dokunulmazlığa bürünür.” dediğiniz ve rapora yazdığınız ifadeler bugün örneğin Enis Berberoğlu kararında maalesef uygulanmıyor. Yani bu Anayasa’yı değiştirenler değiştirdikleri hükümlere kendileri uymuyorlar, meşru kabul etmiyorlar ve bugün yürürlükte olan İç Tüzük’e uymuyorlar.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Nurhayat.AltacaKayışoğlu" xml:id="tbmm-2018-07-23s02p148">
           <seg xml:id="tbmm-2018-07-23s02p148.seg0">Ondan sonra, bu ülkenin hukuk devleti olduğunu hiç kimse ifade edemez. Milletten de kanunlara uymalarını bekleyemeyiz Sayın Başkan.</seg>
         </u>
@@ -2039,7 +2040,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p150">
           <seg xml:id="tbmm-2018-07-23s02p150.seg0">Teklifin tümü üzerinde Milliyetçi Hareket Partisi Grubu adına Sayın Mustafa Kalaycı, Konya Milletvekili…</seg>
         </u>
-        <note>(MHP sıralarından alkışlar)</note>
+        <note>MHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Kalaycı" xml:id="tbmm-2018-07-23s02p152">
           <seg xml:id="tbmm-2018-07-23s02p152.seg0">Sayın Başkan, değerli milletvekilleri; görüşülmekte olan 1 sıra sayılı Kanun Teklifi’nin tümü üzerinde Milliyetçi Hareket Partisi Grubu adına söz aldım. Bu vesileyle, yüksek heyetinizi hürmetle selamlıyorum.</seg>
         </u>
@@ -2097,8 +2098,8 @@
         <u ana="#regular" who="#Mustafa.Kalaycı" xml:id="tbmm-2018-07-23s02p170">
           <seg xml:id="tbmm-2018-07-23s02p170.seg0">Bunları yaparken haksız ve hukuksuz yere sosyal enkaz ve beşerî yıkım yaratmaktan, adaletsizlikleri beslemekten, rövanşist eğilimleri bilemekten kaçınmalıyız. Mazlumların ahını almak, insan hak ve hukukunu hiçe saymak büyük bir vebaldir. Devlet umuru, devlet gururu, devlet şuuru, millî vakar böyle bir vebale ortak olmaz, asla olmamalıdır. Türkiye hem FETÖ belasını hem de PKK tehdidini tamamen bitirerek gündeminden çıkarmalı, geleceğimiz emniyete alınmalıdır. Milliyetçi Hareket Partisinin terörle mücadelede desteği tamdır. Bu işi bitirelim, bu rezilleri artık tamamen hayatımızdan ve gündemimizden kuyumcu titizliğiyle ayıklayarak çıkaralım, hak ettikleri cezayı bulmaları için gereği neyse yapalım.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
-        <note>(MHP ve AK PARTİ sıralarından alkışlar)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
+        <note>MHP ve AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p173">
           <seg xml:id="tbmm-2018-07-23s02p173.seg0">Teşekkür ederim Sayın Kalaycı.</seg>
         </u>
@@ -2108,7 +2109,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p175">
           <seg xml:id="tbmm-2018-07-23s02p175.seg0">Şimdi, İYİ PARTİ Grubu adına Sayın Yavuz Ağıralioğlu.</seg>
         </u>
-        <note>(İYİ PARTİ sıralarından alkışlar)</note>
+        <note>İYİ PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Yavuz.Ağıralioğlu" xml:id="tbmm-2018-07-23s02p177">
           <seg xml:id="tbmm-2018-07-23s02p177.seg0">Sayın Başkan, değerli milletvekilleri; partim ve grubum adına peşinen ifade etmeyi borç bildiğim husus şudur: Terörle mücadele hassasiyetini Hükûmetin taşıdığı çerçeve içerisinde zafiyete uğratacak bir irade beyanımız olmayacaktır. Terörle mücadelede devletin bu mevzuda etkin mücadele etme kararlığını, bu kararlılığın arkasındaki Hükûmet iradesini ilzam etmemek için azami hassasiyet göstereceğiz.</seg>
         </u>
@@ -2145,7 +2146,7 @@
         <u ana="#regular" who="#Yavuz.Ağıralioğlu" xml:id="tbmm-2018-07-23s02p188">
           <seg xml:id="tbmm-2018-07-23s02p188.seg0">Dolayısıyla, ben olağanüstü hâl şartları içerisinde devletin vakarına ziyan edebileceğimiz bir küçülme de görüyorum dilimizde. 15 Temmuz suikastını hafife almayalım. 15 Temmuza teşebbüs eden cinneti asla küçümsemeyelim. Küçümsemeyelim ama bir taraftan devletin bütün mekanizmalarını felç edecek kadar büyük bir korkuyu da büyütmeyelim. Bizim koca devletimizi, imparatorluk kurmuş devletimizi arkasında beş bin yıllık geçmişi olan milletimizle beraber bir emekli vaizin aldığına dair cümleleri büyüterek devletimizi de küçültmeyelim. Şunu ciddiye alalım, biz 15 Temmuzda bize teşebbüs edilen alçaklığa mukabele etme irademizi beyan edelim ama daha çok şunu ciddiye alalım: Biz nasıl bir devlet boşluğu verdik ki biz devletimizi nasıl bir ferasetsizlikle yönettik ki 100 binleri bulan bir sızma devletin idari, adli, bürokratik işleyişini felç edecek şekilde bir olağanüstü hâl mecburiyeti oluşturdu? Dolayısıyla bütün bu işler konuşulurken kendi hissemize düşen ferasetsizliğin, kendi hissemize düşen zamanında bu işleri engelleyememiş olmanın mesuliyetinin de cümlelerini kurmak zorundayız. Yoksa ben burada olağanüstü hâl tasarısı maddeleri üzerinden mevzunun şu hâle getirilmesinden de çok muzdaribim: Efendim, akşam ana haber bültenlerinde “İktidar partisinin Milliyetçi Hareket Partisinin desteğiyle sağlamış olduğu çoğunluğa filanca filanca partiler de itiraz ettiler ve koşulsuz itiraz…” Bu kabîl bir kaba tasnifin içerisinde hassasiyetlerimizin, endişelerimizin gümbürtüye gitmesinden de memnun değiliz. Dolayısıyla biz maddeler üzerindeki tekliflerimizi yapıcı olarak size teklif edeceğiz. Değişiklik taleplerimizin tamamı daha önce benzer uygulamalarda sizin, Hükûmetimizin eskiden bu hâl kalksın zamanında teklif ettiği cümlelerden seçiyoruz. Yani inanın buna, tek tek çıkarıp burada siyasi olarak size cevap hakkı doğsun diye istemiyorum yani mahcup olasınız diye de konuşmuyorum, nezaketsizlik saymayın lütfen ama bugün size itiraz olarak söyleyeceğimiz her cümleyi Hükûmetimizin üyelerinin cümlelerinde bulduk biz yani bunların sizin için bir şey demek olduğunu anlatmaya çalışıyorum. Biz kendimiz muhalefet partisi olarak çalışmasak sizin geçmişte, bu on altı yıllık iktidar döneminizde geçmişte kabinelerde görev yapmış, Millî Savunma Bakanlığı yapmış, Adalet Bakanlığı yapmış, İçişleri Bakanlığı yapmış, Millî Eğitim Bakanlığı yapmış bütün arkadaşlarımızın bu ve benzer…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Yavuz.Ağıralioğlu" xml:id="tbmm-2018-07-23s02p190">
           <seg xml:id="tbmm-2018-07-23s02p190.seg0">…konularla alakalı cümlelerinin içerisinden vallahi teker teker virgül ilave etmeksizin cümle çıkarırız, size muhalefetin esasını sizin cümlelerinizle yaparız, öyle yapıyoruz. Yani sizin muhalefete ihtiyacınız yok çünkü siz zaten kendinize muhalefetsiniz. Dolayısıyla arkadaşlar, istirhamımız şudur: Olabilir, feraset gösterilemedi. “Oldu, yanıldık.” Bunu da beyan ettiniz.</seg>
         </u>
@@ -2164,14 +2165,14 @@
         <u ana="#regular" who="#Yavuz.Ağıralioğlu" xml:id="tbmm-2018-07-23s02p195">
           <seg xml:id="tbmm-2018-07-23s02p195.seg0">Hassasiyetlerimize konu olan şeyi ifade edebildiğimi zannediyorum. Hükûmetle, Hükûmetin siyasi iradesiyle ve onun sonuçları üzerinden doğacak ne varsa onlarla bizim, partimiz ve grubumuzun münasebetinin çerçeve dilini de oluşturmaya çalışıyorum. Yani mesuliyetli, vakur, Hükûmetin doğru yaptıklarına kuvvet vereceğiz, yanlış yaptıklarına mâni olmak için elimizden gelen her şeyi yapacağız. Meclisin iradesi bu anlamda kıymetsiz hâle gelmiş, sanki burası siyasi ağırlığını, idari ağırlığını kaybetmiş bir görüntüde olmasın diye burada hassasiyetini taşıdığımız şeyleri sokağa, memleket sathına taşımaya gayret edeceğiz.</seg>
         </u>
-        <note>(İYİ PARTİ sıralarından alkışlar)</note>
+        <note>İYİ PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p197">
           <seg xml:id="tbmm-2018-07-23s02p197.seg0">Teşekkür ediyorum Sayın Ağıralioğlu.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p198">
           <seg xml:id="tbmm-2018-07-23s02p198.seg0">Şimdi Halkların Demokratik Partisi Grubu adına Sayın Ayhan Bilgen, Kars Milletvekili.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Ayhan.Bilgen" xml:id="tbmm-2018-07-23s02p200">
           <seg xml:id="tbmm-2018-07-23s02p200.seg0">Sayın Başkan, değerli milletvekilleri; tartıştığımız konunun önce bir genel çerçevesiyle ilgili tamamen esastan köklü itirazımızı ifade etmem gerekiyor.</seg>
         </u>
@@ -2232,14 +2233,14 @@
         <u ana="#regular" who="#Ayhan.Bilgen" xml:id="tbmm-2018-07-23s02p219">
           <seg xml:id="tbmm-2018-07-23s02p219.seg0">Yine, olayın ekonomi politikasıyla ilgili boyutu var ki ben bununla ilgili değerlendirmeyle sözlerimi bitireceğim. Değerli arkadaşlar, 12 Eylülün nasıl 24 Ocak kararlarıyla doğrudan ilişkisi var idi ise yani ekonomik hayatı dizayn etmek nasıl bir güvenlik sorunu gibi sunuldu ise şimdi de aynı tabloyla karşı karşıyayız. Bakın, güvencesizlik, çalışma hayatıyla ilgili bu ciddi, bu vahim düzenleme aslında tümüyle ekonomik hayatı bir yeniden dizayn etme girişimidir. Ekonomi politikaları ile güvenlik politikaları arasındaki ilişkiyi tersine kurarsanız, o gömleğin ilk düğmesini yanlış düğmelediğinizde sonuna kadar yanlış gitmeniz gibi bir durumla karşı karşıya kalırsınız. Şimdi, bu ülkede ciddi bir ekonomik sorun var piyasalarla ilgili, yatırımla ilgili, istihdamla ilgili, işsizlikle ilgili, enflasyonla ilgili, liranın değerinin düşmesiyle ilgili, Türk lirasının diğer paralar karşısındaki durumuyla ilgili ciddi bir tehlike var ama biz bunu, sorunu doğru tanımlayarak tartışmak, konuşmak yerine muhtemelen önümüzdeki dönemde başka güvenlik sorunlarıyla bu sorunun üstünü örtmeyi tercih edeceğiz; tıpkı 24 Ocak kararlarıyla 12 Eylül sonrasındaki konseptin üstünün örtülmesi gibi. Ama bu bir bataktır, bu bir çıkmazdır, yanlış yanlışı doğurur; siz ekonomik sorunları doğru ekonomik politikalarla tartışmak yerine güvenlik tehdidiyle üstünü örtmeye kalkarsanız, “Saldırı var.” “İç düşmanlar var.” der, toplumun neredeyse yarısını düşman gibi tarif etmeye kalkarsanız aslında sadece ekonomideki kara deliği büyütmüş olursunuz değerli arkadaşlar. Bakın, bir 16 Nisan referandumu yaşandı ve 24 Haziran seçimleri yaşandı. Elbette, seçim meydanlarında söylenen sözler seçim meydanlarında kalır ama belli ki hâlâ bitmemiş, hâlâ sonuçta bizim partimize oy veren insanlar da referandumda “hayır” oyu verenler de bizim partimize belki de olumlu mesaj veren siyasi partiler de yani neredeyse ülkenin yarısı, toplumun yarısı tehdit kategorisinde görülüyor, düşman olarak tarif ediliyor. Şimdi, bir ülkede toplumun yarısı düşman kategorisine girmişse siz hangi tehdit teorisiyle, hangi güvenlik teorisiyle “Terörle mücadele ediyoruz.” diyerek bu işin içinden çıkacaksınız? Yani bu işin hukuk boyutu da sakat arkadaşlar, bu işin uluslararası politikada Türkiye’nin konumuyla ilgili yansımaları da sakat, bu işin ekonomi politikası da sakat ve hepsinden önemlisi de galiba toplumda gittikçe gerilimi tırmandıran, kamplaşmayı artıran ve bu gerilim ve kamplaşmayla yönetme pratiği, yönetme tercihinin kendisi ülkeyi ciddi biçimde tehdit eder bir noktaya gelmiştir. Onun için bizim şu anda ihtiyacımız alelacele bu maddeleri geçirmek değil; usul hatası gibi, Anayasa'ya aykırılık durumu gibi, aslında esasını da ciddi biçimde masaya yatırmaktır. Eğer iki yıl boyunca iki ayda bitirmeyi hedeflediğiniz tehdit bitmemiş ve bu gerekçe gösterilerek bugün bu paket Genel Kurula getirilmişse demek ki bir siyasi öngörü, bir feraset sorunu var, bir okuma ve sorunu yanlış tespit etme durumu var. Dolayısıyla bu yanlışı daha fazla büyütmek, daha fazla uzatmak da bir bütün olarak siyaset kurumuna olan güveni zedeler, toplumun siyasetten beklentisinin aksine davranış da aslında toplumsal barışı tehdit eder.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p221">
           <seg xml:id="tbmm-2018-07-23s02p221.seg0">Teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p222">
           <seg xml:id="tbmm-2018-07-23s02p222.seg0">Şimdi Cumhuriyet Halk Partisi Grubu adına İstanbul Milletvekili Sayın Zeynel Emre…</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Zeynel.Emre" xml:id="tbmm-2018-07-23s02p224">
           <seg xml:id="tbmm-2018-07-23s02p224.seg0">Sayın Başkan, değerli milletvekilleri; Bazı Kanun ve Kanun Hükmünde Kararnamelerde Değişiklik Yapılmasına İlişkin Kanun Teklifi’nin geneli hakkında Cumhuriyet Halk Partisi Grubu adına söz almış bulunmaktayım; bu vesileyle Genel Kurulu saygıyla selamlıyorum.</seg>
         </u>
@@ -2282,7 +2283,7 @@
         <u ana="#regular" who="#Zeynel.Emre" xml:id="tbmm-2018-07-23s02p237">
           <seg xml:id="tbmm-2018-07-23s02p237.seg0">Sizin iktidara geldiğiniz ilk dönemde Avrupa Birliği uyum yasaları çerçevesinde çıkarmış olduğunuz bazı kanunlar vardı: Türk Ceza Kanunu, yeni Türk Ceza Kanunu, Ceza İnfaz Kanunu, Ceza Muhakemesi Usul Kanunu. Bunlar Türkiye’de işkencenin, kötü muamelenin önlenmesi ve yasalarımızın Avrupa standardına getirilmesi için yapılan düzenlemelerdi. Mesela orada gelen bazı düzenlemeler vardı, çok önemli, ben çok önemsiyorum. Açıkçası birinin gözaltında yirmi dört saatten uzun tutulamaması, toplu suçlarda en fazla dört gün olması, her an avukatla görüşebiliyor olması, birinin soruşturma evresinde ifadesi alınmışsa ve bir kez daha soruşturma evresinde ifade alma ihtiyacı çıkmışsa, doğmuşsa, onu ancak cumhuriyet savcısının yapabilecek olması, bir soruşturmada hukuk güvenliği ilkesini getiriyordu. Yine otuzar günlük sürelerle burada tutuk incelemesinin yapılması ve son dönemde getirilen düzenlemeyle de bunun hâkim denetiminde ve şüphelinin ve müdafinin bulunduğu bir ortamda, SEGBİS’le, yani cezaevinden bağlanarak da olsa içeride tutuklu olanın otuzar günlük dönemde kendini ifade etme dönemi vardı, şimdi o doksan güne çıkıyor. Ya gözaltı süresi? Şu anda kırk sekiz saat ve dört gün olsun deniliyor ama ikişer kez daha bunlar uzatılabilir. Yani altı günden on iki güne kadar uzatılabilir. Mevcut teknoloji imkânlarında, mevcut koşullarda ve bizim yasalarımıza göre önce deliller toplanır, delilden şüpheliye ulaşırsın; önce şüpheliyi bulup, yaratıp da delilleri toplamaya çalışmazsın. Delilleri toplamış olursun, kuvvetli suç şüphesi varsa gözaltına alırsın ama gözaltında yapacağın işlemeler artık bu teknolojik koşullarda emin olun birkaç saat içerisinde olabilecek şeyler, hadi, deyin yirmi dört saat; bundan ötesi ciddi bir şekilde hukuk güvenliğini zedeler ve insanların altı gün, on iki gün gibi gözaltında kalma süreçleri bir cezaya dönüşür, bir tedbir değildir. İçeride on iki gün boyunca birini tutarsanız siz, orada su, ekmek verip on iki günü geçirtirseniz o koşullarda -o koşulları görenler bilir, inceleyenler bilir- bu ciddi bir cezadır, Türkiye'yi geriye götürür ciddi anlamda.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Zeynel.Emre" xml:id="tbmm-2018-07-23s02p239">
           <seg xml:id="tbmm-2018-07-23s02p239.seg0">Bakın, FETÖ’yle mücadele… Terör örgütleri -bütün terör örgütleri için söyleyeyim- Türkiye'deki ve dünyadaki, büyük istihbarat devletlerinin hasım gördüğü devleti zayıflatmak için taşeron olarak kullandığı enstrümanlardır. Bunlar her ülkede terörü yaratamazlar ancak o ülkedeki herhangi bir huzursuzluk, herhangi bir nedenle toplumun belli bir kesiminin sistemden rahatsızlığı, çeşitli aşırılaşma gibi başlıklar altındaki etmenlerden yararlanırlar, oraları beslerler, büyütürler ve oralardan terör yaratırlar, terör örgütleri yaratırlar. Dolayısıyla terör örgütleriyle mücadelede de devletlerin izlemesi gereken yol nedir diye baktığımızda, terörün en az olduğu ülkeler başta olmak üzere şunları tartışmak lazım: Bakın, biz siyasetçiyiz. Politikacılar bir güvenlik bürokratının bakış açısıyla meselelere bakamaz. Bize ne ihtiyaç var o zaman? Siyaset farklı bir çözüm getirmelidir. Bir generalin bakış açısı ile benimki bir olmaz, bir emniyet müdürünün bakış açısı ile benimki, sizlerinki bir olmamalı. Siyasetçi meseleye başka açıdan bakabilmeli ve meseleyi böyle çözebilmelidir. Dolayısıyla biz eğer Türkiye'de terörün sonlanmasını istiyorsak -ki teknik olarak ya da teorik olarak terörün sonlanamayacağı, sıfıra yakın, aza indirileceği söylenir- bunu istiyorsak önce iç barışı desteklemeliyiz, toplumsal barışı tesis etmeliyiz, kutuplaşmayı kırmalıyız. Kim ki bunların tersine hareket ediyorsa dolaylı olarak da işte o kişiler teröre destek veriyor anlamı çıkacaktır. Bizim yapmamız gereken, terör meselesinde ortaklaşabilmektir. FETÖ’nün yönetim katmanı, kurucuları, hepsi yurt dışında, istisnasız. O yönetim katmanının verdiği kararları uygulayan icracıların da önemli bir ismi yurt dışında. Hem de bazıları “Gelin, beni davul zurnayla alın.” diye beyanda bulundu ve o şekilde gitti yani elini kolunu sallaya sallaya gitti. Onun altındaki tabakalar, onun altındaki tabakalar… Ortaya şöyle bir şey çıkıyor değerli arkadaşlar: Bu işte suça bulaşanların, suç ortaklığı yapanların, her türlü kumpası kuranların, ülkeye ciddi zararlar verenlerin büyük bir kısmının -bir kısmına evet işlem yapılıyor ama- yaptığı yanına kâr kaldı. Peki, ne oldu? Devleti yönetenler tarafından sürekli alkışlanan, pohpohlanan, âdeta göklere çıkarılan bir mekanizmadan söz ediyoruz; geniş bir halk kitlesi, sempatizan grubu oluştu ve işte büyük bir mücadele de bu sempatizan grubuna yöneldi. “Bunlarla mücadele edilmesin.” denmiyor.</seg>
         </u>
@@ -2295,14 +2296,14 @@
         <u ana="#regular" who="#Zeynel.Emre" xml:id="tbmm-2018-07-23s02p242">
           <seg xml:id="tbmm-2018-07-23s02p242.seg0">Maddelere geçildiğinde, bu teklife ilişkin yine görüşlerimizi ifade edeceğiz. Ancak valilere geniş yetkiler verilmesi, muğlak ifadelerle, arama kararları verebiliyor olması gibi, bundan böyle kolluk kuvvetlerinin arasında ikilik yaratıp polislerin, askerî mahalleri savcı olmadan, kimse olmadan basabileceği -halk dilinde anlatıyorum- gidip de arama yapabileceği şekilde yasalar çıkartmakla bir şeyle mücadele edilmez. Burada “Güvenliği ön planda tutalım.” dediğiniz zaman aslında ortada daha güvensiz bir durum ortaya çıkmış olur. Sizin amacınız Türkiye Cumhuriyeti’nin güvenliğiyse bu, ortak akılla olur. Şahsi güvenliğiniz, ilerideki sizin kendi kişisel bekanız söz konusuysa ancak bu yasalar bir müddet işinize yarar, uzun vadede asla işinize yaramaz.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p244">
           <seg xml:id="tbmm-2018-07-23s02p244.seg0">Teşekkür ediyorum Sayın Emre.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p245">
           <seg xml:id="tbmm-2018-07-23s02p245.seg0">Şimdi Adalet ve Kalkınma Partisi Grubu adına Sayın Özlem Zengin, Tokat Milletvekili…</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Özlem.Zengin" xml:id="tbmm-2018-07-23s02p247">
           <seg xml:id="tbmm-2018-07-23s02p247.seg0">Teşekkür ediyorum Sayın Başkan.</seg>
         </u>
@@ -2375,14 +2376,14 @@
         <u ana="#regular" who="#Özlem.Zengin" xml:id="tbmm-2018-07-23s02p270">
           <seg xml:id="tbmm-2018-07-23s02p270.seg0">Adli kollukla ilgili olarak da aynı şey, askerî mahallerde kullanılabilecek olması. El koymayla alakalı, yine mahkeme kararıyla birlikte askerî mahallerde bir el koymanın yapılabileceğinin ifade ediliyor olması. Maddeler bu manada devam ediyor.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Özlem.Zengin" xml:id="tbmm-2018-07-23s02p272">
           <seg xml:id="tbmm-2018-07-23s02p272.seg0">Teşekkür ediyorum. Meclisteki yeni arkadaşlarınızdan bir tanesiyim, grup adına da ilk defa konuşuyorum. Bunun verdiği bir şey olabilir, bir dağınıklık da olabilir. Her birinize çok teşekkür ediyorum.</seg>
         </u>
         <u ana="#regular" who="#Özlem.Zengin" xml:id="tbmm-2018-07-23s02p273">
           <seg xml:id="tbmm-2018-07-23s02p273.seg0">Asıl mesele bence saik meselesi, hangi saiklerle bunu yaptığımız. Şunu bir kez daha ifade etmek isterim: AK PARTİ’deki her bir arkadaşım -sizlerin de öyle olduğuna inanıyorum- hakkı hukuku esas alan insanlarız. Bu devlet, bu ülke bizim için çok kıymetli. Bu manada, ülkemizin geleceği için en doğruyu yapmak üzerine gayret sarf ediyoruz. Her birinizin fikirleri bizim için bu manada çok kıymetli. Belki yollar farklı olabilir ama ulaşmak istediğimiz hedefin aynı olduğu kanaatindeyim,.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p275">
           <seg xml:id="tbmm-2018-07-23s02p275.seg0">Teşekkür ederim Sayın Zengin.</seg>
         </u>
@@ -2392,7 +2393,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p277">
           <seg xml:id="tbmm-2018-07-23s02p277.seg0">Şahıslar adına Sayın İbrahim Özden Kaboğlu, İstanbul Milletvekili…</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#İbrahimÖzden.Kaboğlu" xml:id="tbmm-2018-07-23s02p279">
           <seg xml:id="tbmm-2018-07-23s02p279.seg0">Değerli Divan üyeleri, sayın milletvekilleri; beka 1, Anayasa değişikliği; beka 2, seçimler; beka 3, bu yasa. Hep bekaya dayandırıldı. Acaba bunlar hukuki kavramlar mı? Ama ben, izninizle, bu yasa teklifine de konmuş olan ve Anayasa dışı olan bir kavramla başlamak istiyorum. Millî güvenliğe tehdit oluşturduğu tespit edilen Fetullahçı terör örgütüne aidiyeti, iltisakı veya irtibatı olan kişi ve kuruluşlar ilk 4 kararnamede geçerli ama 1 Eylülden itibaren “Terör örgütlerine veya Millî Güvenlik Kurulunca devletin millî güvenliğine karşı faaliyette bulunduğuna karar verilen yapı, oluşum veya grupların üyeliği…” diye devam ediyor. Oysa Anayasa’nın 118’inci maddesi açık. Millî Güvenlik Kurulu icrai nitelikte karar alan bir makam, merci değildir. Millî Güvenlik Kurulu Bakanlar Kuruluna önerir; bu konuda ya Bakanlar Kurulu karar alır veya aynı konuda yargı organı karar verir. Dolayısıyla, bu tamamen Anayasa dışıdır, yanlış bir kavramdır, yanlışa devam edilmektedir. Birincisi bu.</seg>
         </u>
@@ -2444,14 +2445,14 @@
         <u ana="#guest" xml:id="tbmm-2018-07-23s02p295">
           <seg xml:id="tbmm-2018-07-23s02p295.seg0">Şimdi bu yasayı getirdik, beka 3 diyorsunuz. Ama aslında burada bugün tartışmamız gereken İç Tüzük değişikliği olmalıydı, İç Tüzük uyumu olmalıydı. Eğer bir kez biz Anayasa’yı ihlali alışkanlık hâline getirirsek bu zincirleme olarak devam eder tıpkı şimdi olduğu gibi ve kendimizi “anayasalı devlet” olarak adlandırma yanılgısını sürdürürüz.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p297">
           <seg xml:id="tbmm-2018-07-23s02p297.seg0">Teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p298">
           <seg xml:id="tbmm-2018-07-23s02p298.seg0">Yine şahsı adına Sayın Yılmaz Tunç, Bartın Milletvekili.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Yılmaz.Tunç" xml:id="tbmm-2018-07-23s02p300">
           <seg xml:id="tbmm-2018-07-23s02p300.seg0">Sayın Başkan, değerli milletvekilleri; görüşmekte olduğumuz 1 sıra sayılı Kanun Teklifi’nin geneli üzerinde şahsım adına söz almış bulunuyorum. Bu vesileyle Genel Kurulu saygılarımla selamlıyorum.</seg>
         </u>
@@ -2509,7 +2510,7 @@
         <u ana="#regular" who="#Yılmaz.Tunç" xml:id="tbmm-2018-07-23s02p318">
           <seg xml:id="tbmm-2018-07-23s02p318.seg0">Teklifle getirilen düzenlemeler bu ülkede bir daha 15 Temmuz gibi karanlık gecelerin yaşanmaması içindir, bir daha yeni OHAL’lere ihtiyaç olmaması içindir.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p320">
           <seg xml:id="tbmm-2018-07-23s02p320.seg0">Teşekkür ederim.</seg>
         </u>
@@ -2579,14 +2580,14 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p342">
           <seg xml:id="tbmm-2018-07-23s02p342.seg0">Merak etmeyin, açıp kapatabilirim bu kapıyı.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#İbrahimÖzden.Kaboğlu" xml:id="tbmm-2018-07-23s02p344">
           <seg xml:id="tbmm-2018-07-23s02p344.seg0">Teşekkürler Sevgili Başkan.</seg>
         </u>
         <u ana="#regular" who="#İbrahimÖzden.Kaboğlu" xml:id="tbmm-2018-07-23s02p345">
           <seg xml:id="tbmm-2018-07-23s02p345.seg0">“Kanun değildir.” demedim, sayı olarak kanun sayısı verilebilir, tıpkı olağanüstü hâl kanun hükmünde kararnamelerine verildiği gibi on binlerce listeye ceza uygulayan kanun olur mu? Burada önemli olan siz kanun numarası verebilirsiniz şeklen ama öz olarak, içerik olarak kesinlik taşımalı. Okunan hüküm, a ve b tarafından birbirine zıt anlaşılmamalı. Dedim ki aynen: Anayasa Mahkemesi ve Avrupa Mahkemesi bunu kanun olarak nitelemez, çünkü içeriği yasal teknikte yazılmamıştır, belirsizdir, muğlaktır, o açıdan. Yoksa siz şeklen kanun numarasını verebilirsiniz, onda bir sakınca yok. Keşke buna dikkat etseydiniz.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p347">
           <seg xml:id="tbmm-2018-07-23s02p347.seg0">Teşekkür ederim.</seg>
         </u>
@@ -2605,14 +2606,14 @@
         <u ana="#regular" who="#Yılmaz.Tunç" xml:id="tbmm-2018-07-23s02p352">
           <seg xml:id="tbmm-2018-07-23s02p352.seg0">Hocam benim söylediğimi bağlamından kopararak başka şekilde anlattı.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Yılmaz.Tunç" xml:id="tbmm-2018-07-23s02p354">
           <seg xml:id="tbmm-2018-07-23s02p354.seg0">Sayın Başkanım, değerli milletvekilleri; sataşma nedeniyle söz almış bulunuyorum, bu vesileyle Genel Kurulu saygılarımla selamlıyorum.</seg>
         </u>
         <u ana="#regular" who="#Yılmaz.Tunç" xml:id="tbmm-2018-07-23s02p355">
           <seg xml:id="tbmm-2018-07-23s02p355.seg0">Tabii, Komisyonda da Hocamla uzun uzun tartıştık, konuştuk. Anayasa profesörüdür kendisi.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Yılmaz.Tunç" xml:id="tbmm-2018-07-23s02p357">
           <seg xml:id="tbmm-2018-07-23s02p357.seg0">Sayın Kaboğlu, bu kanun teklifinin bir kanun teklifi olamayacağını, ancak şeklen kanun teklifi ama esasen olamayacağını ifade etti, hatta kanun teklifi de demedi, “Bu, kanun değildir.” dedi.</seg>
         </u>
@@ -2625,14 +2626,14 @@
         <u ana="#regular" who="#Yılmaz.Tunç" xml:id="tbmm-2018-07-23s02p360">
           <seg xml:id="tbmm-2018-07-23s02p360.seg0">Bunun kanun olup olmayacağına yüce Meclis karar verir, milletvekilleri karar verir, Sayın Kaboğlu karar vermez. (AK PARTİ sıralarından alkışlar) Türkiye Büyük Millet Meclisi karar verdikten sonra da o kanun teklifinin, o yasalaşan, kabul edilen kanunun denetlenmesi yollarını da Hocam, anayasa dersinde anlatmışsınızdır herhâlde; nasıl denetleneceğini, Anayasa Mahkemesine nasıl başvurulacağını ve Anayasa Mahkemesinin sonucuna göre nasıl şekilleneceğini de siz anlatmış olmalısınız diyorum.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p362">
           <seg xml:id="tbmm-2018-07-23s02p362.seg0">Teşekkür ederim Sayın Tunç.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p363">
           <seg xml:id="tbmm-2018-07-23s02p363.seg0">Sayın Özkoç, nedir sorun?</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s02p365">
           <seg xml:id="tbmm-2018-07-23s02p365.seg0">Bunları tartıştık Başkanım.</seg>
         </u>
@@ -2714,8 +2715,8 @@
         <u ana="#regular" who="#Nurhayat.AltacaKayışoğlu" xml:id="tbmm-2018-07-23s02p391">
           <seg xml:id="tbmm-2018-07-23s02p391.seg0">Meclisin 1’inci grubu olan Adalet ve Kalkınma Partisi kurulurken programına, tüzüğüne, ilkelerine insan haklarını, temel hak ve hürriyetleri, demokrasiyi, hatta bu da yetmemişti, ileri demokrasiyi ve evrensel ilkeleri koymuş, bu iddialarla yola çıkmıştı. Hatta 2004-2005 yıllarında hani çok önemliydi, Avrupa Birliği uyum yasaları çerçevesinde temel yasalar çıkarılmış, özellikle Ceza Muhakemesi Kanunu’yla özgürlük ve güvenlik hakkı güvence altına alınmıştı ve evrensel ilkeler standartlarına getirilmişti. Fakat geldiğimiz bu süreçte ne istedilerse verdiğiniz FETÖ’yü bahane ederek ve siyasi ayağını ortaya çıkarmayarak insanlık boyunca verilmiş olan mücadelelerden geriye giden bir düzenleme getiriyorsunuz ve temel hak ve hürriyetleri hem Anayasa’ya hem insan haklarına aykırı bir şekilde kısıtlıyorsunuz.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p394">
           <seg xml:id="tbmm-2018-07-23s02p394.seg0">Teşekkür ederim.</seg>
         </u>
@@ -2731,7 +2732,7 @@
         <u ana="#regular" who="#Sibel.Özdemir" xml:id="tbmm-2018-07-23s02p398">
           <seg xml:id="tbmm-2018-07-23s02p398.seg0">Ben de Adalet Komisyonunda gerçekten Sayın Kaboğlu Hocamızın da söylediği gibi muhalefet tarafı olarak uzun ve ayrıntılı konuşmalarımızdan sonra burada şu soruyu tekrar sormak istiyorum: Anayasa’ya açıkça aykırı olan teklifin biz tümüne karşıyız ama burada, Komisyon Başkanı Sayın Köylü, teklifin 23’üncü maddesiyle ilgili Komisyonda yapılan tartışmalarda maddenin geçici 35’inci maddede yer alan (7)’nci ve (10)’uncu fıkraları üniversitedeki akademik personelin özlük hakları, iş güvenceleri, YÖK kararı veya idari amirinin keyfî bir kararıyla ellerinden alınabilecekti ve…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Sibel.Özdemir" xml:id="tbmm-2018-07-23s02p400">
           <seg xml:id="tbmm-2018-07-23s02p400.seg0">…hatırlıyorsanız YÖK görüş bildirdi ve buna karşı çıktı.</seg>
         </u>
@@ -2762,7 +2763,7 @@
         <u ana="#regular" who="#Yıldırım.Kaya" xml:id="tbmm-2018-07-23s02p409">
           <seg xml:id="tbmm-2018-07-23s02p409.seg0">Biz biliyoruz ki her darbe kendi sürecinden sonra yeni bir yasamaya girer, yeni bir anayasa çıkartır. 20 Temmuz darbesinden sonra da önümüze gelen Anayasa ve yasal düzenlemeyle karşı karşıyayız. Çok açık ve net şu söyleniyor: “Biz darbe yapmadık, darbelere karşıyız.” Ama görünen o ki FETÖ’yle mücadele adı altında barış ve demokrasiden yana olan güçlere bir saldırı devam etmekte, OHAL Komisyonu oyalama komisyonuna dönüşmüş vaziyette, takipsizlik kararı alan ve mevcut yasalar nezdinde hâkim ve savcılardan beraat kararı alan kamu çalışanları bir türlü görevine iade edilmiyor. Acaba 20 Temmuz darbesi ne zamana kadar sürecek? Bu üç yıl sonrasında da bu devam edecek mi? Ama biz biliyoruz ki bu ülkede özgürlükten ve demokrasiden yana olanlar 12 Eylül…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p411">
           <seg xml:id="tbmm-2018-07-23s02p411.seg0">Teşekkür ederim.</seg>
         </u>
@@ -2826,7 +2827,7 @@
         <u ana="#regular" who="#Hakkı.Köylü" xml:id="tbmm-2018-07-23s02p431">
           <seg xml:id="tbmm-2018-07-23s02p431.seg0">Bu arada başlangıçta, bakanların komisyonlarda bulunup bulunmaması konusuyla ilgili bir tartışma oldu ve bir usul açıklaması yapıldı. Ben de bir şey söylemek istiyorum. Bugüne kadar yaptığımız çalışmalarda, özellikle soru-cevap kısmında 1.000 tane soru sorulmuş ise bunun istisnasız 995 tanesi bakanlara sorulmuştur. Yani bakanlar burada bulunur ve sorulara cevap verir. Komisyona da birkaç tane teknik soru -arada bir, saydığım kadar- sorulmuştur, bunun dışındaki sorular komisyona sorulmamıştır. Yani soru-cevabın bu Tüzük’teki asıl karşılığı bakanlardan, yürütmeden milletvekillerinin soracağı sorulara cevap almaktır yani bunun esası budur, bu maksatla o hüküm konulmuştur.</seg>
         </u>
-        <note>(CHP sıralarından gürültüler)</note>
+        <note>CHP sıralarından gürültüler</note>
         <u ana="#regular" who="#Engin.Özkoç" xml:id="tbmm-2018-07-23s02p433">
           <seg xml:id="tbmm-2018-07-23s02p433.seg0">Kaldıralım, kaldıralım!</seg>
         </u>
@@ -2842,11 +2843,11 @@
         <u ana="#regular" who="#Hakkı.Köylü" xml:id="tbmm-2018-07-23s02p437">
           <seg xml:id="tbmm-2018-07-23s02p437.seg0">Onu bilemem ben, o benim işim değil.</seg>
         </u>
-        <note>(CHP sıralarından gürültüler)</note>
+        <note>CHP sıralarından gürültüler</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p439">
           <seg xml:id="tbmm-2018-07-23s02p439.seg0">Arkadaşlar, Komisyon Başkanı cevap veriyor, içeriğini kendisi takdir edecek; size mi soracak içeriğini, kendisi takdir edecek.</seg>
         </u>
-        <note>(CHP sıralarından gürültüler)</note>
+        <note>CHP sıralarından gürültüler</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p441">
           <seg xml:id="tbmm-2018-07-23s02p441.seg0">Sayın Başkan, devam edin, buyurun, gürültüye aldırmayın.</seg>
         </u>
@@ -2892,14 +2893,14 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p455">
           <seg xml:id="tbmm-2018-07-23s02p455.seg0">Arkadaşlar…</seg>
         </u>
-        <note>(CHP sıralarından gürültüler)</note>
+        <note>CHP sıralarından gürültüler</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p457">
           <seg xml:id="tbmm-2018-07-23s02p457.seg0">Sayın Başkanım, siz sizi, Komisyonu alakadar edenlere cevap verin kâfi.</seg>
         </u>
         <u ana="#regular" who="#Ali.Şeker" xml:id="tbmm-2018-07-23s02p458">
           <seg xml:id="tbmm-2018-07-23s02p458.seg0">Siz yaptınız siz.</seg>
         </u>
-        <note>(CHP sıralarından gürültüler)</note>
+        <note>CHP sıralarından gürültüler</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p460">
           <seg xml:id="tbmm-2018-07-23s02p460.seg0">Arkadaşlar…</seg>
         </u>
@@ -2909,7 +2910,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p462">
           <seg xml:id="tbmm-2018-07-23s02p462.seg0">Sayın Köylü, bir dakika…</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p464">
           <seg xml:id="tbmm-2018-07-23s02p464.seg0">Sayın Başkanım, buyurun.</seg>
         </u>
@@ -2961,7 +2962,7 @@
         <u ana="#regular" who="#Hakkı.Köylü" xml:id="tbmm-2018-07-23s02p480">
           <seg xml:id="tbmm-2018-07-23s02p480.seg0">Bir de “Akrabalarından birisinin bu yapıyla irtibatı olduğundan dolayı KPSS’de sınavı kazanan birisi mesleğe alınmıyor bundan dolayı” dediler. Onu ben de çok kabul etmiyorum yani hakikaten kendisi bu işin içine hiç bulaşmamış ise, ta uzaktaki bir akrabası; arasında irtibatı da yok, ilgisi de yok birisinin yüzünden birinin mesleğe alınmaması, herhangi bir mesleğe, memuriyete alınmaması bence de doğru değil açıkçası.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Hakkı.Köylü" xml:id="tbmm-2018-07-23s02p482">
           <seg xml:id="tbmm-2018-07-23s02p482.seg0">Benim şimdilik söyleyeceklerim bu kadar.</seg>
         </u>
@@ -2980,7 +2981,7 @@
         <u ana="#regular" who="#Engin.Özkoç" xml:id="tbmm-2018-07-23s02p487">
           <seg xml:id="tbmm-2018-07-23s02p487.seg0">Kayıtlara geçmesi açısından söylüyorum.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p489">
           <seg xml:id="tbmm-2018-07-23s02p489.seg0">Teşekkür ederim.</seg>
         </u>
@@ -3005,7 +3006,7 @@
         <u ana="#regular" who="#Özgür.Özel" xml:id="tbmm-2018-07-23s02p496">
           <seg xml:id="tbmm-2018-07-23s02p496.seg0">Sayın Başkanım, Grup Başkan Vekilimizin bu temel itirazının yanında Sayın Köylü’nün bir sözü tutanağa geçti, onu düzeltmek lazım. Tabii ben Adalet Komisyonu Başkanının bu sözünü düzeltmek zorunda kalmaktan üzgünüm ama kanun teklif de olsa tasarı da olsa -ki ikisi de düzenlenmiş- soru cevaba muhtaçtır. Niçin muhtaçtır? Üzerinde anlaşılmayan hiçbir şey kalmayana kadar görüşülsün diye muhtaçtır. Uygulayıcılar bir tereddüde düştüklerinde zaman zaman mahkemede bir hâkim, zaman zaman idarede bir memur döner kanunun ruhunu anlamak için bu tutanaklara başvurur. Kırk dokuz sene sonra kırk dokuz yıl önce verilmiş bir cevap birisinin hakkının hukukunun teslim edilmesine… Bir Adalet Komisyonu Başkanının, hem de kaliteli yasamayla mükellef bir Komisyonun Başkanının “soru-cevap”ı artık gereksiz ve işlevsiz olarak görmesi tamamen ilgisiz bir mesele. Parlamentoda yürütmenin bulunmuyor olmasının getirdiği arızi durum başkadır ama sizin tutup da “Artık buna gerek kalmadı.” demeniz de tamamen kaliteli yasama mantığı için konulmuş böyle bir hakkı Meclise fazla görmektir. Bunun da tutanaklara geçmesini istedim.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p498">
           <seg xml:id="tbmm-2018-07-23s02p498.seg0">Tabii, bu dediğiniz soru-cevap komisyon raporu ve kanun üzerinde gerçekleşirse… Tabii ki olması gereken şey bu, bu olursa dediğiniz doğru, tutanaklara mutlaka bakılıyor, Sayın Hocam da bilir, araştırma yapılırken kanunla ilgili ama soru-cevaplar kanun ve komisyon raporu üzerinde olursa.</seg>
         </u>
@@ -3030,7 +3031,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p505">
           <seg xml:id="tbmm-2018-07-23s02p505.seg0">Değerli arkadaşlar, şimdi teklifin tümü üzerinde görüşmeler tamamlanmıştır.</seg>
         </u>
-        <note>(CHP sıralarından bir grup milletvekili ayağa kalktı)</note>
+        <note>CHP sıralarından bir grup milletvekili ayağa kalktı</note>
         <u ana="#regular" who="#Engin.Özkoç" xml:id="tbmm-2018-07-23s02p507">
           <seg xml:id="tbmm-2018-07-23s02p507.seg0">Sayın Başkan, yoklama istiyoruz.</seg>
         </u>
@@ -3049,7 +3050,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p512">
           <seg xml:id="tbmm-2018-07-23s02p512.seg0">Yoklama işlemini başlatıyorum.</seg>
         </u>
-        <note>(Elektronik cihazla yoklama yapıldı)</note>
+        <note>Elektronik cihazla yoklama yapıldı</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s02p514">
           <seg xml:id="tbmm-2018-07-23s02p514.seg0">Değerli arkadaşlar, toplantı yeter sayımız vardır.</seg>
         </u>
@@ -3075,7 +3076,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p004">
           <seg xml:id="tbmm-2018-07-23s03p004.seg0">Birinci bölümle ilgili, Milliyetçi Hareket Partisi Grubu adına Sayın Halil Öztürk, Kırıkkale.</seg>
         </u>
-        <note>(MHP sıralarından alkışlar)</note>
+        <note>MHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Halil.Öztürk" xml:id="tbmm-2018-07-23s03p006">
           <seg xml:id="tbmm-2018-07-23s03p006.seg0">Sayın Başkan, değerli milletvekilleri; görüşülmekte olan 1 sıra sayılı Kanun Teklifi’nin birinci bölümü üzerine Milliyetçi Hareket Partisi adına söz almış bulunmaktayım. Genel Kurulu saygıyla selamlıyorum.</seg>
         </u>
@@ -3124,14 +3125,14 @@
         <u ana="#regular" who="#Halil.Öztürk" xml:id="tbmm-2018-07-23s03p021">
           <seg xml:id="tbmm-2018-07-23s03p021.seg0">Vatan toprakları ve milletimizin güvenliği adına şehit olan kahramanlarımıza yüce Allah’tan rahmet diliyor, yiğit gazilerimize şükranlarımı sunuyorum.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Halil.Öztürk" xml:id="tbmm-2018-07-23s03p023">
           <seg xml:id="tbmm-2018-07-23s03p023.seg0">Tamamlıyorum Başkanım.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p024">
           <seg xml:id="tbmm-2018-07-23s03p024.seg0">Tamamlayalım Sayın Öztürk, süre uzatmıyoruz.</seg>
         </u>
-        <note>(MHP sıralarından alkışlar)</note>
+        <note>MHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p026">
           <seg xml:id="tbmm-2018-07-23s03p026.seg0">Teşekkür ederim.</seg>
         </u>
@@ -3177,14 +3178,14 @@
         <u ana="#regular" who="#Hayrettin.Nuhoğlu" xml:id="tbmm-2018-07-23s03p040">
           <seg xml:id="tbmm-2018-07-23s03p040.seg0">Hepinize saygılar sunuyorum.</seg>
         </u>
-        <note>(İYİ PARTİ sıralarından alkışlar)</note>
+        <note>İYİ PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p042">
           <seg xml:id="tbmm-2018-07-23s03p042.seg0">Teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p043">
           <seg xml:id="tbmm-2018-07-23s03p043.seg0">Şimdi, Halkların Demokratik Partisi Grubu adına Sayın Ayşe Acar Başaran, Batman Milletvekili…</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Ayşe.AcarBaşaran" xml:id="tbmm-2018-07-23s03p045">
           <seg xml:id="tbmm-2018-07-23s03p045.seg0">Sayın Başkan, değerli milletvekilleri; tekrar hepinizi saygıyla selamlıyorum.</seg>
         </u>
@@ -3218,7 +3219,7 @@
         <u ana="#regular" who="#Ayşe.AcarBaşaran" xml:id="tbmm-2018-07-23s03p055">
           <seg xml:id="tbmm-2018-07-23s03p055.seg0">Buradan tekrar uyarımızı yapıyoruz, her defasında yaptığımız gibi. Bu yol, yol değil, kırk yıldır aynı yolu deniyorsunuz, kırk yıldır aynı politikaları güdüyorsunuz, vardığınız nokta dönüp tekrar OHAL, vardığınız nokta hâlâ sıkıyönetim anlayışıyla yok etme üzerine, hâlâ inkâr üzerine ama dediğim gibi bu yol, yol değil, bundan vazgeçin.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s03p057">
           <seg xml:id="tbmm-2018-07-23s03p057.seg0">Çok teşekkür ederim.</seg>
         </u>
@@ -3228,7 +3229,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p059">
           <seg xml:id="tbmm-2018-07-23s03p059.seg0">Şimdi Cumhuriyet Halk Partisi Grubu adına Sayın Tufan Köse, Çorum Milletvekili.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Tufan.Köse" xml:id="tbmm-2018-07-23s03p061">
           <seg xml:id="tbmm-2018-07-23s03p061.seg0">Sayın Başkanım, değerli milletvekilleri; ben de Genel Kurulu saygıyla selamlıyorum.</seg>
         </u>
@@ -3274,7 +3275,7 @@
         <u ana="#regular" who="#Tufan.Köse" xml:id="tbmm-2018-07-23s03p075">
           <seg xml:id="tbmm-2018-07-23s03p075.seg0">Bakın arkadaşlar, bunun hukuk düzeni, hukuk devleti nerede bunun? Ama Bank Asyayı açanlar burada. Bakın, Fetullahçı terör örgütü diyoruz şu anda, o dönemde o hâkimleri savunan bir kısım eski savcılar, emekli savcılar, televizyonda konuşmacılar buraya geldiler, Adalet ve Kalkınma Partisinden milletvekili oldular. Yani biz bu FETÖ terör örgütünün siyasi ayağını çözmedik. Niye çözmedik? Ben soruyorum, niye çözmedik arkadaşlar? Bunun cevabını Türk milleti versin.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p077">
           <seg xml:id="tbmm-2018-07-23s03p077.seg0">Birinci bölüm üzerinde gruplar adına konuşmalar tamamlandı.</seg>
         </u>
@@ -3287,7 +3288,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p080">
           <seg xml:id="tbmm-2018-07-23s03p080.seg0">Buyurun Sayın Bülbül.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Kemal.Bülbül" xml:id="tbmm-2018-07-23s03p082">
           <seg xml:id="tbmm-2018-07-23s03p082.seg0">Sayın Başkan, sayın milletvekilleri; öncelikle, bugün Antalya'da meydana gelen birkaç acı durumu paylaşmak istiyorum.</seg>
         </u>
@@ -3315,7 +3316,7 @@
         <u ana="#regular" who="#Kemal.Bülbül" xml:id="tbmm-2018-07-23s03p090">
           <seg xml:id="tbmm-2018-07-23s03p090.seg0">Ve en fecisi, bakınız, birkaç gün önce perşembe günü Sarıyer Cemevinde Pir Sultan Abdal Kültür Derneği Cemevinde ne oluyor? Benim de genel başkanlığını yaptığım cemevine polis baskın yapıyor, 20 kişiyi yere yatırıp ters kelepçe takıyor, sprey boyalarla duvara yazı yazıyor ve bu da yetmiyor, Hakk’ın ve hakikatin makamına hayâsızca, terbiyesizce, ahlaksızca birisi idrarını yapıyor. Kim soracak bunun hesabını? Orası Hak Muhammed Ali’nin makamıdır, orası Hünkâr Hacı Bektaş-ı Veli’nin makamıdır, orası Pir Sultan’ın, Seyyid Nesimi’nin, Hallac-ı Mansur’un, Ebu Müslim’in makamıdır. Bre kerberos, sen bu yetkiyi nereden aldın? Bu nasıl bir yaklaşım biçimidir? Biz bunu nasıl açıklayacağız? Soruyoruz İstanbul Valisine, güvenlik görevlilerine; sonra amir geliyor diyor ki: “Bu yazıları kapatın.”</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Kemal.Bülbül" xml:id="tbmm-2018-07-23s03p092">
           <seg xml:id="tbmm-2018-07-23s03p092.seg0">Yazıları sprey boyayla silemiyorlar, yağlı boya atıyorlar üzerine ve yağlı boyanın bir kısmı da yere dökülüyor.</seg>
         </u>
@@ -3331,11 +3332,11 @@
         <u ana="#regular" who="#Kemal.Bülbül" xml:id="tbmm-2018-07-23s03p096">
           <seg xml:id="tbmm-2018-07-23s03p096.seg0">Şimdi özellikle şunu soruyorum Sayın Başkan: Sözünü ettiğimiz konu süreye tabi bir konu değil, sözünü ettiğimiz konu siyasetten de büyük bir konu. Hakk’ın ve hakikatin davasını söylüyoruz. Bu araştırılmalıdır, bu bulunmalıdır. Biz Sarıyer Emniyet Müdürlüğüne gidip görüşeceğiz, cemevi yetkililerimizle tekrar görüşeceğiz. Affedersiniz, maksadı ifade etmek için bu terimi kullanıyorum yoksa bizim dilimizde böyle bir terim yoktur, bu rezalet ve bu rezaleti yapan kişi ortaya çıkarılmalıdır.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p098">
           <seg xml:id="tbmm-2018-07-23s03p098.seg0">Şimdi şahsı adına Sayın Mahmut Atilla Kaya, İzmir Milletvekili…</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#MahmutAtilla.Kaya" xml:id="tbmm-2018-07-23s03p100">
           <seg xml:id="tbmm-2018-07-23s03p100.seg0">Sayın Başkanım, değerli milletvekilleri; 1 sıra sayılı Bazı Kanun ve Kanun Hükmünde Kararnamelerde Değişiklik Yapılmasına İlişkin Kanun Teklifi için şahsım adına söz almış bulunmaktayım. Bu vesileyle yüce heyetinizi saygıyla, sevgiyle selamlıyorum.</seg>
         </u>
@@ -3384,7 +3385,7 @@
         <u ana="#regular" who="#Ayşe.AcarBaşaran" xml:id="tbmm-2018-07-23s03p115">
           <seg xml:id="tbmm-2018-07-23s03p115.seg0">Provoke edip durdu bütün komisyon toplantısını. Şimdi gelmiş burada…</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#MahmutAtilla.Kaya" xml:id="tbmm-2018-07-23s03p117">
           <seg xml:id="tbmm-2018-07-23s03p117.seg0">Evet, burada yine özellikle bir siyasi partinin toplantı ve gösteri yürüyüşlerine ilişkin tavrını da… Ki biliyorsunuz, bu kanunla, bu getirdiğimiz yenilikle birlikte artık gece saat 24. 00’e kadar, netice itibarıyla, toplantı ve gösteri yürüyüşü yapılmasının önünü açtık.</seg>
         </u>
@@ -3397,7 +3398,7 @@
         <u ana="#regular" who="#MahmutAtilla.Kaya" xml:id="tbmm-2018-07-23s03p120">
           <seg xml:id="tbmm-2018-07-23s03p120.seg0">Ki biliyorsunuz olağanüstü hâl dönemi içerisinde Kemal Bey Ankara’dan İstanbul’a kadar seyahat etmişti. Şimdi, çıkardığımız bu yasayla birlikte sadece gündüz değil, sizlere, bakın… (CHP sıralarından gürültüler)</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Erdin.Bircan" xml:id="tbmm-2018-07-23s03p122">
           <seg xml:id="tbmm-2018-07-23s03p122.seg0">Engelleseydiniz, bir de onu da engelleseydiniz.</seg>
         </u>
@@ -3461,7 +3462,7 @@
         <u ana="#regular" who="#Ayhan.Barut" xml:id="tbmm-2018-07-23s03p142">
           <seg xml:id="tbmm-2018-07-23s03p142.seg0">Kendi işine baksın Başkan, kendi işine baksın. Genel Başkanla ne uğraşıyor?</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p144">
           <seg xml:id="tbmm-2018-07-23s03p144.seg0">Hepsine aynı şeyi söylediniz mi, daha önce sürdürenlere?</seg>
         </u>
@@ -3537,7 +3538,7 @@
         <u ana="#regular" who="#Ayhan.Bilgen" xml:id="tbmm-2018-07-23s03p168">
           <seg xml:id="tbmm-2018-07-23s03p168.seg0">Şimdi dinleyin, üzerinize alınmayın değerli arkadaşlar. Burada bütçe görüşmeleri yapılırken grubumuz adına gümrüklerle ilgili net rakamlar verdik, dedik ki: Bu Suriye sınırı IŞİD’in kontrolündeyken Türkiye’nin ihracat rakamları çok yüksek. Sonra IŞİD’in kontrolünden çıktığında bu sınırlar ihracat rakamları dibe vuruyor. İhracat ürünlerine bakıyorsunuz, hepsi bomba yapımında kullanılan kimyasal malzemeler ve bu ürünlerin hangi fabrikalarda, hangi şehirde üretildiğine dair somut veriler var.</seg>
         </u>
-        <note>(AK PARTİ sıralarından gürültüler)</note>
+        <note>AK PARTİ sıralarından gürültüler</note>
         <u ana="#regular" who="#Şahin.Tin" xml:id="tbmm-2018-07-23s03p170">
           <seg xml:id="tbmm-2018-07-23s03p170.seg0">PKK’nın kamplarında kimler var, onlardan bahsedin; PKK’nın kamplarında kimler var?</seg>
         </u>
@@ -3553,7 +3554,7 @@
         <u ana="#regular" who="#Oya.Eronat" xml:id="tbmm-2018-07-23s03p174">
           <seg xml:id="tbmm-2018-07-23s03p174.seg0">YPG’yi de masaya yatıralım, PKK’yla ilişkinizi de yatıralım masaya!</seg>
         </u>
-        <note>(AK PARTİ sıralarından gürültüler)</note>
+        <note>AK PARTİ sıralarından gürültüler</note>
         <u ana="#regular" who="#Hasan.Çilez" xml:id="tbmm-2018-07-23s03p176">
           <seg xml:id="tbmm-2018-07-23s03p176.seg0">PKK’yı da konuş o zaman, PKK’yı da!</seg>
         </u>
@@ -3575,7 +3576,7 @@
         <u ana="#regular" who="#Ayhan.Bilgen" xml:id="tbmm-2018-07-23s03p182">
           <seg xml:id="tbmm-2018-07-23s03p182.seg0">Kimin terörle ilişkisi varsa, burada komisyon kurulur, her şeyi konuşuruz. Eğer varsanız, komisyon kurulmasını desteklerseniz o zaman birlikte burada her şeyi tartışırız.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Şahin.Tin" xml:id="tbmm-2018-07-23s03p184">
           <seg xml:id="tbmm-2018-07-23s03p184.seg0">Teröristlerin hepsinin başını ezeceğiz, merak etmeyin!</seg>
         </u>
@@ -3615,8 +3616,8 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p196">
           <seg xml:id="tbmm-2018-07-23s03p196.seg0">Buyurun Sayın Özkoç.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar, AK PARTİ sıralarından gürültüler)</note>
-        <note>(AK PARTİ sıralarından gürültüler)</note>
+        <note>CHP sıralarından alkışlar, AK PARTİ sıralarından gürültüler</note>
+        <note>AK PARTİ sıralarından gürültüler</note>
         <u ana="#regular" who="#Hasan.Çilez" xml:id="tbmm-2018-07-23s03p199">
           <seg xml:id="tbmm-2018-07-23s03p199.seg0">Zorlama istersen!</seg>
         </u>
@@ -3629,7 +3630,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p202">
           <seg xml:id="tbmm-2018-07-23s03p202.seg0">Sayın Özkoç, Genel Kurula hitap edelim.</seg>
         </u>
-        <note>(AK PARTİ sıralarından gürültüler)</note>
+        <note>AK PARTİ sıralarından gürültüler</note>
         <u ana="#regular" who="#Şahin.Tin" xml:id="tbmm-2018-07-23s03p204">
           <seg xml:id="tbmm-2018-07-23s03p204.seg0">Sizin vekillerde DEAŞ cenazesine gidiyordu.</seg>
         </u>
@@ -3642,7 +3643,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p207">
           <seg xml:id="tbmm-2018-07-23s03p207.seg0">Karşılıklı konuşmayalım arkadaşlar.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Şahin.Tin" xml:id="tbmm-2018-07-23s03p209">
           <seg xml:id="tbmm-2018-07-23s03p209.seg0">Geçin bunları ya, bunlar geçti, bunlar geçti, yeni şeyler söyle yeni.</seg>
         </u>
@@ -3652,7 +3653,7 @@
         <u ana="#regular" who="#Şahin.Tin" xml:id="tbmm-2018-07-23s03p211">
           <seg xml:id="tbmm-2018-07-23s03p211.seg0">Değiliz ya, değiliz ya! Hakaret etme!</seg>
         </u>
-        <note>(AK PARTİ sıralarından gürültüler, CHP sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından gürültüler, CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Şahin.Tin" xml:id="tbmm-2018-07-23s03p213">
           <seg xml:id="tbmm-2018-07-23s03p213.seg0">Hakaret etmeyeceksin!</seg>
         </u>
@@ -3686,21 +3687,21 @@
         <u ana="#regular" who="#Engin.Özkoç" xml:id="tbmm-2018-07-23s03p223">
           <seg xml:id="tbmm-2018-07-23s03p223.seg0">Doğru söylüyorum, sonuna kadar arkasındayım.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p225">
           <seg xml:id="tbmm-2018-07-23s03p225.seg0">Yeni bir söz hakkı, cevap hakkı doğmasın lütfen.</seg>
         </u>
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s03p226">
           <seg xml:id="tbmm-2018-07-23s03p226.seg0">Sayın Başkan, değerli milletvekilleri; yeni vekil arkadaşlarımız sakin olsunlar, biz bu filmi çok gördük, on yedi yıldan beri aynı şeyi söylüyorlar, aynı hakareti yapıyorlar ama millet tokadı bir sağdan, bir soldan vuruyor. (AK PARTİ sıralarından alkışlar) Geldiğimiz yer burası. Şunu gördük bugün: İlk kanun gününde, gördüğünüz gibi, bağırarak çağırarak, AK PARTİ’nin sözünü keserek iş yapmaya çalışıyorlar. Şimdiden ilan ediyorum, beş sene sonra tekrar daha kalabalık geleceğiz inşallah bu anlayışla, bu mantıkla. (AK PARTİ sıralarından alkışlar) Ders almayan, aynaya bakmayan, aynı şeyleri söyleyen insanların yaptığı şeyin adının ne olduğunu az önce bir vekilimiz söyledi.</seg>
         </u>
-        <note>(CHP sıralarından gürültüler)</note>
+        <note>CHP sıralarından gürültüler</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p228">
           <seg xml:id="tbmm-2018-07-23s03p228.seg0">Rahat olun arkadaşlar, rahat olun, dinleyelim sakin sakin.</seg>
         </u>
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s03p229">
           <seg xml:id="tbmm-2018-07-23s03p229.seg0">Ama sizin Genel Başkanınız “Ne işin var orada?” diyordu, “Gitmeyin oraya.” diyordu. Biz IŞİD'le ilgili mücadeleye giderken sizin grubunuz “Ne işin var Afrin’de?” diyordu, “Ne işin var oralarda?” diyordu. O yüzden bir daha diyoruz, çatlasanız da patlasanız da bağırsanız da çağırsanız da PKK’yla arasına terör mesafesi koymayanlar, onlar istediği kadar çalışsa da barajı geçemediği için toplantılarda strateji geliştirenler bu toplumdan bir daha tokat yiyeceklerdir.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s03p231">
           <seg xml:id="tbmm-2018-07-23s03p231.seg0">Sayın Başkan, iki partiye cevap verebilir miyim?</seg>
         </u>
@@ -3710,7 +3711,7 @@
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s03p233">
           <seg xml:id="tbmm-2018-07-23s03p233.seg0">Diyorum ki bu millet irfan sahibi, izan sahibi, kimin terörle yan yana yürüdüğünü, kimin terörle mücadele ettiğini çok iyi bildiği için on yedi yılın sonunda yüzde 52’yle “Durmak yok, yola devam.” dedi.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Engin.Özkoç" xml:id="tbmm-2018-07-23s03p235">
           <seg xml:id="tbmm-2018-07-23s03p235.seg0">Sayın Başkan, sadece…</seg>
         </u>
@@ -3735,18 +3736,18 @@
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s03p242">
           <seg xml:id="tbmm-2018-07-23s03p242.seg0">Engin Bey’i severim sayarım. Zabıtlara geçsin diye söylüyorum. 550 milletvekili eski sistemde vardı, 600 oldu, hâlâ sıra düzenlemesi yapılmadı, sıra düzenlemesini sekreterlik yaptığı zaman AK PARTİ burada olacak arkadaşlar.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p244">
           <seg xml:id="tbmm-2018-07-23s03p244.seg0">Artık âşık atışmasına dönüşüyor, yavaş.</seg>
         </u>
         <u ana="#regular" who="#Engin.Özkoç" xml:id="tbmm-2018-07-23s03p245">
           <seg xml:id="tbmm-2018-07-23s03p245.seg0">Sayın Başkan, Bülent Bey’i çok sayar severim, iyi bir grup başkan vekilidir ama birazcık matematiği zayıftır, muhalefetin sayısı, sıraları bu tarafa yaysanız bile onlardan daha çoktur.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p247">
           <seg xml:id="tbmm-2018-07-23s03p247.seg0">İsterseniz dışarıda devam edin.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p249">
           <seg xml:id="tbmm-2018-07-23s03p249.seg0">Arkadaşlar, tamam.</seg>
         </u>
@@ -3786,7 +3787,7 @@
         <u ana="#regular" who="#Yıldırım.Kaya" xml:id="tbmm-2018-07-23s03p261">
           <seg xml:id="tbmm-2018-07-23s03p261.seg0">Rahmetli Kamer Genç Fetullahçı terör örgütünü burada anlattığında 335 milletvekiliyle rahmetlinin üzerine saldıranlar, şimdi de Fetullahçı terör örgütünden bahsedildiğinde -290’a düştü- yine saldırmaya başladılar. Yüzde 68’le temsil edilen AKP, şimdi yüzde 48’le temsil ediliyor, yine saldırgan tutumlarına devam ediyorlar. Sormak istiyorum: Hakkâri'ye, Tunceli’ye, Diyarbakır'a kalekollar yaptınız, şimdi de Kızılay’ın meydanına gecekondu, prefabrik karakollar yapıyorsunuz. Eğer OHAL kaldırılmışsa, siz OHAL’e dayanarak bir siyaset yapmıyorsanız, Kızılay’ın göbeğinde tunçtan bir insan hakları heykelini neden zincire vurdunuz?</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Yıldırım.Kaya" xml:id="tbmm-2018-07-23s03p263">
           <seg xml:id="tbmm-2018-07-23s03p263.seg0">Bu valiler, bu zincirden, bu heykeli, insan hakları heykelini kurtaracak mı? Bu ayıptan Türkiye’yi ne zaman kurtaracaksınız?</seg>
         </u>
@@ -3826,7 +3827,7 @@
         <u ana="#regular" who="#HaşimTeoman.Sancar" xml:id="tbmm-2018-07-23s03p275">
           <seg xml:id="tbmm-2018-07-23s03p275.seg0">Öncelikle, biraz önce AK PARTİ Milletvekili Sayın Kaya’nın ikide bir Cumhuriyet Halk Partisini hedef alıp “Yönünüz değişti.” söylemini asla kabul etmiyorum Cumhuriyet Halk Partisinin bir milletvekili olarak; bu söylemler çok zıt ve ters söylemlerdir. Diğer açıdan da mütemadiyen 15 Temmuzu anan ama 14 Temmuzda ve ondan önceki yıllarda AK PARTİ’li belediyelerin trilyonlarca para harcayarak Türkçe Olimpiyatlarını yaptıklarında “Gel, ey güzel yüzlü insan.” diye, memleketin trilyonlarını sokağa attıklarında, Denizli’de 1 milyon CD yaptırıp sokaktaki herkese dağıttıklarında, sokakta FETÖ’yü tanımayan vatandaşa FETÖ’yü sevdirmeye çalıştıklarında, acaba o günden bugüne döndüklerinde bugün FETÖ’nün yaşattıklarından dolayı yataklarında rahat uyuyabiliyorlar mı? Acaba vicdan muhasebesi yapabiliyorlar mı? Ben bunu merak ediyorum. “Bu ülkede filmi çok defa gördük.” diyorlar çünkü yıllardır bu filmi çevirenler sizlersiniz. Bugün de bu FETÖ…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#HaşimTeoman.Sancar" xml:id="tbmm-2018-07-23s03p277">
           <seg xml:id="tbmm-2018-07-23s03p277.seg0">Bunun cevabını rica ediyorum.</seg>
         </u>
@@ -3851,7 +3852,7 @@
         <u ana="#regular" who="#İsmail.Ok" xml:id="tbmm-2018-07-23s03p284">
           <seg xml:id="tbmm-2018-07-23s03p284.seg0">Türk milletini hedef alan FETÖ terör örgütü başta olmak üzere bütün hain terör örgütlerini kınıyoruz. Fakat “terör örgütleriyle mücadele” adı altında Türkiye'de antidemokratik yasalar, büyük bir marifetmiş gibi, gece baskınlarıyla çıkarılmaktadır ve bugün Türk milletinin temsilcisi yüce Meclisimizde vekillerimizin muhatap alacağı bir tane bakan bulunmamaktadır. Hani 16 Nisan referandumunda “güçlü Meclis” “yetkin ve etkin bir Meclis” diyorduk. Meclisteki üye sayısını artırmakla Meclisin güçlü olmasının söz konusu olmadığı işte bugün maalesef acı bir tabloyla karşı karşıya kaldığımızda görülmüştür. Ben buradan Türkiye Cumhuriyeti devletini temsil eden yetkililerin, Meclisin karşısında bakanların cevap vermesi gerektiğine yürekten inanıyorum. Derhâl gerekli tedbirlerin alınmasını…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p286">
           <seg xml:id="tbmm-2018-07-23s03p286.seg0">Sayın Eronat, buyurun.</seg>
         </u>
@@ -3867,7 +3868,7 @@
         <u ana="#regular" who="#Oya.Eronat" xml:id="tbmm-2018-07-23s03p290">
           <seg xml:id="tbmm-2018-07-23s03p290.seg0">Her fırsatta terörist seviciliği yapan HDP milletvekillerini şiddetle kınadığımı belirtir ve bu yasanın gerekliliğine dikkat çekmek isterim.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p292">
           <seg xml:id="tbmm-2018-07-23s03p292.seg0">Sayın Kaya, buyurun.</seg>
         </u>
@@ -3946,7 +3947,7 @@
         <u ana="#regular" who="#Yavuz.Ağıralioğlu" xml:id="tbmm-2018-07-23s03p317">
           <seg xml:id="tbmm-2018-07-23s03p317.seg0">15 Temmuzdan sonra oluşan kanun hükmünde kararnameler yoluyla, OHAL’in verdiği yetkiler kullanılırken mağdur olduğuna inandığımız arkadaşlarımızın, 15 Temmuza kadar Hükûmeti ağır bir eleştiri, tenkitin altında tutan MHP’nin 15 Temmuzdan sonra Hükûmete verdiği avans dolayısıyla bulduğu siyasi nüfuz ve itibarı mağduriyetleri giderilsin diye ben şöyle kullanmayı tercih ettim, arkadaşlarımız da yeni duyuyorlardır benden: Bize hakkı yendiği için, gadre uğradığı için, bizim de öyle inandığımız için değil, böyle bildiğimiz için mağduriyetine inandığımız arkadaşlarımızın mağduriyetleri giderilsin diye, Milliyetçi Hareket Partisinin Hükûmetle siyasi beraberliğinin avantajlarını haksızlıklar giderilsin diye kullansınlar diye MHP’ye çok adam yönlendirdim. Devamlı Milliyetçi Hareket Partisinin bu…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p319">
           <seg xml:id="tbmm-2018-07-23s03p319.seg0">Sorular tamamlandı süre de doldu…</seg>
         </u>
@@ -4046,7 +4047,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p351">
           <seg xml:id="tbmm-2018-07-23s03p351.seg0">Sayın Ahmet Şık, İstanbul Milletvekili…</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Ahmet.Şık" xml:id="tbmm-2018-07-23s03p353">
           <seg xml:id="tbmm-2018-07-23s03p353.seg0">Herkese merhaba.</seg>
         </u>
@@ -4107,13 +4108,13 @@
         <u ana="#regular" who="#Bülent.Turan" xml:id="tbmm-2018-07-23s03p372">
           <seg xml:id="tbmm-2018-07-23s03p372.seg0">Kendin barajı geçemedin, destek aldın be!</seg>
         </u>
-        <note>(AK PARTİ sıralarından sıra kapaklarına vurmalar, gürültüler)</note>
-        <note>(Mikrofon Başkan tarafından kapatıldı)</note>
-        <note>(AK PARTİ sıralarından gürültüler)</note>
+        <note>AK PARTİ sıralarından sıra kapaklarına vurmalar, gürültüler</note>
+        <note>Mikrofon Başkan tarafından kapatıldı</note>
+        <note>AK PARTİ sıralarından gürültüler</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p376">
           <seg xml:id="tbmm-2018-07-23s03p376.seg0">Bir dakika... Sözünü kestim kürsüdeki hatibin.</seg>
         </u>
-        <note>(AK PARTİ ve HDP sıralarından karşılıklı kürsüye yürümeler)</note>
+        <note>AK PARTİ ve HDP sıralarından karşılıklı kürsüye yürümeler</note>
         <u ana="#regular" who="#Şahin.Tin" xml:id="tbmm-2018-07-23s03p378">
           <seg xml:id="tbmm-2018-07-23s03p378.seg0">Adam gibi konuş! Böyle konuşamazsın.</seg>
         </u>
@@ -4126,7 +4127,7 @@
         <u ana="#regular" who="#Şahin.Tin" xml:id="tbmm-2018-07-23s03p381">
           <seg xml:id="tbmm-2018-07-23s03p381.seg0">Böyle konuşamaz, böyle konuşamaz. “Ahlaksız” olmaz, “Ahlaksız” diyemezsin.</seg>
         </u>
-        <note>(AK PARTİ ve HDP sıralarından gürültüler)</note>
+        <note>AK PARTİ ve HDP sıralarından gürültüler</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s03p383">
           <seg xml:id="tbmm-2018-07-23s03p383.seg0">Arkadaşlar, bir dakika... Bir dakika... Kimseye hakaret etme imkânı vermiyor bu kürsü ya. Hakaret etme imkânı yok. Böyle şey olamaz, böyle şey olamaz.</seg>
         </u>
@@ -4305,7 +4306,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p056">
           <seg xml:id="tbmm-2018-07-23s04p056.seg0">İkinci önerge üzerindeki konuşmacı Sayın Süleyman Bülbül, Aydın Milletvekili.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Süleyman.Bülbül" xml:id="tbmm-2018-07-23s04p058">
           <seg xml:id="tbmm-2018-07-23s04p058.seg0">Sayın Başkan, değerli milletvekilleri; bugün burada, OHAL KHK’leriyle yaratılan hukuksuzluğu, kural tanımazlığı ileri boyuta taşıyacak olan bir düzenlemeyi, “OHAL kalktı.” denilmesinin ardından OHAL’i fiilen sürdürecek olan kanun teklifini görüşüyoruz; ülkeyi on altı yıl boyunca torba yasa mantığıyla yöneten AKP’nin kanun hükmündeki kararnameler rejimine geçişte son hamlesine tanık oluyoruz. 15 Temmuz hain darbe girişimini 20 Temmuzda bir fırsata çevirerek ülkede KHK’ler eliyle köklü değişikliklere giden ve Anayasa’yı fiilî olarak uygulanamaz hâle getiren AKP iktidarı Türkiye genelinde OHAL’i kalıcı hâle getirmeyi planlıyor. Anayasa’yı yine Anayasa’dan aldığı yetkiyle bertaraf eden AKP, öyle görülüyor ki bu teklifle Parlamentoya verilen yetkileri sınır tanımaksızın, denetime tabi tutulmaksızın yürütmeyi idare eden tek bir kişinin idaresine veriyor.</seg>
         </u>
@@ -4327,14 +4328,14 @@
         <u ana="#regular" who="#Süleyman.Bülbül" xml:id="tbmm-2018-07-23s04p064">
           <seg xml:id="tbmm-2018-07-23s04p064.seg0">Sayın milletvekilleri, kanunlar sınırları belirler, sınırlar bu teklif gibi hükümleriyle insan hak ve özgürlüklerine aykırı olamaz. Muğlak ifadelerle bu memleket aykırı düzenlemelerle idare edilemez. Bu yetkiler erk karşısında birey güvencesizliğini kaide hâline getirmektedir. Bu hükümler 19’uncu maddeye yani Anayasa’nın kişi hürriyeti ve güvenliğine ilişkin 19’uncu maddeye aykırıdır. Ayrıca yerleşme ve seyahat hürriyetini düzenleyen 23’üncü maddeye de aykırıdır. Ayrıca eğitim ve öğretim hakkı ve ödevini düzenleyen 42’nci maddesine de aykırıdır. Bu nedenle biz bu maddeye katılmıyoruz.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p066">
           <seg xml:id="tbmm-2018-07-23s04p066.seg0">Teşekkür ederim.</seg>
         </u>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p067">
           <seg xml:id="tbmm-2018-07-23s04p067.seg0">Aynı mahiyetteki diğer önergeyle ilgili konuşmacı Antalya Milletvekili Sayın Hasan Subaşı.</seg>
         </u>
-        <note>(İYİ PARTİ sıralarından alkışlar)</note>
+        <note>İYİ PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Hasan.Subaşı" xml:id="tbmm-2018-07-23s04p069">
           <seg xml:id="tbmm-2018-07-23s04p069.seg0">Sayın Başkan, değerli milletvekilleri; hepinizi saygıyla selamlıyorum.</seg>
         </u>
@@ -4350,7 +4351,7 @@
         <u ana="#regular" who="#Hasan.Subaşı" xml:id="tbmm-2018-07-23s04p073">
           <seg xml:id="tbmm-2018-07-23s04p073.seg0">Sayın AK PARTİ Grup Başkan Vekili, Sözcüsü, Adalet Komisyonunda çok haklı olarak, türban konusunda çok ciddi travma yaşadığını söylediğinde de ben güçlü iradelere, siyasi iradelere, güçlenmiş otoriter eğilimlere yaranma ihtiyacındaki yargı mensuplarının, bürokratların sorunundan bahsetmiştim ve onun da Türkiye’de çok çarpıcı bir örnek olduğundan söz etmiştim. O arada çıkmış bulundunuz, belki dinleyemediniz bir kısmını. Şunu demek istemiştim: 1989 yılında Kenan Evren’in açtığı davaya o zamanki -isim vermek istemiyorum- Anayasa Mahkemesi Başkanı, hiçbir kısıtlama ve yasaklama olmamasına rağmen…</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Hasan.Subaşı" xml:id="tbmm-2018-07-23s04p075">
           <seg xml:id="tbmm-2018-07-23s04p075.seg0">…türban konusunda, metne şerh koymak suretiyle kısıtlayıcı bir ilave yapmıştı. Onun üzerine de Rektör, YÖK Başkanı da yine yaranma ihtiyacından onu yeterli görerek kısıtlama getirdi ve ardından da Yargıtayda, Danıştayda buna benzer kararlar çıkmaya başladı.</seg>
         </u>
@@ -4360,7 +4361,7 @@
         <u ana="#regular" who="#Hasan.Subaşı" xml:id="tbmm-2018-07-23s04p077">
           <seg xml:id="tbmm-2018-07-23s04p077.seg0">Bu, yaranma ihtiyacına çarpıcı bir örnektir ve korkarım, bu yasayla bürokrasinin, yargının yaranma ihtiyacına dönük çalışmaları da keyfî uygulamalar getirecek, toplumda yeni travmalar yaratacaktır diye düşünüyorum.</seg>
         </u>
-        <note>(İYİ PARTİ sıralarından alkışlar)</note>
+        <note>İYİ PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p079">
           <seg xml:id="tbmm-2018-07-23s04p079.seg0">Sayın Subaşı, teşekkür ediyorum.</seg>
         </u>
@@ -4457,7 +4458,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p110">
           <seg xml:id="tbmm-2018-07-23s04p110.seg0">Sayın Oya Ersoy, İstanbul Milletvekili.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Oya.Ersoy" xml:id="tbmm-2018-07-23s04p112">
           <seg xml:id="tbmm-2018-07-23s04p112.seg0">Genel Kurulumuzu selamlıyorum.</seg>
         </u>
@@ -4473,11 +4474,11 @@
         <u ana="#regular" who="#Oya.Ersoy" xml:id="tbmm-2018-07-23s04p116">
           <seg xml:id="tbmm-2018-07-23s04p116.seg0">Bu maddeyle hiçbir mahkeme kararı olmaksızın askerlerin üst, eşya, araç aramasında yetkili idareye yetkilerin bütünüyle verilmesi söz konusu. Anayasa’nın başlangıç kısmında yer verilen kuvvetler ayrılığı ilkesinin açıkça ihlali olduğunu hepimiz biliyoruz. Yine bu düzenleme Anayasa’nın özel hayatın gizliliğini düzenleyen 20’nci maddesi ile temel hak ve hürriyetleri düzenleyen 13’üncü maddesine de aykırılık teşkil etmektedir. Sadece iç hukuktaki yasal düzenlemeler değil, aynı zamanda Avrupa İnsan Hakları Sözleşmesi’nin özel hayatın korunmasını düzenleyen 8’inci maddesine yani “Herkes özel ve aile yaşamına, konutuna ve haberleşmesine saygı gösterilmesi hakkına sahiptir.” düzenlemesine de açıkça aykırıdır.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p118">
           <seg xml:id="tbmm-2018-07-23s04p118.seg0">Aynı mahiyetteki önergeyle ilgili Sayın Turan Aydoğan, İstanbul Milletvekili…</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Turan.Aydoğan" xml:id="tbmm-2018-07-23s04p120">
           <seg xml:id="tbmm-2018-07-23s04p120.seg0">Teşekkür ediyorum Sayın Başkan.</seg>
         </u>
@@ -4499,7 +4500,7 @@
         <u ana="#regular" who="#Turan.Aydoğan" xml:id="tbmm-2018-07-23s04p126">
           <seg xml:id="tbmm-2018-07-23s04p126.seg0">Ama ben dost olarak söylüyorum: Allah izin verirse bu Meclisin altında beş yılı beraber geçireceğiz. Birbirimizle dostluk yapmamız gerekiyor. Dost acı uyarır. Yapmayın. Daha sonra geri dönemeyiz. İnsan haklarını bu kadar ayaklar altına almayın. Gelin, vazgeçin diyorum.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p128">
           <seg xml:id="tbmm-2018-07-23s04p128.seg0">Teşekkür ederim.</seg>
         </u>
@@ -4536,7 +4537,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p139">
           <seg xml:id="tbmm-2018-07-23s04p139.seg0">Önerge üzerinde söz talep eden Sayın Feridun Bahşi, Antalya Milletvekili.</seg>
         </u>
-        <note>(İYİ PARTİ sıralarından alkışlar)</note>
+        <note>İYİ PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Feridun.Bahşi" xml:id="tbmm-2018-07-23s04p141">
           <seg xml:id="tbmm-2018-07-23s04p141.seg0">Sayın milletvekilleri, saygıyla selamlıyorum.</seg>
         </u>
@@ -4552,7 +4553,7 @@
         <u ana="#regular" who="#Feridun.Bahşi" xml:id="tbmm-2018-07-23s04p145">
           <seg xml:id="tbmm-2018-07-23s04p145.seg0">Benim konuşmam bu kadardır.</seg>
         </u>
-        <note>(İYİ PARTİ sıralarından alkışlar)</note>
+        <note>İYİ PARTİ sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p147">
           <seg xml:id="tbmm-2018-07-23s04p147.seg0">Teşekkür ederim Sayın Bahşi.</seg>
         </u>
@@ -4592,7 +4593,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p159">
           <seg xml:id="tbmm-2018-07-23s04p159.seg0">Önerge hakkında söz talebi Sayın Alpay Antmen, Mersin Milletvekili…</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Alpay.Antmen" xml:id="tbmm-2018-07-23s04p161">
           <seg xml:id="tbmm-2018-07-23s04p161.seg0">Sayın Başkan, değerli milletvekilleri; 56/B’yle ilgili olarak konuya girersek bu hükme göre askerî yerlere kim girecek olursa olsun, asker kişiler de dâhil x-ray cihazından geçmek zorunda. Eğer buradaki hassas kapıda sinyal verilirse elle aranacak. Elle aranmayı kabul etmiyorsa girmeyecek. Düşünebiliyor musunuz, kapıda duran bir er ya da erbaş albayını, generalini, binbaşısını arayacak? Biz bunun ordumuz için uygunsuz görüntülere yol açacağını düşünüyoruz ve bu nedenle önergenin geri çekilmesini oylarınıza sunuyoruz.</seg>
         </u>
@@ -4623,7 +4624,7 @@
         <u ana="#regular" who="#Alpay.Antmen" xml:id="tbmm-2018-07-23s04p170">
           <seg xml:id="tbmm-2018-07-23s04p170.seg0">Gelin, biz bu işten vazgeçelim. Gelin, Türkiye'de demokrasiyi, hukukun üstünlüğünü hep birlikte el ele inşa edelim, biz de Cumhuriyet Halk Partisi olarak size destek verelim.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p172">
           <seg xml:id="tbmm-2018-07-23s04p172.seg0">Teşekkür ederim.</seg>
         </u>
@@ -4663,7 +4664,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p184">
           <seg xml:id="tbmm-2018-07-23s04p184.seg0">Önerge üzerinde Sayın Adnan Selçuk Mızraklı, Diyarbakır Milletvekili…</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#AdnanSelçuk.Mızraklı" xml:id="tbmm-2018-07-23s04p186">
           <seg xml:id="tbmm-2018-07-23s04p186.seg0">Sayın Başkan, değerli milletvekilleri; sözlerime başlarken, perşembenin gelişi çarşambadan belli olur diye bir laf vardır halk arasında, ben tersine çevireceğim, çarşambanın gelişini tarif ederken bir hafta dolanarak belli olan bir sürecin geçmişte var olduğuna işaret etmek istiyorum.</seg>
         </u>
@@ -4679,8 +4680,8 @@
         <u ana="#regular" who="#AdnanSelçuk.Mızraklı" xml:id="tbmm-2018-07-23s04p190">
           <seg xml:id="tbmm-2018-07-23s04p190.seg0">Şimdi, bu noktada oturup vicdan, merhamet, adalet üzerinden -hani her Müslüman her inançlı insan der ya her söylediğiniz söz, her eyleminiz hak ve adalet üzerine olsun diye- bir daha düşünelim. Ya, bunun arkasında bizim biriktirdiğimiz günahlar neydi diye herkesin sorması gerekiyor. Bütün bunlar yetmezmiş gibi, şimdi bu noktada bu madde itibarıyla söylüyorum, yani 1402 kaldırılıyor mu? Aksine, çok daha ağır bir biçimi ama siz generalin üzerindeki asker elbisesini çıkartsanız, sivil giydirseniz sonuç değişmiyor. İçerik olarak baktığınız zaman, ta İnsan Hakları Evrensel Bildirgesi’nin 13’üncü maddesine baktığınız zaman orada aynen şunu söylüyor, diyor ki yüz elli yıl önce: “Herkes kendi memleketi de dâhil herhangi bir memleketi terk etme ve memleketine dönme hakkını haizdir.” İnsan Hakları Evrensel Bildirgesi, 1870’li yıllar. Şimdi, oradan bugüne biz gelmişiz bugün bu meseleleri konuşuyoruz. Şimdi, o zaman herkesin elini vicdanına koyarak bu çerçevede gerçekten eğer bu süreç daha fazla demokrasi, daha fazla özgürlük diyorsa evet, ondan yana olmak gerekir ama hepimizin de içten içe, sizlerin de bildiğini düşündüğüm bu maddelerin toplamı esasında bu ülkedeki bu eşitsizlikleri, bu haksızlıkları daha da derinleştirecektir, bu valiler İçişleri Bakanının, İçişleri Bakanı da tek adamın emrinde olacaktır. Daha eşitsiz günler geliyor.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
-        <note>(HDP sıralarından alkışlar)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
+        <note>HDP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p193">
           <seg xml:id="tbmm-2018-07-23s04p193.seg0">Teşekkür ederim.</seg>
         </u>
@@ -4717,7 +4718,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p204">
           <seg xml:id="tbmm-2018-07-23s04p204.seg0">Önerge hakkında konuşmak üzere Sayın Rafet Zeybek, Antalya Milletvekili…</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Rafet.Zeybek" xml:id="tbmm-2018-07-23s04p206">
           <seg xml:id="tbmm-2018-07-23s04p206.seg0">Sayın Başkan, değerli milletvekilleri; hepinizi saygıyla selamlıyorum.</seg>
         </u>
@@ -4733,7 +4734,7 @@
         <u ana="#regular" who="#Rafet.Zeybek" xml:id="tbmm-2018-07-23s04p210">
           <seg xml:id="tbmm-2018-07-23s04p210.seg0">Değerli arkadaşlarım, çok açık olan birkaç tane aykırılıktan söz etmek istiyorum. Gözaltı sürelerinin uzatılıyor olması, Anayasa’mızın 19’uncu maddesine açıkça aykırılık teşkil etmektedir. Ben uzunca bir süre cumhuriyet savcılığı yapma fırsatı bulmuş ve Anayasa’nın bu 19’uncu maddesini uygulamış… 2001 yılında yapılan değişikliklerle Anayasa’mıza girmiş olan gözaltı sürelerinin uzatılmasının imkânı yoktur. Kırk sekiz saat ve toplu suçlarda dört günü asla uzatamazsınız. Onun tek istisnası: Olağanüstü hâl ve savaş hâlinde uzatabilirsiniz. Değerli arkadaşlarım, oradaki “Hâkim kararı olmadan kişi hürriyetinden yoksun kılınamaz.” ibaresi farklı yorumlanmaz.</seg>
         </u>
-        <note>(Mikrofon otomatik cihaz tarafından kapatıldı)</note>
+        <note>Mikrofon otomatik cihaz tarafından kapatıldı</note>
         <u ana="#regular" who="#Rafet.Zeybek" xml:id="tbmm-2018-07-23s04p212">
           <seg xml:id="tbmm-2018-07-23s04p212.seg0">Onun uygulamadaki şekli şudur: Toplu suçlarda dört gün sonunda kişiler hâkim önüne çıkarılır, eğer hâkim tutuklama kararı verirse hürriyetinden yoksun kılınır, hâkim kararıyla yoksun kılınır. Eğer serbest bırakılırsa tekrar gözaltına alınmaz. O cümlenin anlamı budur.</seg>
         </u>
@@ -4749,7 +4750,7 @@
         <u ana="#regular" who="#Rafet.Zeybek" xml:id="tbmm-2018-07-23s04p216">
           <seg xml:id="tbmm-2018-07-23s04p216.seg0">…son cümlesinde: “Bu süreler olağanüstü hâl ve savaş hâllerinde uzatılabilir.” demesinden, başka hiçbir şartta uzatılamayacak anlamı çıkar değerli arkadaşlarım. Ben umuyorum ki bu yasa teklifi bu hâliyle Genel Kurulda kabul görmez.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p218">
           <seg xml:id="tbmm-2018-07-23s04p218.seg0">Teşekkür ediyorum Sayın Zeybek.</seg>
         </u>
@@ -4789,7 +4790,7 @@
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p230">
           <seg xml:id="tbmm-2018-07-23s04p230.seg0">Önerge üzere söz isteyen Sayın Sibel Özdemir, İstanbul Milletvekili…</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Sibel.Özdemir" xml:id="tbmm-2018-07-23s04p232">
           <seg xml:id="tbmm-2018-07-23s04p232.seg0">Teşekkür ederim Sayın Başkan.</seg>
         </u>
@@ -4811,7 +4812,7 @@
         <u ana="#regular" who="#Sibel.Özdemir" xml:id="tbmm-2018-07-23s04p238">
           <seg xml:id="tbmm-2018-07-23s04p238.seg0">Evet, değerli milletvekilleri, temel hak ve özgürlükleri kısıtlayan, ihraçları olağanlaştıran, Anayasa'mıza ve Avrupa İnsan Hakları Sözleşmesi'ne açıkça aykırı olan bu OHAL düzenlemesinin mutlaka yeniden ele alınması gerekmektedir; aksi durumda hak ihlalleri artacak, hak arama yolları tıkanacak ve neticede Türkiye’nin AİHM’deki dosya sayısı yine artacak ve alacağı cezalar da maalesef artacaktır.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Mustafa.Şentop" xml:id="tbmm-2018-07-23s04p240">
           <seg xml:id="tbmm-2018-07-23s04p240.seg0">Teşekkür ederim Sayın Özdemir.</seg>
         </u>

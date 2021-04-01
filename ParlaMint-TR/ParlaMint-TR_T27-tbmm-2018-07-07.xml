@@ -4,6 +4,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Session 1 [ParlaMint]</title>
+        <meeting n="27" corresp="#TBMM" ana="#parla.term #TBMM.27">Term 27</meeting>
         <meeting n="1" ana="#parla.session">1</meeting>
         <respStmt>
           <persName>Çağrı Çöltekin</persName>
@@ -17,8 +18,8 @@
         <edition>1.0</edition>
       </editionStmt>
       <extent>
-        <measure unit="speeches" quantity="4" xml:lang="en">4 speeches</measure>
-        <measure unit="words" quantity="5241" xml:lang="en">5,241 words</measure>
+        <measure unit="speeches" quantity="35" xml:lang="en">35 speeches</measure>
+        <measure unit="words" quantity="5610" xml:lang="en">5,610 words</measure>
       </extent>
       <publicationStmt>
         <publisher>
@@ -33,7 +34,7 @@
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
           <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
         </availability>
-        <date when="2021-03-31">2021-03-31</date>
+        <date when="2021-04-01">2021-04-01</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -65,7 +66,7 @@
         <setting>
           <name type="city">Ankara</name>
           <name type="country" key="TR">Turkey</name>
-          <date from="1996-11-28" to="2000-10-27"/>
+          <date when="2018-07-07" ana="#parla.session">07.07.2018</date>
         </setting>
       </settingDesc>
     </profileDesc>
@@ -81,11 +82,11 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p002">
           <seg xml:id="tbmm-2018-07-07s01p002.seg0">Toplantı yeter sayısı vardır.</seg>
         </u>
-        <note>(AK PARTİ sıralarından ayakta alkışlar)</note>
+        <note>AK PARTİ sıralarından ayakta alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p004">
           <seg xml:id="tbmm-2018-07-07s01p004.seg0">Şimdi İstiklal Marşı’mız okunacaktır.</seg>
         </u>
-        <note>(İstiklal Marşı)</note>
+        <note>İstiklal Marşı</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p006">
           <seg xml:id="tbmm-2018-07-07s01p006.seg0">Sayın milletvekilleri, şimdi gündeme geçiyoruz.</seg>
         </u>
@@ -113,7 +114,7 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p014">
           <seg xml:id="tbmm-2018-07-07s01p014.seg0">Çok değerli milletvekilleri, diğer yönetsel politikalar gibi ekonomik politikalar da iktidarların milletten aldığı yetki çerçevesinde ortaya koydukları üretim ve bölüşüm tercihlerinin bir yansımasıdır. Tercih edilen politikalar sonucunda ortaya çıkan olumsuzlukların hesabını iktidarlar sandıkta verirler. Buradan hareketle bağımsızlığımızın ve demokrasimizin yegâne güvencesi olan bu Gazi Meclisin, bu kurucu Meclisin saygınlığını korumak hepimizin ortak sorumluluklarındandır. Yapacağımız faaliyetlerde Türk milletinin temsilcileri olarak onun saygınlığına gölge düşürecek tutum ve davranışlardan kaçınmak, onun aziz hatıralarına sahip çıkmak hem bu Meclisi bizlere emanet eden ecdadımıza hem de bizleri milletvekili sıfatıyla buraya gönderen milletimize karşı ahlaki bir görevimizdir.</seg>
         </u>
-        <note>(Alkışlar)</note>
+        <note>Alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p016">
           <seg xml:id="tbmm-2018-07-07s01p016.seg0">Şimdi, geçici Meclis Başkanı olarak bugüne kadar olan uygulamalar gibi ilk olarak ben ant içeceğim.</seg>
         </u>
@@ -126,28 +127,28 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p019">
           <seg xml:id="tbmm-2018-07-07s01p019.seg0">Şimdi, ant içmeye başlarken, gene bu konudaki teamüllerin bir gereği olarak, mazereti olan milletvekili arkadaşlarımı öncelikle çağırmak istiyorum.</seg>
         </u>
-        <note>(HDP sıralarından alkışlar)</note>
-        <note>(İstanbul Milletvekili Musa Piroğlu ant içti)</note>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
-        <note>(Hakkâri Milletvekili Husret Dinç ant içti)</note>
-        <note>(AK PARTİ sıralarından ayakta alkışlar)</note>
-        <note>(İzmir Milletvekili Binali Yıldırım ant içti)</note>
+        <note>HDP sıralarından alkışlar</note>
+        <note>İstanbul Milletvekili Musa Piroğlu ant içti</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
+        <note>Hakkâri Milletvekili Husret Dinç ant içti</note>
+        <note>AK PARTİ sıralarından ayakta alkışlar</note>
+        <note>İzmir Milletvekili Binali Yıldırım ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p026">
           <seg xml:id="tbmm-2018-07-07s01p026.seg0">Trabzon Milletvekilimiz Sayın Muhammet Balta… (AK PARTİ sıralarından alkışlar)</seg>
         </u>
-        <note>(Trabzon Milletvekili Muhammet Balta ant içti)</note>
+        <note>Trabzon Milletvekili Muhammet Balta ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p028">
           <seg xml:id="tbmm-2018-07-07s01p028.seg0">Kocaeli Milletvekilimiz Sayın Saffet Sancaklı… (MHP sıralarından alkışlar)</seg>
         </u>
-        <note>(Kocaeli Milletvekili Saffet Sancaklı ant içti)</note>
+        <note>Kocaeli Milletvekili Saffet Sancaklı ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p030">
           <seg xml:id="tbmm-2018-07-07s01p030.seg0">Yozgat Milletvekilimiz Sayın Bekir Bozdağ… (AK PARTİ sıralarından alkışlar)</seg>
         </u>
-        <note>(Yozgat Milletvekili Bekir Bozdağ ant içti)</note>
+        <note>Yozgat Milletvekili Bekir Bozdağ ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p032">
           <seg xml:id="tbmm-2018-07-07s01p032.seg0">Sayın Habibe Öçal, Kahramanmaraş Milletvekili… (AK PARTİ sıralarından alkışlar)</seg>
         </u>
-        <note>(Kahramanmaraş Milletvekili Habibe Öçal ant içti)</note>
+        <note>Kahramanmaraş Milletvekili Habibe Öçal ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p034">
           <seg xml:id="tbmm-2018-07-07s01p034.seg0">Şimdi ant içmek üzere sırasıyla milletvekillerinin isimlerini okutuyorum:</seg>
         </u>
@@ -178,7 +179,7 @@
         <u ana="#regular" who="#Abdullah.Doğru" xml:id="tbmm-2018-07-07s01p043">
           <seg xml:id="tbmm-2018-07-07s01p043.seg0">“Devletin varlığı ve bağımsızlığını, vatanın ve milletin bölünmez bütünlüğünü, milletin kayıtsız ve şartsız egemenliğini koruyacağıma; hukukun üstünlüğüne, demokratik ve lâik Cumhuriyete ve Atatürk ilke ve inkılaplarına bağlı kalacağıma; toplumun huzur ve refahı, millî dayanışma ve adalet anlayışı içinde herkesin insan haklarından ve temel hürriyetlerden yararlanması ülküsünden ve Anayasaya sadakattan ayrılmayacağıma; büyük Türk milleti önünde namusum ve şerefim üzerine andiçerim.”</seg>
         </u>
-        <note>(Adana ilinden ant içmeye devam edildi)</note>
+        <note>Adana ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p045">
           <seg xml:id="tbmm-2018-07-07s01p045.seg0">Mehmet Şükrü Erdinç</seg>
         </u>
@@ -293,11 +294,11 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p082">
           <seg xml:id="tbmm-2018-07-07s01p082.seg0">Sayın milletvekilleri, ant içme sırası Ankara milletvekillerine gelmiştir. Şimdiye kadar olduğu gibi geleneğe uyarak cumhuriyetimizin kurucusu Gazi Mustafa Kemal Atatürk’ün aziz ruhu için sizleri bir dakikalık saygı duruşuna davet ediyorum.</seg>
         </u>
-        <note>(Saygı duruşunda bulunuldu)</note>
+        <note>Saygı duruşunda bulunuldu</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p084">
           <seg xml:id="tbmm-2018-07-07s01p084.seg0">Teşekkür ederim.</seg>
         </u>
-        <note>(AK PARTİ sıralarından ayakta alkışlar)</note>
+        <note>AK PARTİ sıralarından ayakta alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p086">
           <seg xml:id="tbmm-2018-07-07s01p086.seg0">Ant içmeye Ankara ili milletvekillerinden devam ediyoruz.</seg>
         </u>
@@ -310,18 +311,18 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p089">
           <seg xml:id="tbmm-2018-07-07s01p089.seg0">Değerli milletvekilleri, mazeret bildiren 2 milletvekilimiz daha var. Mazeretleri uygun görüldüğünden, Ordu Milletvekili Sayın Ergün Taşcı’yı yeminini etmek üzere kürsüye davet ediyorum.</seg>
         </u>
-        <note>(Ordu Milletvekili Ergün Taşcı ant içti)</note>
+        <note>Ordu Milletvekili Ergün Taşcı ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p091">
           <seg xml:id="tbmm-2018-07-07s01p091.seg0">Sayın Ahmet Tuncay Özkan, İzmir Milletvekili; buyurun.</seg>
         </u>
-        <note>(İzmir Milletvekili Ahmet Tuncay Özkan ant içti)</note>
+        <note>İzmir Milletvekili Ahmet Tuncay Özkan ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p093">
           <seg xml:id="tbmm-2018-07-07s01p093.seg0">Değerli milletvekilleri, başında yaptığım bir hatırlatmayı size tekrar yapmak istiyorum. Çalışmalarımızın daha kısa bir süre içerisinde bitirilebilmesini sağlamak için bir ile sıra geldiği zaman o ilin sayın milletvekillerinin kürsüye yakın bir yere gelerek zaman kaybını önleme hususunda Başkanlığımıza yardımcı olmalarını istirham ediyorum.</seg>
         </u>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p094">
           <seg xml:id="tbmm-2018-07-07s01p094.seg0">Teşekkürler.</seg>
         </u>
-        <note>(Ankara ilinden ant içmeye devam edildi)</note>
+        <note>Ankara ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p096">
           <seg xml:id="tbmm-2018-07-07s01p096.seg0">Ayhan Altıntaş</seg>
         </u>
@@ -334,11 +335,11 @@
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p099">
           <seg xml:id="tbmm-2018-07-07s01p099.seg0">Koray Aydın</seg>
         </u>
-        <note>(Dinleyici locasından alkışlar)</note>
+        <note>Dinleyici locasından alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p101">
           <seg xml:id="tbmm-2018-07-07s01p101.seg0">Dinleyicilerle ilgili bir hususu hatırlatmak isterim. İç Tüzük’ümüze göre dinleyiciler sükûnet içinde oturmak zorundadırlar; söz, alkış veya başka bir hareketle düşüncelerini ortaya koyamazlar. Bu yasağa uymayan dinleyiciler görevliler tarafından Genel Kurul salonundan dışarıya çıkarılacaklardır. Herkesi sükûnete davet ediyorum.</seg>
         </u>
-        <note>(Ankara ilinden ant içmeye devam edildi)</note>
+        <note>Ankara ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p103">
           <seg xml:id="tbmm-2018-07-07s01p103.seg0">Şenol Bal</seg>
         </u>
@@ -438,7 +439,7 @@
         <u ana="#regular" who="#Servet.Ünsal" xml:id="tbmm-2018-07-07s01p135">
           <seg xml:id="tbmm-2018-07-07s01p135.seg0">“Devletin varlığı ve bağımsızlığını, vatanın ve milletin bölünmez bütünlüğünü, milletin kayıtsız ve şartsız egemenliğini koruyacağıma; hukukun üstünlüğüne, demokratik ve lâik Cumhuriyete ve Atatürk ilke ve inkılaplarına bağlı kalacağıma; toplumun huzur ve refahı, millî dayanışma ve adalet anlayışı içinde herkesin insan haklarından ve temel hürriyetlerden yararlanması ülküsünden ve Anayasaya sadakattan ayrılmayacağıma; büyük Türk milleti önünde namusum ve şerefim üzerine andiçerim.”</seg>
         </u>
-        <note>(Ankara ilinden ant içmeye devam edildi)</note>
+        <note>Ankara ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p137">
           <seg xml:id="tbmm-2018-07-07s01p137.seg0">Orhan Yegin</seg>
         </u>
@@ -577,7 +578,7 @@
         <u ana="#regular" who="#İsmail.Ok" xml:id="tbmm-2018-07-07s01p182">
           <seg xml:id="tbmm-2018-07-07s01p182.seg0">“Devletin varlığı ve bağımsızlığını, vatanın ve milletin bölünmez bütünlüğünü, milletin kayıtsız ve şartsız egemenliğini koruyacağıma; hukukun üstünlüğüne, demokratik ve lâik Cumhuriyete ve Atatürk ilke ve inkılaplarına bağlı kalacağıma; toplumun huzur ve refahı, millî dayanışma ve adalet anlayışı içinde herkesin insan haklarından ve temel hürriyetlerden yararlanması ülküsünden ve Anayasaya sadakattan ayrılmayacağıma; büyük Türk milleti önünde namusum ve şerefim üzerine andiçerim.”</seg>
         </u>
-        <note>(Balıkesir ilinden ant içmeye devam edildi)</note>
+        <note>Balıkesir ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p184">
           <seg xml:id="tbmm-2018-07-07s01p184.seg0">Yavuz Subaşı</seg>
         </u>
@@ -770,7 +771,7 @@
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p247">
           <seg xml:id="tbmm-2018-07-07s01p247.seg0">Ahmet Sami Ceylan</seg>
         </u>
-        <note>(Dinleyici locasından alkışlar)</note>
+        <note>Dinleyici locasından alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p249">
           <seg xml:id="tbmm-2018-07-07s01p249.seg0">Sayın Vekilim, bir dakikanızı rica edebilir miyim.</seg>
         </u>
@@ -780,7 +781,7 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p251">
           <seg xml:id="tbmm-2018-07-07s01p251.seg0">Teşekkür ediyorum.</seg>
         </u>
-        <note>(Çorum ilinden ant içmeye devam edildi)</note>
+        <note>Çorum ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p253">
           <seg xml:id="tbmm-2018-07-07s01p253.seg0">Erol Kavuncu</seg>
         </u>
@@ -889,7 +890,7 @@
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p288">
           <seg xml:id="tbmm-2018-07-07s01p288.seg0">Zülfü Tolga Ağar</seg>
         </u>
-        <note>(Dinleyici locasından alkışlar)</note>
+        <note>Dinleyici locasından alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s01p290">
           <seg xml:id="tbmm-2018-07-07s01p290.seg0">Dinleyici locasında bulunan değerli, saygıdeğer vatandaşlarım, kurallar uyulmak için konulmuştur. İç Tüzük’ümüz sizin bulunduğunuz yerden buradaki sevdiklerinize alkış yapmanıza izin vermiyor. Son kez ikaz ediyorum, lütfen kurallara uyalım. Son bir kez daha yapıyorum, bundan sonra herhangi bir ikaz yapmayacağım, lütfen…</seg>
         </u>
@@ -899,7 +900,7 @@
         <u ana="#regular" who="#Lütfü.Türkkan" xml:id="tbmm-2018-07-07s01p292">
           <seg xml:id="tbmm-2018-07-07s01p292.seg0">Öyle de değil, öyle de değil.</seg>
         </u>
-        <note>(Elâzığ ilinden ant içmeye devam edildi)</note>
+        <note>Elâzığ ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s01p294">
           <seg xml:id="tbmm-2018-07-07s01p294.seg0">Sermin Balık</seg>
         </u>
@@ -958,8 +959,8 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s02p011">
           <seg xml:id="tbmm-2018-07-07s02p011.seg0">Değerli milletvekilleri, Rize Milletvekili Sayın Hayati Yazıcı mazereti nedeniyle sırasından önce yemin etmek için Başkanlığımıza müracaat etmiş ve müracaatı yerinde görülmüştür.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
-        <note>(Rize Milletvekili Hayati Yazıcı ant içti)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
+        <note>Rize Milletvekili Hayati Yazıcı ant içti</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s02p014">
           <seg xml:id="tbmm-2018-07-07s02p014.seg0">ESKİŞEHİR:</seg>
         </u>
@@ -996,7 +997,7 @@
         <u ana="#regular" who="#MetinNurullah.Sazak" xml:id="tbmm-2018-07-07s02p025">
           <seg xml:id="tbmm-2018-07-07s02p025.seg0">“Devletin varlığı ve bağımsızlığını, vatanın ve milletin bölünmez bütünlüğünü, milletin kayıtsız ve şartsız egemenliğini koruyacağıma; hukukun üstünlüğüne, demokratik ve lâik Cumhuriyete ve Atatürk ilke ve inkılaplarına bağlı kalacağıma; toplumun huzur ve refahı, millî dayanışma ve adalet anlayışı içinde herkesin insan haklarından ve temel hürriyetlerden yararlanması ülküsünden ve Anayasaya sadakattan ayrılmayacağıma; büyük Türk milleti önünde namusum ve şerefim üzerine andiçerim.” (MHP ve CHP sıralarından alkışlar)</seg>
         </u>
-        <note>(Eskişehir ilinden ant içmeye devam edildi)</note>
+        <note>Eskişehir ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s02p027">
           <seg xml:id="tbmm-2018-07-07s02p027.seg0">Jale Nur Süllü</seg>
         </u>
@@ -1084,7 +1085,7 @@
         <u ana="#guest" xml:id="tbmm-2018-07-07s02p055">
           <seg xml:id="tbmm-2018-07-07s02p055.seg0">Sabahat Özgürsoy Çelik</seg>
         </u>
-        <note>(Dinleyici locasından alkışlar)</note>
+        <note>Dinleyici locasından alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s02p057">
           <seg xml:id="tbmm-2018-07-07s02p057.seg0">Dinleyici locasında bulunan değerli yurttaşlarım, Meclis İçtüzüğü’nün 169’uncu maddesini bilgilerinize sunuyorum: “Dinleyiciler görüşmelerde, kabul veya ret yönünde söz, alkış yahut herhangi bir hareketle kendi düşüncelerini ortaya koyamazlar.</seg>
         </u>
@@ -1097,7 +1098,7 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s02p060">
           <seg xml:id="tbmm-2018-07-07s02p060.seg0">Teşekkür ediyorum.</seg>
         </u>
-        <note>(Hatay ilinden ant içmeye devam edildi)</note>
+        <note>Hatay ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s02p062">
           <seg xml:id="tbmm-2018-07-07s02p062.seg0">Mehmet Güzelmansur</seg>
         </u>
@@ -1107,7 +1108,7 @@
         <u ana="#guest" xml:id="tbmm-2018-07-07s02p064">
           <seg xml:id="tbmm-2018-07-07s02p064.seg0">Barış Atay Mengüllüoğlu…</seg>
         </u>
-        <note>(Dinleyici locasından “Yuh!” sesi)</note>
+        <note>Dinleyici locasından “Yuh!” sesi</note>
         <u ana="#regular" who="#Ali.Kenanoğlu" xml:id="tbmm-2018-07-07s02p066">
           <seg xml:id="tbmm-2018-07-07s02p066.seg0">Kimsenin yuhalama hakkı yok burada.</seg>
         </u>
@@ -1123,7 +1124,7 @@
         <u ana="#regular" who="#Ayhan.Bilgen" xml:id="tbmm-2018-07-07s02p070">
           <seg xml:id="tbmm-2018-07-07s02p070.seg0">Barış, bir saniye, bir saniye…</seg>
         </u>
-        <note>(HDP sıralarından sıra kapaklarına vurmalar)</note>
+        <note>HDP sıralarından sıra kapaklarına vurmalar</note>
         <u ana="#regular" who="#Ali.Kenanoğlu" xml:id="tbmm-2018-07-07s02p072">
           <seg xml:id="tbmm-2018-07-07s02p072.seg0">Sayın Başkan, dışarı atacaksınız bunları da.</seg>
         </u>
@@ -1148,7 +1149,7 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s02p079">
           <seg xml:id="tbmm-2018-07-07s02p079.seg0">Buyurun Sayın Mengüllüoğlu.</seg>
         </u>
-        <note>(Hatay ilinden ant içmeye devam edildi)</note>
+        <note>Hatay ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s02p081">
           <seg xml:id="tbmm-2018-07-07s02p081.seg0">Barış Atay Mengüllüoğlu</seg>
         </u>
@@ -1173,14 +1174,14 @@
         <u ana="#guest" xml:id="tbmm-2018-07-07s02p088">
           <seg xml:id="tbmm-2018-07-07s02p088.seg0">Hüseyin Yayman</seg>
         </u>
-        <note>(Dinleyici locasından alkışlar)</note>
+        <note>Dinleyici locasından alkışlar</note>
         <u ana="#regular" who="#Tuma.Çelik" xml:id="tbmm-2018-07-07s02p090">
           <seg xml:id="tbmm-2018-07-07s02p090.seg0">Sayın Başkan, ne oluyor böyle ya!</seg>
         </u>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s02p091">
           <seg xml:id="tbmm-2018-07-07s02p091.seg0">Görevli arkadaşlar, lütfen görevinizi yapın.</seg>
         </u>
-        <note>(Dinleyici locasından alkışlar, gürültüler)</note>
+        <note>Dinleyici locasından alkışlar, gürültüler</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s02p093">
           <seg xml:id="tbmm-2018-07-07s02p093.seg0">Birleşime beş dakika ara veriyorum, görevlilerin de yukarıyı boşaltmasını rica ediyorum lütfen.</seg>
         </u>
@@ -1239,7 +1240,7 @@
         <u ana="#regular" who="#Onursal.Adıgüzel" xml:id="tbmm-2018-07-07s03p017">
           <seg xml:id="tbmm-2018-07-07s03p017.seg0">“Devletin varlığı ve bağımsızlığını, vatanın ve milletin bölünmez bütünlüğünü, milletin kayıtsız ve şartsız egemenliğini koruyacağıma; hukukun üstünlüğüne, demokratik ve lâik Cumhuriyete ve Atatürk ilke ve inkılaplarına bağlı kalacağıma; toplumun huzur ve refahı, millî dayanışma ve adalet anlayışı içinde herkesin insan haklarından ve temel hürriyetlerden yararlanması ülküsünden ve Anayasaya sadakattan ayrılmayacağıma; büyük Türk milleti önünde namusum ve şerefim üzerine andiçerim.”</seg>
         </u>
-        <note>(İstanbul ilinden ant içmeye devam edildi)</note>
+        <note>İstanbul ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s03p019">
           <seg xml:id="tbmm-2018-07-07s03p019.seg0">Yavuz Ağıralioğlu</seg>
         </u>
@@ -1282,7 +1283,7 @@
         <u ana="#guest" xml:id="tbmm-2018-07-07s03p032">
           <seg xml:id="tbmm-2018-07-07s03p032.seg0">Mehmet Bekaroğlu</seg>
         </u>
-        <note>(CHP sıralarından ayakta alkışlar, HDP sıralarından alkışlar)</note>
+        <note>CHP sıralarından ayakta alkışlar, HDP sıralarından alkışlar</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s03p034">
           <seg xml:id="tbmm-2018-07-07s03p034.seg0">Ümit Beyaz</seg>
         </u>
@@ -1469,11 +1470,11 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s03p095">
           <seg xml:id="tbmm-2018-07-07s03p095.seg0">Buyurun.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#SalihaSera.KadıgilSütlü" xml:id="tbmm-2018-07-07s03p097">
           <seg xml:id="tbmm-2018-07-07s03p097.seg0">“Devletin varlığı ve bağımsızlığını, vatanın ve milletin bölünmez bütünlüğünü, milletin kayıtsız ve şartsız egemenliğini koruyacağıma; hukukun üstünlüğüne, demokratik ve lâik Cumhuriyete ve Atatürk ilke ve inkılaplarına bağlı kalacağıma; toplumun huzur ve refahı, millî dayanışma ve adalet anlayışı içinde herkesin insan haklarından ve temel hürriyetlerden yararlanması ülküsünden ve Anayasaya sadakattan ayrılmayacağıma; büyük Türk milleti önünde namusum ve şerefim üzerine andiçerim.”</seg>
         </u>
-        <note>(İstanbul ilinden ant içmeye devam edildi)</note>
+        <note>İstanbul ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s03p099">
           <seg xml:id="tbmm-2018-07-07s03p099.seg0">Nevzat Şatıroğlu</seg>
         </u>
@@ -1534,8 +1535,8 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s03p118">
           <seg xml:id="tbmm-2018-07-07s03p118.seg0">Sayın milletvekilleri, Kayseri Milletvekili Sayın Taner Yıldız mazereti nedeniyle sırasından önce yemin etmek için Başkanlığımıza müracaat etmiş ve bu müracaatı yerinde görülmüştür.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
-        <note>(Kayseri Milletvekili Taner Yıldız ant içti)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
+        <note>Kayseri Milletvekili Taner Yıldız ant içti</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s03p121">
           <seg xml:id="tbmm-2018-07-07s03p121.seg0">İZMİR:</seg>
         </u>
@@ -1596,7 +1597,7 @@
         <u ana="#regular" who="#Yaşar.Kırkpınar" xml:id="tbmm-2018-07-07s03p140">
           <seg xml:id="tbmm-2018-07-07s03p140.seg0">“Devletin varlığı ve bağımsızlığını, vatanın ve milletin bölünmez bütünlüğünü, milletin kayıtsız ve şartsız egemenliğini koruyacağıma; hukukun üstünlüğüne, demokratik ve lâik Cumhuriyete ve Atatürk ilke ve inkılaplarına bağlı kalacağıma; toplumun huzur ve refahı, millî dayanışma ve adalet anlayışı içinde herkesin insan haklarından ve temel hürriyetlerden yararlanması ülküsünden ve Anayasa’ya sadakattan ayrılmayacağıma; büyük Türk milleti önünde namusum ve şerefim üzerine and içerim.”</seg>
         </u>
-        <note>(İzmir ilinden ant içmeye devam edildi)</note>
+        <note>İzmir ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s03p142">
           <seg xml:id="tbmm-2018-07-07s03p142.seg0">Necip Nasır</seg>
         </u>
@@ -2210,11 +2211,11 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s04p159">
           <seg xml:id="tbmm-2018-07-07s04p159.seg0">Yemin etmek üzere buyurun Sayın Danış Beştaş.</seg>
         </u>
-        <note>(Siirt Milletvekili Meral Danış Beştaş ant içti)</note>
+        <note>Siirt Milletvekili Meral Danış Beştaş ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s04p161">
           <seg xml:id="tbmm-2018-07-07s04p161.seg0">Sayın Sıdık Taş, buyurun.</seg>
         </u>
-        <note>(Siirt Milletvekili Sıdık Taş ant içti)</note>
+        <note>Siirt Milletvekili Sıdık Taş ant içti</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s04p163">
           <seg xml:id="tbmm-2018-07-07s04p163.seg0">ŞANLIURFA:</seg>
         </u>
@@ -2260,7 +2261,7 @@
         <u ana="#guest" xml:id="tbmm-2018-07-07s04p177">
           <seg xml:id="tbmm-2018-07-07s04p177.seg0">İbrahim Halil Yıldız…</seg>
         </u>
-        <note>(Dinleyici locasından alkışlar)</note>
+        <note>Dinleyici locasından alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s04p179">
           <seg xml:id="tbmm-2018-07-07s04p179.seg0">Sayın Vekilim, bir dakikanızı rica edebilir miyim.</seg>
         </u>
@@ -2273,7 +2274,7 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s04p182">
           <seg xml:id="tbmm-2018-07-07s04p182.seg0">Buyurun Sayın Yıldız.</seg>
         </u>
-        <note>(Şanlıurfa ilinden ant içmeye devam edildi)</note>
+        <note>Şanlıurfa ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s04p184">
           <seg xml:id="tbmm-2018-07-07s04p184.seg0">İbrahim Halil Yıldız</seg>
         </u>
@@ -2406,7 +2407,7 @@
         <u ana="#regular" who="#Muazzez.Orhan" xml:id="tbmm-2018-07-07s04p227">
           <seg xml:id="tbmm-2018-07-07s04p227.seg0">“Devletin varlığı ve bağımsızlığını, vatanın ve milletin bölünmez bütünlüğünü, milletin kayıtsız ve şartsız egemenliğini koruyacağıma; hukukun üstünlüğüne, demokratik ve lâik Cumhuriyete ve Atatürk ilke ve inkılaplarına bağlı kalacağıma; toplumun huzur ve refahı, millî dayanışma ve adalet anlayışı içinde herkesin insan haklarından ve temel hürriyetlerden yararlanması ülküsünden ve Anayasaya sadakattan ayrılmayacağıma; büyük Türk milleti önünde namusum ve şerefim üzerine andiçerim.”</seg>
         </u>
-        <note>(Van ilinden ant içmeye devam edildi)</note>
+        <note>Van ilinden ant içmeye devam edildi</note>
         <u ana="#guest" xml:id="tbmm-2018-07-07s04p229">
           <seg xml:id="tbmm-2018-07-07s04p229.seg0">Murat Sarısaç</seg>
         </u>
@@ -2461,8 +2462,8 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s04p246">
           <seg xml:id="tbmm-2018-07-07s04p246.seg0">Sayın milletvekilleri, adı okunduğunda bulunamadığından ant içemeyen Samsun Milletvekili Ahmet Demircan’ı ant içmeye davet ediyorum.</seg>
         </u>
-        <note>(AK PARTİ sıralarından alkışlar)</note>
-        <note>(Samsun Milletvekili Ahmet Demircan ant içti)</note>
+        <note>AK PARTİ sıralarından alkışlar</note>
+        <note>Samsun Milletvekili Ahmet Demircan ant içti</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s04p249">
           <seg xml:id="tbmm-2018-07-07s04p249.seg0">Ant içme töreni tamamlanmıştır.</seg>
         </u>
@@ -2472,7 +2473,7 @@
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s04p251">
           <seg xml:id="tbmm-2018-07-07s04p251.seg0">Sayın milletvekilleri, Anayasa’nın 94’üncü maddesi gereğince Türkiye Büyük Millet Meclisi Başkanlığı için gösterilecek adayların, Meclisin toplandığı 7 Temmuz 2018 Cumartesi gününden itibaren beş gün içinde Geçici Başkanlık Divanına bildirilmesi gerekmektedir. Buna göre, Başkan adayları 11 Temmuz 2018 Çarşamba günü saat 24. 00’e kadar bildirilebilecektir. Meclis Başkanı seçimine 12 Temmuz 2018 Perşembe günü saat 14. 00’te başlanacaktır.</seg>
         </u>
-        <note>(CHP sıralarından alkışlar)</note>
+        <note>CHP sıralarından alkışlar</note>
         <u ana="#regular" who="#Durmuş.Yılmaz" xml:id="tbmm-2018-07-07s04p253">
           <seg xml:id="tbmm-2018-07-07s04p253.seg0">Cumhurbaşkanının yemin töreni için 9 Temmuz 2018 Pazartesi günü saat 16.30’da toplanmak üzere birleşimi kapatıyorum.</seg>
         </u>

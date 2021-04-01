@@ -79,7 +79,7 @@
         <setting>
            <name type="city">Ankara</name>
            <name type="country" key="TR">Turkey</name>
-           <date from="1996-11-28" to="2000-10-27"/>
+           <date when="2014-08-25" ana="#parla.session">25.8.2014</date>
         </setting>
      </settingDesc>
     </profileDesc>

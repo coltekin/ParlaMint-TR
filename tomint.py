@@ -80,13 +80,36 @@ def new_sess(id_, data=None, doctype="ana"):
                 namespaces=NSX)[0]
         tag.text = tag.text.strip().replace('.ana ', ' ')
 
-    if data is not None:
-        sessnum = data.get('sess_num', 0)
-        title = tei.xpath('//tei:fileDesc/tei:titleStmt/tei:title[@xml:lang="en"]', namespaces=NSX)[0]
-        title.text = title.text.replace(' 000 ', " {} ".format(sessnum))
-        meet = tei.xpath('//tei:fileDesc/tei:titleStmt/tei:meeting', namespaces=NSX)[0]
-        meet.text = str(sessnum)
-        meet.set('n', str(sessnum))
+    meetingdate = id_[22:32]
+    term = id_[14:16]
+    sessnum = data.get('sess_num', 0)
+    tag = tei.xpath('//tei:fileDesc/tei:titleStmt/tei:title[@xml:lang="en"]', namespaces=NSX)[0]
+    tag.text = tag.text.replace(' 000 ', " {} ".format(sessnum))
+
+    tag  = tei.xpath(
+        '//tei:fileDesc/tei:titleStmt/tei:meeting', namespaces=NSX)[0]
+    tag.text = str(sessnum)
+    tag.set('n', str(sessnum))
+
+    tag.set('n', str(sessnum))
+    tag.text = str(sessnum)
+    termtag = et.Element('meeting', n=str(term),
+        corresp="#TBMM", ana="#parla.term #TBMM.{}".format(term))
+    termtag.text = "Term {}".format(term)
+    tag.addprevious(termtag)
+
+    tag = tei.xpath(
+        '//tei:sourceDesc/tei:bibl/tei:date', namespaces=NSX)[0]
+    tag.text = meetingdate
+    tag.set('when', meetingdate)
+    tag = tei.xpath(
+        '//tei:publicationStmt/tei:date', namespaces=NSX)[0]
+    tag.text = date.isoformat(date.today())
+    tag.set('when', date.isoformat(date.today()))
+    tag = tei.xpath(
+        '//tei:settingDesc/tei:setting/tei:date', namespaces=NSX)[0]
+    tag.set('when', meetingdate)
+    tag.text = '.'.join(reversed(meetingdate.split('-')))
     return tei
 
 def new_sitt(id_, **kwargs):
@@ -219,6 +242,126 @@ def add_speaker(speakers, guests, pmdata,
         guests[spkid] = spkname
     return skpkid, "guest"
 
+def process_conllu(inp):
+    f, pmdata, args = inp
+    ext = '.ana.xml'
+    if args.output_type != 'ana':
+        ext = '.xml'
+    guest_spk = dict()
+    speakers = set()
+    term = None
+    u, seg, sitt = None, None, None
+    meetingdate = os.path.basename(f).replace('.conllu', '')
+    spk, seg_i = None, 0
+    tagcount = {tag:0 for tag in CTAGS}
+    spk_word = list()
+    for sent in conllu_sentences(f):
+        comm = parse_comment(sent.comment)
+        if 'new_sess' in comm:
+            term = int(comm.get('sess_term', 0))
+            sessid = "ParlaMint-TR_T{}-{}".format(
+                    term, comm['sent_id'][:15])
+            if args.output_type == 'ana': sessid += ".ana"
+            doc = new_sess(sessid, comm, doctype=args.output_type)
+            tagcount['body'] += 1
+            tb = doc.xpath('/TEI/text/body')[0]
+        if 'new_sitt' in comm:
+            sitt = new_sitt(tb, **comm)
+            tagcount['div'] += 1
+            if 'sitt_starttime' in comm: tagcount['note'] += 1
+            if 'sitt_chair' in comm: tagcount['note'] += 1
+            tb.append(sitt)
+            spk, seg_i = None, 0
+        if 'new_par' in comm:
+            if spk != comm.get('speaker', 'Unknown'):
+                # new speaker
+                spkid = comm.get('pm_id', None)
+                if spkid == 'None': spkid = None
+                spkname = comm.get('speaker', None)
+                if spkname == 'None': spkname = None
+                spkid, spktype = add_speaker(speakers, guest_spk, pmdata,
+                        spkid, spkname)
+                seg_i = 0
+                move_notes(seg)
+                move_notes(u)
+                u = et.SubElement(sitt, 'u',
+                        ana="#{}".format(spktype))
+                tagcount['u'] += 1
+                if spkid is not None:
+                    u.set('who', '#{}'.format(spkid))
+#                    else:
+#                        u.set('who', '#Unknown')
+                u.set(et.QName(NS['xml'], 'id'), comm['new_par'])
+            move_notes(seg)
+            seg = et.SubElement(u, 'seg')
+            seg.set(et.QName(NS['xml'], 'id'),
+                    "{}.seg{}".format(comm['new_par'], seg_i))
+            seg_i += 1
+            tagcount['seg'] += 1
+
+        if 'transcriber_comment' in comm:
+            note = et.SubElement(seg, 'note')
+            note.text = comm['text'].strip(' ()[]')
+            tagcount['note'] += 1
+        else:
+            if args.output_type == 'ana':
+                seg.append(new_sent(sent, comm, tagcount))
+            else:
+                if not seg.text:
+                    seg.text = sent.text().strip()
+                else:
+                    seg.text += " " + sent.text()
+        spk_word.append((spkid, spktype, len(sent.tokens())))
+
+
+    # Approcimate heuristic, trying to skip interruptions
+    wordcount, speechcount = 0, 0
+    for i, (spk, spktype, wc) in enumerate(spk_word):
+        wordcount += wc
+        if i == 0: prev_spk = None
+        else: prev_spk = spk_word[i-1]
+        if i == len(spk_word) - 1: next_spk = None
+        else: next_spk = spk_word[i+1]
+        if spktype == 'regular' and prev_spk != spk and prev_spk != next_spk and wc > 30:
+            speechcount += 1
+        
+    path = args.output_dir
+    if args.split:
+        year = os.path.basename(f).split('-')[0]
+        path = os.path.join(path, year)
+    if path: os.makedirs(path, exist_ok=True)
+    outfile = os.path.basename(f).replace('.conllu', ext)
+    outfile = "{}_T{}-tbmm-{}".format(args.prefix, term, outfile)
+    outpath = os.path.join(path, outfile)
+    if args.no_sample:
+        title = doc.xpath('//tei:fileDesc/tei:titleStmt/tei:title[@xml:lang="en"]', namespaces=NSX)[0]
+        title.text = title.text.replace(' SAMPLE', '')
+    for tag,count in tagcount.items():
+        xmltag = doc.xpath(
+            '//tei:namespace/tei:tagUsage[@gi="{}"]'.format(tag),
+            namespaces=NSX)[0]
+        if count == 0:
+            xmltag.getparent().remove(xmltag)
+        else:
+            xmltag.set('occurs', str(count))
+    tag = doc.xpath(
+        '//tei:fileDesc/tei:extent/tei:measure[@unit="speeches"]',
+        namespaces=NSX)[0]
+    tag.text = "{:,} {}".format(speechcount,
+        "speeches" if speechcount > 1 else "speech")
+    tag.set('quantity', str(speechcount))
+    tag = doc.xpath(
+        '//tei:fileDesc/tei:extent/tei:measure[@unit="words"]',
+        namespaces=NSX)[0]
+    tag.text = "{:,} words".format(wordcount)
+    tag.set('quantity', str(wordcount))
+    with open(outpath, 'wt') as fp:
+        fp.write(et.tostring(doc, xml_declaration=True,
+            pretty_print=True, encoding='utf-8').decode())
+#            print(et.tostring(doc, pretty_print=True,
+#                encoding='unicode'), file=fp)
+
+    return outfile, wordcount, speechcount, tagcount, guest_spk, speakers, term
 
 if __name__ == "__main__":
     from multiprocessing import Pool
@@ -237,11 +380,10 @@ if __name__ == "__main__":
     args = ap.parse_args()
 
     ext = '.ana.xml'
-    template_mainh = 'head.xml'
-    template_sessh = 'sess-head.xml'
     if args.output_type != 'ana':
         args.output_type = 'plain'
         ext = '.xml'
+
     print(args.output_type)
 
     pmdata = PMData()
@@ -252,128 +394,49 @@ if __name__ == "__main__":
             doctype=args.output_type)
 
     tagcount_main = {tag:0 for tag in CTAGS}
+    # TODO: speech count is wrong
     wordcount_main = 0
+    speechcount_main = 0
     guest_spk = dict()
     speakers = set()
-    files = dict()
-    term = None
-    u, seg, sitt = None, None, None
-    for f in args.input:
-        spk, seg_i = None, 0
-        tagcount = {tag:0 for tag in CTAGS}
-        wordcount = 0
-        for sent in conllu_sentences(f):
-            comm = parse_comment(sent.comment)
-            if 'new_sess' in comm:
-                term = int(comm.get('sess_term', 0))
-                sessid = "ParlaMint-TR_T{}-{}".format(
-                        term, comm['sent_id'][:15])
-                if args.output_type == 'ana': sessid += ".ana"
-                doc = new_sess(sessid, comm, doctype=args.output_type)
-                tagcount_main['text'] += 1
-                tagcount['body'] += 1
-                tb = doc.xpath('/TEI/text/body')[0]
-            if 'new_sitt' in comm:
-                sitt = new_sitt(tb, **comm)
-                tagcount['div'] += 1
-                if 'sitt_starttime' in comm: tagcount['note'] += 1
-                if 'sitt_chair' in comm: tagcount['note'] += 1
-                tb.append(sitt)
-                spk, seg_i = None, 0
-            if 'new_par' in comm:
-                if spk != comm.get('speaker', 'Unknown'):
-                    # new speaker
-                    spkid = comm.get('pm_id', None)
-                    if spkid == 'None': spkid = None
-                    spkname = comm.get('speaker', None)
-                    if spkname == 'None': spkname = None
-                    spkid, spktype = add_speaker(speakers, guest_spk, pmdata,
-                            spkid, spkname)
-                    seg_i = 0
-                    move_notes(seg)
-                    move_notes(u)
-                    u = et.SubElement(sitt, 'u',
-                            ana="#{}".format(spktype))
-                    tagcount['u'] += 1
-                    if spkid is not None:
-                        u.set('who', '#{}'.format(spkid))
-#                    else:
-#                        u.set('who', '#Unknown')
-                    u.set(et.QName(NS['xml'], 'id'), comm['new_par'])
-                move_notes(seg)
-                seg = et.SubElement(u, 'seg')
-                seg.set(et.QName(NS['xml'], 'id'),
-                        "{}.seg{}".format(comm['new_par'], seg_i))
-                seg_i += 1
-                tagcount['seg'] += 1
+    terms = set()
 
-            if 'transcriber_comment' in comm:
-                note = et.SubElement(seg, 'note')
-                note.text = comm['text'].strip()
-                tagcount['note'] += 1
-            else:
-                if args.output_type == 'ana':
-                    seg.append(new_sent(sent, comm, tagcount))
-                else:
-                    if not seg.text:
-                        seg.text = sent.text().strip()
-                    else:
-                        seg.text += " " + sent.text()
-                wordcount += len(sent.tokens())
+    pool = Pool(processes=args.nproc)
+    inp = [(f, pmdata, args) for f in args.input]
+    res = pool.map(process_conllu, inp)
 
-#        path = os.path.join(args.output_dir, 'term-{:03d}'.format(term))
-        path = args.output_dir
-        year = None
-        if args.split:
-            year = os.path.basename(f).split('-')[0]
-            path = os.path.join(path, year)
-        if path: os.makedirs(path, exist_ok=True)
-        outfile = os.path.basename(f).replace('.conllu', ext)
-        outfile = "{}_T{}-tbmm-{}".format(args.prefix, term, outfile)
-        outpath = os.path.join(path, outfile)
-        if args.no_sample:
-            title = doc.xpath('//tei:fileDesc/tei:titleStmt/tei:title[@xml:lang="en"]', namespaces=NSX)[0]
-            title.text = title.text.replace(' SAMPLE', '')
-        for tag,count in tagcount.items():
-            xmltag = doc.xpath(
-                '//tei:namespace/tei:tagUsage[@gi="{}"]'.format(tag),
-                namespaces=NSX)[0]
-            if count == 0:
-                xmltag.getparent().remove(xmltag)
-            else:
-                xmltag.set('occurs', str(count))
-                tagcount_main[tag] += count
-        tag = doc.xpath(
-            '//tei:fileDesc/tei:extent/tei:measure[@unit="speeches"]',
-            namespaces=NSX)[0]
-        tag.text = "{:,} {}".format(tagcount['div'],
-            "speeches" if tagcount['div'] > 1 else "speech")
-        tag.set('quantity', str(tagcount['div']))
-        tag = doc.xpath(
-            '//tei:fileDesc/tei:extent/tei:measure[@unit="words"]',
-            namespaces=NSX)[0]
-        tag.text = "{:,} words".format(wordcount)
-        tag.set('quantity', str(wordcount))
-        wordcount_main += wordcount
-        tag = doc.xpath(
-            '//tei:sourceDesc/tei:bibl/tei:date', namespaces=NSX)[0]
-        dt = os.path.basename(f).replace('.conllu', '')
-        tag.text = dt
-        tag.set('when', dt)
-        tag = doc.xpath(
-            '//tei:publicationStmt/tei:date', namespaces=NSX)[0]
-        tag.text = date.isoformat(date.today())
-        tag.set('when', date.isoformat(date.today()))
-        with open(outpath, 'wt') as fp:
-            fp.write(et.tostring(doc, xml_declaration=True,
-                pretty_print=True, encoding='utf-8').decode())
-#            print(et.tostring(doc, pretty_print=True,
-#                encoding='unicode'), file=fp)
-        if year:
-            outfile = '/'.join((year, outfile))
+    for outfile, wc, sc, tagc, guest, spk, term in res:
+        wordcount_main += wc
+        speechcount_main += sc
+        guest_spk.update(guest)
+        speakers.update(spk)
+        terms.add(term)
+        for tag, count in tagc.items():
+            tagcount_main[tag] += count
+        tagcount_main['text'] += 1
         maindoc.append(
                 et.Element(et.QName(NS['xi'], 'include'),
                     href=outfile))
+
+#     for f in args.input:
+#         wc, tagc, guest, spk, term = process_conllu(f, pmdata, args)
+#         wordcount_main += wc
+#         guest_spk.update(guest)
+#         speakers.update(spk)
+#         terms.add(term)
+#         for tag, count in tagc.items():
+#             tagcount_main[tag] += count
+# 
+# 
+#     for f in args.input:
+#         tagcount_main['text'] += 1
+#         outfile = os.path.basename(f).replace('.conllu', ext)
+#         year = os.path.basename(f).split('-')[0]
+#         if args.split:
+#             outfile = '/'.join((year, outfile))
+#         maindoc.append(
+#                 et.Element(et.QName(NS['xi'], 'include'),
+#                     href=outfile))
 
     person_list = maindoc.xpath('//tei:listPerson', namespaces=NSX)[0]
     for spkid in sorted(speakers):
@@ -422,9 +485,9 @@ if __name__ == "__main__":
     stag = maindoc.xpath(
         '//tei:fileDesc/tei:extent/tei:measure[@unit="speeches"]',
         namespaces=NSX)[0]
-    stag.text = "{:,} {}".format(tagcount_main['div'],
-            "speeches" if tagcount['div'] > 1 else "speech")
-    stag.set('quantity', str(tagcount_main['div']))
+    stag.text = "{:,} {}".format(speechcount_main,
+            "speeches" if speechcount_main > 1 else "speech")
+    stag.set('quantity', str(speechcount_main))
     wtag = maindoc.xpath(
         '//tei:fileDesc/tei:extent/tei:measure[@unit="words"]',
         namespaces=NSX)[0]

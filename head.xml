@@ -6,6 +6,9 @@
      <titleStmt>
         <title type="main" xml:lang="en">Turkish parliamentary corpus ParlaMint-TR [ParlaMint.ana SAMPLE]</title>
         <meeting n="27" corresp="#TBMM" ana="#parla.term #TBMM.27">Term 27</meeting>
+        <meeting n="26" corresp="#TBMM" ana="#parla.term #TBMM.26">Term 26</meeting>
+        <meeting n="25" corresp="#TBMM" ana="#parla.term #TBMM.25">Term 25</meeting>
+        <meeting n="24" corresp="#TBMM" ana="#parla.term #TBMM.24">Term 24</meeting>
         <respStmt>
             <persName>Çağrı Çöltekin</persName>
             <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
@@ -18,7 +21,6 @@
         <edition>0.1</edition>
      </editionStmt>
 	 <extent>
-		<!-- TODO -->
 		<measure unit="speeches" quantity="000" xml:lang="en">000 speeches</measure>
 		<measure unit="words" quantity="000" xml:lang="en">000 words</measure>
 	 </extent>
